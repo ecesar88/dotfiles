@@ -1,0 +1,2918 @@
+._-pwd
+pwd
+exit
+clear
+sudo pacman -Syyu
+ping www.google.com
+clear
+pacman -S xdg-user-dirs
+sudo pacman -S xdg-user-dirs
+clear
+userdirs
+xdg-user-dirs
+user-dirs
+xdg-users-dirs-update
+clear
+ls -la
+clear
+ls -la
+clear
+pacman -Q
+pacman -Q | grep xdg
+xdg-user-dirs-update --force
+ls -la
+clear
+clear
+lsa
+clear
+ls -la
+mkdir Screenshots
+mkdir RemovableMedia
+mkdir WindowsDesktop
+mkdir MyDisks
+clear
+pacman -S git
+sudo pacman -S git
+cd Downloads
+clear
+ls -la
+mkdir _cloned-repos
+clear
+cd _cloned-repos
+clear
+git clone https://github.com/fp4rad0x/dotfiles
+cd dotfiles
+clear
+ls -la
+cd one_dark
+clear
+ls -la
+ls -la co
+ls -la .config
+clear
+cd ..
+sl -la
+ls -la
+clear
+ls -la
+pacman -S i3-gapps nvidia xorg xorg-utils nvidia-utils nvidia-settings
+sudo pacman -S i3-gapps nvidia xorg xorg-utils nvidia-utils nvidia-settings
+sudo pacman -S nvidia xorg xorg-utils nvidia-utils nvidia-settings
+sudo pacman -S nvidia xorg nvidia-utils nvidia-settings
+vim .xinitrc
+cp .xinitrc ~
+ls -la
+pwd
+ls -la ~/.config
+cp .config/* ~/.config
+cp -r .config/* ~/.config
+ls -la ~/.config
+clear
+ls -la ~/.config
+startx
+pacman -S xorg-server
+sudo pacman -S xorg-server
+clear
+startx
+reboot
+sudo reboot
+claer
+pacman -Qs xf86
+sudo pacman -Rns xf86-vide-vesa
+sudo pacman -Rns xf86-video-vesa
+reboot
+exit
+clear
+ls -la
+sudo pacman -Rns nvidia nvidia-settings nvidia-utils
+sudo pacman -S startx
+sudo pacman -Ss startx
+pacman -Ss xinit
+pacman -S xorg-xinit
+sudo pacman -S xorg-xinit
+pacman -Qi xorg
+pacman -S xorg
+sudo pacman -S xorg
+startxz
+startx
+ exit
+echo $SHELL
+clear
+ls -la
+cd
+cd Downloads
+cd _cloned-repos
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+clear
+paru -S polybar
+clear
+polybar
+exit
+pwd
+cd ..
+ls -la
+ls -la polybar
+exit
+pacman -S firefox
+sudo pacman -S firefox
+firefox &
+exit
+jobs
+for
+foregrund
+fg
+exit
+sudo pacman -S file-roller 
+sudo pacman -S rofi
+sudo pacman -S caja
+caja
+exit
+pwd
+ls
+vim i3-startup-once.sh
+exit
+startx
+i3
+pacman -Qs i3
+pacman -Ss i3
+sudo pacman -S i3-gaps
+sudo pacman -S i3-gaps i3blocks
+clear
+startx
+clear
+clear
+clear
+clear
+clear
+clear
+claer
+pacman -S alacritty xfce4-terminal
+sudo pacman -S alacritty xfce4-terminal
+clear
+cd .config/i3
+ls -la
+cd conf
+ls config
+file config
+vim config
+cd
+cd Downloads/_cloned-repos
+ls -la
+clear
+ cd dotfiles
+clear
+ls -la
+ls
+cdlear
+clear
+ls -la .config
+ls -la .config/i3
+vim .config/i3
+clear
+ls -la
+pwd
+cd ..
+ls
+cd dotfiles
+cd one_dark
+cleear
+clear
+ls -=la
+ls -la
+cd .config
+ls -la
+cd ...
+cd ..
+pwd
+ls -la
+cp -r .config/* ~/.config
+rm -rf ~/.config/nvim
+cp -r .config/* ~/.config
+cd
+cd .config
+ls
+ls -la
+cd i3
+ls -la
+ls -la
+nvim config
+sudo pacman -S neovim
+nvim config
+clear
+startx
+startx
+pacman -Ss picom
+paru -Ss picom
+paru -S picom-jonaburg-git
+clear
+pacman -Ss exa
+sudo pacman -S exa
+polybar -h
+pwd
+cd
+vim .xinitrc
+reboot
+killall i3
+killall i3
+startx
+cd .config/alacritty
+nvim alacritty.yml
+cd
+clear
+cd .config/polybar
+ls -la
+exa l
+exa -l
+clear
+lsa
+clear
+exa -l
+cd ..
+cd i3
+ls 
+nvim config
+nvim i3-startup-always.sh
+nvim i3-startup-once.sh
+nvim i3-startup-always.sh
+./i3-startup-once.sh
+nvim i3-startup-once.sh
+nvim i3-startup-once.sh
+./i3-startup-once.sh
+./i3-startup-always.sh
+ls 
+nvim i3-startup-always.sh
+polybar -m
+reboot
+sudo pacman -S numlockx dunst unclutter udiskie greenclip flameshot flasfocus mpd mpDris2
+sudo pacman -S numlockx dunst unclutter udiskie flameshot mpd
+sudo pacman -S picom-ibhagwan-git/
+sudo pacman -S picom-ibhagwan-git
+paru -S picom-ibhagwan-git/
+paru -S picom-ibhagwan-git
+paru -Ss flashfocus
+paru -S flashfocus
+paru -S greenclip unclutter
+sudo pacman -S numlockx dunst unclutter udiskie greenclip flameshot flasfocus mpd mpDris2
+paru -Ss mpdris2
+paru -S mpdris2
+cd
+cd .config/polybar
+ls -la
+paru -Ss dunstify
+pacman -Ss dunstify
+dunstify
+pwd
+sudo pacman -Ss xautolock
+sudo pacman -S xautolock
+cd
+cp -r ./Downloads/_cloned-repos
+cp -r ./Downloads/_cloned-repos/dotfiles
+cp -r ./Downloads/_cloned-repos/dotfiles/_my-scripts .
+ ls
+sudo pacman -S redshift
+sudo pacman -S feh
+pwd
+cd .config/polybar
+ls
+cd
+cd _my-scripts
+ls
+ls
+nvim polybarstart-i3
+cd 
+cd .config/polybar
+nvim config-i3
+startx
+clear
+asdasd
+asd
+123
+ls -la
+htop
+ls -la
+exa -l
+exa -la /
+exa -lar /
+exa -laR /
+exa -laR /
+clear
+cd .config/polybar
+nvim config-i3
+sudo pacman -Ss yad
+sudo pacman yad yadm
+sudo pacman _S yad yadm
+sudo pacman SS yad yadm
+sudo pacman -S yad yadm
+clear
+ls -la
+xdotool
+sudo pacman -S xdotool
+clear
+datee
+date
+clear
+mpd
+clear
+whoami
+sudo pacman -S nvidia nvidia-settings nvidia-utils
+reboot
+pacman -Ss material
+fc-cache -vf
+pwd
+cd _my-scripts
+ls -la
+exa -la
+nvim po
+nvim popup-calendar.sh
+startx
+sudo nvim /etc/default/grub
+reboot
+startx
+polybar -m
+cd .config/i3
+ls -la
+./i3-startup-always.sh
+cd
+cd _my-scripts
+nvim polybarstart-i3
+cd
+cd .config/polybar
+nvim config-i3
+reboot
+cd .config
+cd picom
+ls -la
+picom --help
+picom -h
+picom -h | grep -i config
+clear
+ls -la
+picom --config picom.conf
+killall picom
+picom --config picom.conf
+picom &
+clear
+cds
+cd
+cd .config/i3
+nvim configo
+nvim config
+pacman -Ss spacevim
+paru -Ss spacevim
+curl -sLf https://spacevim.org/install.sh | bash
+nvim
+nvim
+nvim
+nvim
+cd
+rm -rf .SpaceVim
+curl -sLf https://spacevim.org/install.sh | bash
+nvim
+curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall
+curl -sLf https://spacevim.org/install.sh | bash
+nvim
+rm -rf .SpaceVim
+clear
+cd .config/nvim
+cd. Documents
+ls -la
+exa -la .config
+cd
+rm -rf .SpaceVim.d
+rm -rf .cache/*
+clear
+curl -sLf https://spacevim.org/install.sh | bash
+nvim
+ear
+clear
+exit
+startx
+sudo pacman -Ss pipewire-pulse
+sudo pacman -S pipewire-pulse
+reboot
+cd .config/i3
+nvim config
+vim config
+q
+clear
+cd .conf
+cd
+cd .config/i3
+nvim config
+exit
+clear
+clear
+clear
+cd /boot/grub
+sudo nvim grub.cfg
+clear
+cd
+clear
+pwd
+clear
+pacman -Qs xfce
+xfce4-terminal
+clear
+cd
+cd .config/i3
+clear
+cd
+clear
+cd
+nvim .zshrc.zni
+ls -la
+nvim .zshrc
+cd .cache
+ls
+cd SpaceVim
+ls
+rm -rf SpaceVim
+cd ..
+nvim .zshrc.zni
+cd .cache
+ls
+sudo cd SpaceVim
+cd SpaceVim
+file SpaceVim
+cd
+nvim .zshrc
+mv .zshrc .zshrc-defaults
+cp Downloads/_cloned-repos/dotfiles/.zshrc .
+cp Downloads/_cloned-repos/dotfiles/.zsh-aliases .
+mkdir /home/fparad0x/.cache/SpaceVim/backup/
+sudo mkdir /home/fparad0x/.cache/SpaceVim/backup/
+sudo mkdir /home/fparad0x/.cache/SpaceVim/undofile
+sudo mkdir /home/fparad0x/.cache/SpaceVim/swap
+pwd
+exa -la .cache/SpaceVim
+sudo exa -la .cache/SpaceVim
+cd .ca
+cd .cache
+rm -rf SpaceVim
+sudo rm -rf SpaceVim
+sudo mkdir SpaceVim
+file SpaceVim
+cd..
+cd 
+file .cache/SpaceVim
+ls .cache/SpaceVim
+ls .cache/SpaceVim/
+\:qa
+cd
+cp Downloads/_cloned-repos/dotfiles/.z .
+cp Downloads/_cloned-repos/dotfiles/.zprofile .
+exit
+pacman -Ss starship
+sudo pacman -S starship
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+exit
+exit
+zplug install
+claer
+pwd
+clear
+exit
+cd
+cd Downloads/_cloned-repos/dotfiles
+clea
+clear
+ls
+ls -l
+cd one_dark
+ls -l
+ls -la
+ls -la
+cd ..
+clear
+exa -la
+nvim .zshrc
+nvim .zshrc
+nvim .zshrc
+nvim .zshrc
+cp -r rofi-powemenu ~/Desktop
+ls -la lib
+ls extras
+ls artworks
+cp -r .icons .themes ~
+ exit
+cd .config/i3
+clear
+ls -la
+lsa
+clear
+lsa
+nvim config
+curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall
+cd
+lsa
+cd .config
+sla
+lsa
+cd
+lsa
+rm -rf .SpaceVim .SpaceVim.d/ .cache/SpaceVim
+clear
+curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall
+curl -sLf https://spacevim.org/install.sh | bash
+cd .ca
+cd .cache
+ls
+cd SpaceVim
+ls
+sudo mkdir SpaceVim/.conf
+sudo mkdir SpaceVim/conf
+sudo rm -rf SpaceVim/.conf
+ls
+ls -la
+lsa SpaceVim
+sudo lsa SpaceVim
+sudo ls -la SpaceVim
+sudo chown -R $(whoami) SpaceVim
+lsa
+rm -rf SpaceVim
+sudo rm -rf SpaceVim
+sudo mkdir SpaceVim/conf
+sudo mkdir -p SpaceVim/conf
+sudo touch SpaceVim/conf/init
+sudo touch SpaceVim/conf/init.json
+sudo mkdir -p SpaceVim/swap
+sudo mkdir -p SpaceVim/backup
+clear
+cd
+./.zshrc
+zsh ./.zshrc
+./.zprofile
+zsh ./.zprofile
+curl -fsSL https://fnm.vercel.app/install | bash
+zsh ./.zprofile
+node
+node -0v
+fnm list
+exit
+cd .config/i3
+nvim config
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+cd
+cd
+ls -la
+lsa
+cd .SpaceVim.d
+ls
+nvim init.toml
+nvim init.toml
+nviom
+nvim
+a
+nvim
+pip install ranger-fm
+pacman -Qs python
+cd
+cd /etc/pacman.d/
+ls
+cd ..
+sudo nvim pacman.conf
+pacman -Qs python
+clear
+pip3
+sudo pacman -Ss pip
+sudo pacman -S python
+pip
+pacman -Ss pip
+pacman -Ss pip3
+pacman -Ss pip
+sudo pacman -Ss pip | grep -i -A 2 python
+sudo pacman -S python-pip
+pip install ranger-fm
+pip install ueberzug
+sudo pacman -Ss pillow-simd
+paru -Ss pillow-simd
+pip install pillow-simd
+ranger
+ranger-fm
+ranger
+cl
+exit
+ranger
+pip show ranger
+pip show ranger-fm
+nvim .zprofile
+source .zprofile
+ranger-fm
+ranger
+pip install pillow
+ranger
+pip install -U pil/pillow
+pip install -U pilw
+pip install -U pil
+pip install pil
+pip remove pil
+pip uninstall pil
+pip uninstall pillow
+pip uninstall pillow-simd
+pip install pillow-simd
+ranger
+clear
+exit
+echo $QT_QPA_PLATFORMTHEME
+exit
+lxappearance
+sudo pacman -S lxappearance
+sudo pacman -S qt5settings
+sudo pacman -S qt5-settings
+sudo pacman -Ss qt5-
+sudo pacman -S  qt5-styleplugins
+paru -S  qt5-styleplugins
+paru -S  qt6gtk2
+qt6gtk2
+qt5ct
+qt6ct
+pacman -Ss qt5
+pacman -Ss qt5ct
+sudo pacman -S qt5c6 qt6ct
+sudo pacman -S qt5ct qt6ct
+qt6ct
+exit
+echo $QT_QPA_PLATFORMTHEME
+vim
+clear
+vim .zprofile
+nvim .xinitrc
+nvim .xinitrc
+qt5-styleplugins
+qt5
+pacman -Qs qt
+qt5-styleplugins
+qt5-styleplugins
+exit
+exite
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+sudo pacman -S telegram-desktop
+exit
+exit
+exit
+exit
+exit
+cd Downloads/_cloned-repos/dotfiles
+ls -la
+clear
+lsa
+clear
+lsa
+clear
+lsa
+cd ..
+cd dotfiles
+clear
+lsa
+lsa .icons
+find /usr/share/icons ~/.local/share/icons ~/.icons -type d -name "cursors"
+cd 
+cd -
+lsa .icons
+lsa .icons/default
+lsa .icons/default/cursors/\\
+
+cd .local/share/icons
+lsa
+cd ..
+cp -r icons ~/.local/share/
+telegram-desktop
+sudo pacman -Ss telegram-desktop
+paru -S telegram
+paru -Ss telegram
+paru -Ss telegram-desktop
+paru -S telegram-desktop-bin
+telegram-desktop
+e
+exit
+lsa
+exa -la
+exit
+exit
+startx
+sudo pacman -S noto-fonts-emoji
+sudo pacman -S ttf-joypixels
+clear
+htop
+sudo pacman -S htop
+sudo pacman -S gtop
+cd .icons
+ls
+whoami
+pacman -Ss themix
+cd
+clear
+cd _my-scripts
+lsa
+./maim-screenshot.sh
+sudo pacman -Ss maim
+sudo pacman -S maim xclip
+./maim-screenshot.sh
+ranfer
+ranger
+ranger-fm
+ranger
+pip show ranger-fm
+xdpyinfo
+lsa
+./ffmpeg-recording.sh
+nvim ffmpeg-recording.sh
+mpvc
+mpv
+sudo pacman -S mpv
+./maim-slice.sh
+sleep 3 && ./maim-slice.sh
+sleep 3 && ./maim-slice.sh
+sleep 3 && ./maim-slice.sh
+sleep 3 && ./maim-slice.sh
+sleep 3 && flameshot gui
+sleep 3 && flameshot gui
+sudo pacman -S neofetch
+neofetch
+o
+zplug install
+cd
+source .zshrc
+fnm
+fnm list-remotee
+fnm list-remote
+fnm install 18.10
+npm install --global yarn
+cd
+cd .config/i3
+nvim config
+clear
+cd
+cd Desktop
+feh --bg-fill 2145923610.jpg
+sudo pacman -Ss code
+sudo pacman -S code
+sudo pacman -Ss dbeaver
+sudo pacman -S dbeaver
+cd
+cd .config/dunst
+ls
+nvim dunstrc
+lsa
+l
+file \\
+
+file '\'
+rm '\'
+ls
+clear
+lsa
+claer
+clear
+clear
+cd
+clear
+cd _my-scripts
+lsa
+paru -Ss oomox
+paru -S themix-full-git
+paru -S themix-full-git
+reboot
+cd .config
+cd i3
+nvim config
+nvim .zprofile
+source .zprofile
+ranger
+nvim .xinitrc
+paru -Ss betterlockscreen
+paru -S betterlockscreen
+sudo pacman -S cantata
+cd .config/dunst
+nvim dunstrc
+cd
+nvim .zshrc
+startx
+nvim .xinitrc
+startx
+cd Downloads/_cloned-repos/dotfiles
+clear
+cd 
+cd _my-scripts
+nvim
+paru -S otf-openmoji
+paru -S otf-openmoji
+paru -S ttf-twemoji-colorA
+paru -S ttf-twemoji-color
+nvim ~/.icons/default/index.theme
+clear
+nvim ~/.config/gtk-3.0/settings.ini
+clear
+cd
+clear
+sudo pacman -S polkit
+sudo pacman -S polkit-gnome,
+sudo pacman -S polkit-gnome
+d
+killall nvim
+killall nvim
+clea
+clear
+cd .config/dunst
+lsa
+nvim dunstrc
+ls
+mv dunstrc dunstrc2
+mv dunstrc1 dunstrc
+mv dunstrc2 dunstrc1
+clear
+lsa
+nvim dunstrc
+nvim dunstrc
+nvim dunstrc
+clear
+cd
+sudo nvim /etc/fstab
+sudo nvim /etc/fstab
+nvim .zshrc
+cd
+cd .config/i3
+nvim config
+ranger
+killall nvim
+cd
+cd .config/i3
+lsa
+nvim i3-startup-once.sh
+nvim i3-startup-always.sh
+dunstify s
+dunstify s
+dunstify s
+dunstify s
+dunstify sa
+dunstify sas
+dunstify sasd
+dunstify --help
+dunstify -u URGENT asd
+dunstify -u URG asd
+dunstify -u normal asd
+dunstify -u urg asd
+dunstify -u crit asd
+sudo fdisk -l
+cd .config/i3
+lsa
+nvim i3-startup-always.sh
+dunstify
+dunstify s
+dunstify s
+killall dunst 
+dunst && dunstify s
+dunst &
+dunstify s
+fg
+dunst &
+dunstify s
+fg
+dunst -h
+dunst --help
+dunstify -A yes,ACCEPT -A no,DECLINE "Call waiting"
+dunst &
+dunstify -A yes,ACCEPT -A no,DECLINE "Call waiting"
+fg
+lsa /etc/dunst
+cat /etc/dunst/dunstrc
+cp /etc/dunst/dunstrc ../dunst/dunstrc1
+cd ..
+cd dunst
+lsa
+nvim dunstrc1
+nvim dunstrc1
+nvim dunstrc1
+nvim dunstrc1
+nvim
+nvbim
+qnvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim dunstrc
+sudo mkdir /media/Data
+sudo mkdir -p /media/Data
+sudo chown [user]:[group] /media/Data
+sudo chmod +rw /media/Data
+sudo chown fparad0x /media/Data
+blkid
+cd
+cd /media/Data
+clear
+lsa
+blkid
+clear
+blkid
+sudo mkdir nvme-256 wdBlue-1tb wdBlue-2tb goldenfir-256 xraydisk-1tb
+ilsa
+lsa
+mv wdBlue-1tb wdBlue-1tb-p1
+mkdir wdBlue-1tb-p2
+lsa
+mv wdBlue-1tb-p1 wdBlue-2tb-p1
+mv wdBlue-1tb-p2 wdBlue-2tb-p2
+mv wdBlue-2tb wdBlue-1tb
+clear
+lsa
+htop
+htop
+killall mpv
+mpv
+cd .config
+lsa
+cd mpd
+lsa
+rm -rf mpd.db
+touch mpd.db
+exit
+startx
+clear
+clear
+lsa
+clear
+lsa
+rmdir MyDisks
+ln -s /media/Data ./MyDisks
+lsa
+lsa MyDisks
+rmdir WindowsDesktop &&  /media/Data/goldenfir-256/Users/fParad0x_/Desktop ./WindowsDesktop
+ln -s  /media/Data/goldenfir-256/Users/fParad0x_/Desktop ./WindowsDesktop
+lsa
+cd Music
+clear
+ln -s /media/Data/wdBlue-2tb-p1/_MyMusic\(D\) ./_MyMusic-D
+ln -s /media/Data/wdBlue-2tb-p1/_MyMusic\(E\) ./_MyMusic-E
+lsa
+sudo pacman -S ncmpcpp
+lsa
+cd
+nvim .config/dunst/dunstrcn
+nvim .config/dunst/dunstr
+nvim .config/dunst/dunstrc
+killall dunst && dunst
+killall dunst && dunst
+killall dunst && dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+tmux
+clear
+nvim .config/dunst/dunstrc
+nvim .config/dunst/dunstrc
+nvim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+sudo nvim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+reboot
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+mpd
+mpd --help
+mpd --kill
+mpd
+pacman -Ss wildmidi
+mpd -v
+mpd --kill
+mpd -v
+htop
+cd Desktop
+ls
+cd rofi-powemenu
+ls
+cd rofi
+lsa
+lsa 
+cd ..
+lsa rofi
+file rofi
+ls rofi
+lsa
+lsa rofi
+xsetroot -cursor_name left_ptr
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+dunstify a
+cd
+cd Music
+lsa
+cd _MyMusic-
+cd _MyMusic-D
+llsa
+lsa
+clear
+lsa
+cd SotC\ OST
+lsa
+cd Kow\ Otani\ -\ Shadow\ of\ the\ Colossus\ \~Roar\ of\ the\ Earth\~\ Original\ Soundtrack\ -\ 2005
+lsa
+mpc
+sudo pacman -S mpc
+killall mpv
+sudo pacman -S noto-fonts-cjk
+sudo pacman -S adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts
+mpc
+lsa
+mpc
+mpc
+nvim .config/dunst
+nvim .config/dunst/dunstrc
+nvim .config/dunst/dunstrc
+nvim .config/dunst/dunstrc
+cd .config/i3
+lsa
+nvim i3-startup-once.sh
+cd
+lsa
+nvim .gtkrc-2.0
+nvim .config/gtk-2.0
+nvim .config/gtk-2.0/gtkfilechooser.ini 
+nvim .config/gtk-3.0/settings.ini 
+nvim .config/dunst/dunstrc
+killall dunst
+dunst &
+nvim .config/dunst/dunstrc
+fg
+dunst &
+ls 
+cd .config/mpd
+lsa
+nvim mpd.conf
+startx
+nvim .zprofile
+yarn
+lsa
+rm rf yarn.lock 
+rm -rf yarn.lock 
+rm -rf node_modules
+clear
+nvim .zshrc
+nvim .gtkrc-2.0
+sudo nvim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+xrdb -q
+nvim .Xresources
+reboot
+cd WindowsDesktop
+lsa
+cd
+clear
+cd _my-scripts
+cd
+cd MyDisks
+lsa
+lsa wdBlue-1tb
+lsa wdBlue-2tb-p1
+lsa wdBlue-2tb-p1/Desktop
+history
+clear
+sudo lxappearance
+cd
+cd .local/share/icons/default
+lsa
+sudo lxappearance
+nvim index.theme
+clear
+curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall
+cd
+rm -rf .cache/SpaceVim
+sudo rm -rf .cache/SpaceVim
+rm -rf .SpaceVim .SpaceVim.d/ 
+cleear
+clear
+cd .config/
+mkdir nvim
+cd nvim
+clear
+cp -r ~/Downloads/_cloned-repos/dotfiles/one_dark/.config/nvim
+file ~/Downloads/_cloned-repos/dotfiles/one_dark/.config/nvim
+cp -r ~/Downloads/_cloned-repos/dotfiles/.config/nvim .
+clear
+lsa
+lsa nvim/q
+mv nvim/* .
+lsa
+clear
+cd
+exit
+xrdb -q
+xsetroot -cursor_name right_ptr
+sudo nvim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+cd .config/i3
+nvim i3-startup-once.sh
+clear
+nvim i3-startup-always.sh
+history
+clear
+cdv
+sudo nvim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+sudo nvim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+clear
+cd
+nvim .fonts.conf
+sudo cp -r .icons/default/cursors/Mocu-White-Right /usr/share/icons/default/
+sudo nvim /usr/share/icons/default/index.theme
+cd /usr/share/icons/default/\\
+
+lsa
+sudo mkdir cursors
+sudo mv Mocu-White-Right ./cursors
+sudo nvim index.theme
+clear
+cd
+clear
+clear
+cd .config
+cd nvim
+cp -r ~/Downloads/_cloned-repos/dotfiles/nord_darkest/.config/nvim/* .
+lsa
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+nvim
+nvim init.vim
+nvim
+nvim init.vim
+nvim
+nvim init.vim
+clear
+clera
+c
+reset
+nvim init.vim
+reset
+cd
+clear
+cd Documents
+lsa
+lsa
+clear
+cd
+sudo pacman -Ss tmux
+sudo pacman -S tmux
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+lsa
+nvim 
+exit
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+exit
+exit
+exit
+exit
+exit
+cd .config/nvim
+lsa
+mv init.vim init.vim-bkp
+nvim
+cd. .
+clear
+cd
+clear
+lsa
+tmux
+tmux
+tmux
+exut
+exit
+cd Downloads/_cloned-repos/dotfiles
+lsa
+cd one_dark
+ls
+clear
+lsa
+ cd .config
+lsa
+cd ..
+cd ..
+lsa
+exit
+exit
+exit
+startx
+cd Documents
+mkdir _work
+rm -rf _work
+ln -s /media/Data/xraydisk-1tb/fparad0x/Documents/launchcode ./launchcode-symlink
+cd launchcode-symlink
+lsa
+cd
+ssh-keygen
+cd .ssh
+lsa
+sudo pacman -Ss bat
+paru -Ss bat
+paru -S bat
+bat id_rsa.pub
+cat id_rsa.pub < xclip -i
+xclip
+cat id_rsa.pub | xclip -i
+cd
+clear
+cd -
+cd -
+cd Documents/launchcode-symlink/mudtrac-monorepo
+yarn
+lsa
+find ./ -name node_modules
+npx npkill
+clear
+cd ..
+cp -r mudtrac-monorepo mudtrac-monorepo-backup
+cd mudtrac-monorepo
+npx npkill
+rm -rf yarn.lock
+yarn cache clean
+yarn
+find ./ -name node_modules
+find ./ -name prisma
+yarn global add pnpm
+pnpm install
+clear
+yarn install --verbose
+fnm install 16.10
+fnm use 16.10
+clear
+yarn
+fnm install 16.0
+fnm use 16
+clear
+yarn
+clear
+yarn install --verbose
+yarn remove @prisma/client
+yarn
+clear
+yarn
+yarn remove @prisma/client
+yarn remove @prisma/client -W
+yarn remove prisma -W
+yarn
+clear
+rm -rf yarn.lock
+yarn
+yarn install --verbose
+find ./ -name .prisma
+find ./ -name prisma
+lsa
+yarn
+git config --global user.name "Erick Cesar" 
+git config --global user.email "erick@lc.dev"
+cd ..
+cd mudtrac-monorepo-backup
+git remote -v
+git push origin MUD-43-manage-mud-trac-user-list
+cd ..
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git ./mudtrac-monorepo-fresh
+lsa
+cd mudtrac-monorepo-fresh
+yarn
+yarn
+reboot
+startx
+exit
+startx
+mpc
+mpoc
+mpc
+cd .config/i3
+lvim i3-startup-always.sh
+cd .config/i3
+nvim config
+nvim i3-startup-once.sh
+nvim i3-startup-always.sh
+cd /usr/share/icons/default/\\
+
+lsa
+lsa cursors
+cd cursors
+lsa
+pwd
+mv Mocu-White-Right ../
+sudo mv Mocu-White-Right ../
+ls
+cd ..
+ls
+mv Mocu-White-Right ../
+sudo mv Mocu-White-Right ../
+ls
+nvim index.theme
+cd ..
+ls
+sudo lxappearance
+sudo nvim  /etc/default/grub
+nvim --version
+export LV_BRANCH="rolling"; bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/rolling/utils/installer/install.sh)
+pnpm setup
+export LV_BRANCH="rolling"; bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/rolling/utils/installer/install.sh)
+source .zshrc
+export LV_BRANCH="rolling"; bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/rolling/utils/installer/install.sh)
+nvim
+lvim
+startx
+mpc
+dmesg
+sudo dmesg
+sudo lvim /etc/fstab
+sudo lvim /etc/fstab
+sudo lvim /etc/default/grub
+startx
+libinput 
+libinput list-devices
+sudo libinput list-devices
+xinput
+xinput
+xinput list-props XCTECH Wireless-Receiver
+xinput
+xinput list-props "XCTECH Wireless-Receiver"
+xinput set-props "XCTECH Wireless-Receiver" 'libinput Accel Profile Enabled' 0, 1'
+xinput set-props "XCTECH Wireless-Receiver" 'libinput Accel Profile Enabled' 0, 1
+lvim .zprofile
+nvim .xinitrc
+clear
+sudo lvim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+startx
+cd
+clear
+mpc
+cat /etc/mpd.conf
+lsa
+file Music
+sudo chown fparad0x Music
+lsa
+bat  /var/log/mpd/mpd.log/var/log/mpd/mpd.log 
+bat  /var/log/mpd/mpd.log
+mpc update
+clear
+cd .config/mp
+cd .config/mpd
+nvim mpd.conf
+lvim mpd.conf
+lsa
+lsa playlists
+rm -rf playlists/*
+clear
+lsa pla
+lsa playlists
+rm -rf playlists/*
+clear
+lsa playlists
+lsa
+lvim mpdstate
+lvim mpd.conf
+cd ..
+cd ncmpcpp
+nvim config
+lvim config
+lvim ../mpd/mpd.conf
+cd ..
+cd mpd
+bat mpd.conf | 0x0
+curl -F file=@./mpd.conf http://0x0.st
+htop
+nvim mpd.conf
+lvim mpd.conf
+sudo pacman -Ss slack
+paru -Ss slac
+paru -Ss slack
+paru -S slack
+sudo pacman -Ss teams
+paru -Ss teams
+paru -S teams
+slack
+pacman -Qi slack
+_ pacman -Rns slack
+paru -Ss slack
+paru -S slack-desktop
+clear
+yarn global add @app-config/cli\
+
+npm login --registry https://npm.servalldatasystems.com
+clear
+cd Documents/launchcode-symlink/mudtrac-monorepo-fresh
+clear
+lsa
+clear
+neeofteech
+neofetch
+clear
+lsa
+cd ..
+lsa mudtrac-monorepo
+cd mudtrac-monorepo-fresh
+bat .app-config.yml
+lsa
+bat .app-config.schema.yml
+bat .app-config.meta.yml
+yarn
+fnm use 16
+npx @app-config/cli
+yarn loadConfig
+clear
+yarn
+yarn api
+yarn api
+yarn app-config secret agent
+rm -rf node_modules
+npx npkill
+cd
+clear
+nvim .config/i3
+lvim .config/i3/configo
+lvim .config/i3/config
+cd _my-scripts
+lsa
+lvim popup-calendar.sh
+clear
+cd
+clear
+mpc
+mpc
+mpc --verbose
+mpd --verbose
+killall mpd
+mpd --verbose
+mpc
+killall mpd
+clear
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+mpd --no-daemon --verbose --stderr
+cd Music
+find ./ -name *.cue$
+find -regextype sed -regex ".*\.cue$"
+find ./ -regextype sed -regex ".*\.cue$"
+cd _MyMusic-D
+find ./ -regextype sed -regex ".*\.cue$"
+cd ../_MyMusic-E
+find ./ -regextype sed -regex ".*\.cue$"
+find ./ -regextype sed -regex ".*\.cue$" | wc -l
+cd ../_MyMusic-D
+find ./ -regextype sed -regex ".*\.cue$" | wc -l
+find ./ -regextype sed -regex ".*\.cue$" -exec mv {} {}_log \;
+find ./ -regextype sed -regex ".*\.cue$"
+cd ../_MyMusic-E
+find ./ -regextype sed -regex ".*\.cue$" -exec mv {} {}_log \;
+find ./ -regextype sed -regex ".*\.cue$" 
+mpd --no-daemon --verbose --stderr
+find ./ -regextype sed -regex ".*\.CUE$" -exec mv {} {}_log \;
+cd ..
+cd _MyMusic-D
+find ./ -regextype sed -regex ".*\.CUE$" -exec mv {} {}_log \;
+mpd --no-daemon --verbose --stderr
+pc
+mpc
+mpc play "/home/fparad0x/Music/_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/24. Griffin Cohen - The Arid Planet (Ambient Middle).mp3"
+lvim /etc/mpd.conf
+lvim /etc/mpd.conf
+lvim /etc/mpd.conf
+lvim usr/share/doc/mpd/mpdconf.example
+bat ~/.config/mpd/mpd.conf
+cd
+mkdir .mpd/playlists
+mkdir .mpd/database
+clear
+cd .npm
+cd
+cd .mpd
+lsa
+mkdir -p .mpd/playlists
+mkdir -p .mpd/database
+cd .mpd
+rmdir database
+touch database
+mpc update
+mpc
+mpc pay
+mpc play "/home/fparad0x/Music/_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/24. Griffin Cohen - The Arid Planet (Ambient Middle).mp3"
+mpc playt
+mpc play
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+mpc update
+cd ..
+cd .config/ncmpcpp
+lsa
+nvim config
+cd .config/ncmpcpp
+lsa
+cd ncmpcpp-ueberzug
+lsa
+cd ..
+nvim config
+lvim config
+sudo pacman -Ss mpd
+paru -Ss mpd
+paru -S mpd-git
+lsa ~/Music
+lsa ~/Music/_MyMusic-E
+lsa ~/Music/_MyMusic-D
+cd /home/fparad0x/Music/_MyMusic-D/Austin Wintory - Journey (2012) [FLAC]
+cd '/home/fparad0x/Music/_MyMusic-D/Austin Wintory - Journey (2012) [FLAC]'
+lsa
+mv Journey.cue Journey.cue.log
+cd '/home/fparad0x/Music/_MyMusic-D/Batman/Batman Begins OST/Batman Begins Expanded Score/2005 - Batman Begins/Disc 1/'
+lsa
+mv Hans\ Zimmer\ \&\ James\ Newton\ Howard\ -\ Batman\ Begins\ \(Disc\ 1\).cue Hans\ Zimmer\ \&\ James\ Newton\ Howard\ -\ Batman\ Begins\ \(Disc\ 1\).cue.log
+lsa
+mv Hans\ Zimmer\ \&\ James\ Newton\ Howard\ -\ Batman\ Begins\ \(Disc\ 2\).cue Hans\ Zimmer\ \&\ James\ Newton\ Howard\ -\ Batman\ Begins\ \(Disc\ 2\).cue.log
+lsa
+cd ..
+cd Disc\ 2
+mv Hans\ Zimmer\ \&\ James\ Newton\ Howard\ -\ Batman\ Begins\ \(Disc\ 2\).cue Hans\ Zimmer\ \&\ James\ Newton\ Howard\ -\ Batman\ Begins\ \(Disc\ 2\).cue.log
+lsa
+cd '/home/fparad0x/Music/_MyMusic-D/Batman/Batman Begins OST/Batman Begins OST/Hans Zimmer & James Newton Howard - Batman Begins OST (2005)'
+lsa
+mv Batman\ Begins.cue Batman\ Begins.cue.log
+cd '/home/fparad0x/Music/_MyMusic-D/Batman/The Dark Knight/2008 - The Dark Knight (by Hans Zimmer & James Newton Howard)/Disc 1'
+lsa
+mv The\ Dark\ Knight\ -\ Disc\ 1.cue The\ Dark\ Knight\ -\ Disc\ 1.cue.log
+cd ..
+lsa
+cd Disc\  
+lsa
+cd Disc\ 2
+lsa
+mv The\ Dark\ Knight\ -\ Disc\ 2.cue The\ Dark\ Knight\ -\ Disc\ 2.cue.log
+cd '/home/fparad0x/Music/_MyMusic-D/Batman/The Dark Knight/Hans Zimmer and James Newton Howard - The Dark Knight (2008)/' 
+lsa
+mv Hans\ Zimmer\ and\ James\ Newton\ Howard\ -\ The\ Dark\ Knight.cue Hans\ Zimmer\ and\ James\ Newton\ Howard\ -\ The\ Dark\ Knight.cue.log
+cd '/home/fparad0x/Music/_MyMusic-D/Crysis 2 OST/Crysis 2 Original Videogame Soundtrack (LLLCD 1171)/'
+lsa
+cd CD1
+lsa
+mv Various\ -\ Crysis\ 2\ Original\ Videogame\ Soundtrack\ \(CD1\).cue Various\ -\ Crysis\ 2\ Original\ Videogame\ Soundtrack\ \(CD1\).cue.log
+cd ..
+lsa
+cd CD2
+lsa
+mv Various\ -\ Crysis\ 2\ Original\ Videogame\ Soundtrack\ \(CD2\).cue Various\ -\ Crysis\ 2\ Original\ Videogame\ Soundtrack\ \(CD2\).cue.log
+cd ..
+lsa
+lsa Covers/\\
+
+cd ' /home/fparad0x/Music/_MyMusic-D/Lord Of The Rings - [Special 3CDs Box Set](WavPack+scans+Extras)/LOTR_01 - The Fellowship Of The Ring - 2001/'
+lsa
+cd "/home/fparad0x/Music/_MyMusic-D/Lord Of The Rings - [Special 3CDs Box Set](WavPack+scans+Extras)/LOTR_01 - The Fellowship Of The Ring - 2001/"
+lsa
+lsa
+mv Howard\ Shore\ -\ The\ Lord\ Of\ The\ Rings\ -\ The\ Fellowship\ Of\ The\ Ring.cue Howard\ Shore\ -\ The\ Lord\ Of\ The\ Rings\ -\ The\ Fellowship\ Of\ The\ Ring.cue.log
+cd ..
+lsa
+cd LOTR_02\ -\ The\ Two\ Towers\ -\ 2002
+lsa
+mv Howard\ Shore\ -\ The\ Lord\ Of\ The\ Rings\ -\ The\ Two\ Towers.cue Howard\ Shore\ -\ The\ Lord\ Of\ The\ Rings\ -\ The\ Two\ Towers.cue.log
+cd ..
+lsa
+cd LOTR_03\ -\ The\ Return\ Of\ The\ King\ -\ 2003
+lsa
+mv Howard\ Shore\ -\ The\ Lord\ Of\ The\ Rings\ -\ The\ Return\ Of\ The\ King.cue Howard\ Shore\ -\ The\ Lord\ Of\ The\ Rings\ -\ The\ Return\ Of\ The\ King.cue.log
+lsa
+cd "/home/fparad0x/Music/_MyMusic-D/Klaus Badelt & Hans Zimmer - Music from The Pirates of The Caribbean Trilogy.(vesperus)"
+lsa
+mv Klaus\ Badelt\ \&\ Hans\ Zimmer\ -\ Music\ from\ The\ Pirates\ of\ The\ Caribbean\ Trilogy.cue Klaus\ Badelt\ \&\ Hans\ Zimmer\ -\ Music\ from\ The\ Pirates\ of\ The\ Caribbean\ Trilogy.cue.log
+cd ..
+lsa
+exit
+startx
+clear
+cmatrix
+neofetch
+neofetch --ascii_distro ubuntu
+clear
+neofetch --ascii_distro ubuntu
+killall telegram-desktop
+killall -9 telegram-desktop
+exit
+startx
+cd .config/i3
+lvim config
+cd .mpd
+lsa
+lsa playlists
+cd
+cd .config/mp
+cd .config/mpd
+nvim mpd.conf
+lvim mpd.conf
+cd Documents/launchcode-symlink/mudtrac-monorepo-fresh
+clear
+lsa
+yarn api
+fnm use 16
+yarn app-config secret agent
+yarn
+app-config secret init
+yarn app-config secret init
+sudo yarn app-config secret init
+yarn global add @app-config/cli\
+
+app-config secret init
+yarn global bin
+echo $PATH
+echo $PATH | grep -i yarn
+export PATH="$PATH:$(yarn global bin)"
+app-config secret init
+yarn
+npx npkill
+yarn
+yarn cache clean
+npx npkill
+yarn
+yarn api
+yarn app-config secret agent
+npx @app-config/cli secret init-repo
+app-config secret init-repo
+app-config secret trust ~/.ssh/my-key
+yarn cli setup
+app-config env
+app-config generate
+yarn
+yarn app-config secret agetn
+yarn app-config secret agent
+yarn app-config secret 
+yarn app-config secret -h
+app-config secret agent
+app-config secret init
+yarn app-config secret init
+yarn app-config secret init-repo
+app-config secret init-repo
+yarn app-config secret agent
+yarn app-config secret agent
+lsa
+yarn cache clean
+npx npkill
+app-config secret init
+app-config secret reset
+app-config secret reset
+app-config secret init
+gpg --import-key -----BEGIN PGP PUBLIC KEY BLOCK-----\
+Version: OpenPGP.js v4.10.10\
+Comment: https://openpgpjs.org\
+\
+xjMEYzrsTRYJKwYBBAHaRw8BAQdAKRKadRUoNteEJyl38vxK72hY93KbhPaI\
+9PMVvXnUtUPNGkVyaWNrIENlc2FyIDxlcmlja0BsYy5kZXY+wo8EEBYKACAF\
+AmM67E0GCwkHCAMCBBUICgIEFgIBAAIZAQIbAwIeAQAhCRCYLzywGjOyaxYh\
+BBErxBOFFRaV7Q6YQZgvPLAaM7Jr8WAA/0c5kz0RKQSU5aejlJ43I47nJ9l8\
+lnwDs5hMxo5PXSMwAPwIaBSEEf3+cYYVWuI8JFD01ffzk9/7i0K6AAbqL41E\
+A844BGM67E0SCisGAQQBl1UBBQEBB0B8JtlfLxOopy5dAMiyzVaZjo03XE9z\
+zUzuJS9Njw5nRwMBCAfCeAQYFggACQUCYzrsTQIbDAAhCRCYLzywGjOyaxYh\
+BBErxBOFFRaV7Q6YQZgvPLAaM7JrT3EBALtIMRy4x+e+Laip8MWaTvm7RooW\
+D/Y0kKMLD8QDYPzIAP9OuAZfDMhQEe92e5jULchSGuJ0YYNR0PjmxyC/3c0W\
+AA==\
+=S9Nm\
+-----END PGP PUBLIC KEY BLOCK-----\
+
+yarn app-config secret agent
+yarn
+npm login --registry https://npm.servalldatasystems.com
+npm login --registry https://npm.servalldatasystems.com
+cd Documents/launchcode-symlink/mudtrac-monorepo-fresh
+clear
+yarn services:start
+fnm use 16
+yarn services:start
+yarn app-config vars
+app-config secret init
+lvim .zprofile
+lvim .zshrc
+echo "//npm.servalldatasystems.com/:_authToken=aDBajQBNFZ6AfrBXjP5zmIxFR8V44CUY1SZ1uantSMCowQGrCl1K5jwXANsA4DS" > .npmrc
+lsa
+bat .npmrc
+cd .ssh
+lsa
+bat my-key
+gpg â€ƒ³full-generate-key
+gpg -â€ƒ³full-generate-key
+gpg
+gpg --help
+gpg --list-keys
+gpg --generate-key
+neofetch
+cd
+cd .gnupg
+lsa
+cd openpgp-revocs.d
+lsa
+bat 
+bat E727AAAEEFDC5781B56F7039C4AE6819B35B6293.rev
+lsa
+cd ,,
+cd ..
+lsa
+lsa private-keys-v1.d
+gpg --help
+gpg --quick-generate-key
+gpg --quick-generate-key "Erick Cesar" rsa2
+gpg --quick-generate-key "Erick Cesar" rsa
+cat /home/fparad0x/.gnupg/openpgp-revocs.d/587DCB6139C6F18D16A19C4FC45772B3ECF70175.rev | xclip -i
+This is a revocation certificate for the OpenPGP key:\
+\
+pub   rsa3072 2022-10-03 [SC] [expires: 2024-10-02]\
+      587DCB6139C6F18D16A19C4FC45772B3ECF70175\
+uid          Erick Cesar\
+\
+A revocation certificate is a kind of "kill switch" to publicly\
+declare that a key shall not anymore be used.  It is not possible\
+to retract such a revocation certificate once it has been published.\
+\
+Use it to revoke this key in case of a compromise or loss of\
+the secret key.  However, if the secret key is still accessible,\
+it is better to generate a new revocation certificate and give\
+a reason for the revocation.  For details see the description of\
+of the gpg command "--generate-revocation" in the GnuPG manual.\
+\
+To avoid an accidental use of this file, a colon has been inserted\
+before the 5 dashes below.  Remove this colon with a text editor\
+before importing and publishing this revocation certificate.\
+\
+:-----BEGIN PGP PUBLIC KEY BLOCK-----\
+Comment: This is a revocation certificate\
+\
+iQG2BCABCAAgFiEEWH3LYTnG8Y0WoZxPxFdys+z3AXUFAmM65ZkCHQAACgkQxFdy\
+s+z3AXUp7QwAr5v66jXmqZ0xf2OJNxLv+5UwI+W81elbrHZ9UDoqldSzYXzerRt/\
+FSbCeed1Jep1Fo1q0t68TN3K01k5xRAGHx2NFvvrdMsSGYvG0WnMWdjrGyCp9CS/\
+tTZm13P5t6aTuWrytdROdYSLYSRyoyIg0b0GGmZ6+IZpj+KuGTcT1O4y/SvWto+t\
++Qw0UWl9UfapIEhlKyKz9PH47oQVCe8pwrZUISFG/7V//PqtukiSNEsqYrgfPsbK\
+bHddntEmxwXpWpKGfOyG63en4BtlnA9drI6KOnFK1O4EBnHdkdsbVxY4PxZ5rI1V\
+mr1gD7XieHssQ1skOQc89sfUIwbtQ65BuaYTpCFRqkgulm8jlMZji8BSPMiUInqa\
+dgxczCOcEs3QTOL78e/TZ0yY6dlLALZmFMcyMKcivjtA41usou2ZjJVhYCwLPMpg\
+LePTOmlbFVNFNvk5m02SFmUvovwG+z8+iJ6xA3M+gm5BUep6ed5RCHEE6fe4e1zC\
+bD01FeJ3Jc2A\
+=5aVp\
+-----END PGP PUBLIC KEY BLOCK-----\
+
+clear
+clear
+lvim /home/fparad0x/.gnupg/openpgp-revocs.d/587DCB6139C6F18D16A19C4FC45772B3ECF70175.rev
+app-config 
+source ~/.zshrc
+app-config secret trust openpgp-revocs.d/587DCB6139C6F18D16A19C4FC45772B3ECF70175.rev
+gpg --list-keys
+gpg --list-public-keys
+lvim private.key
+gpg --import private.key
+gpg --list-keys
+gpg --delete-key E727AAAEEFDC5781B56F7039C4AE6819B35B6293
+gpg --delete-secret-key E727AAAEEFDC5781B56F7039C4AE6819B35B6293
+gpg --delete-secret-key E727AAAEEFDC5781B56F7039C4AE6819B35B6293
+gpg --list-keys
+gpg --delete-secret-key E727AAAEEFDC5781B56F7039C4AE6819B35B6293
+gpg --list-keys
+gpg --delete-key E727AAAEEFDC5781B56F7039C4AE6819B35B6293
+gpg --list-keys
+gpg --delete-key 587DCB6139C6F18D16A19C4FC45772B3ECF70175
+gpg --delete-secret-key 587DCB6139C6F18D16A19C4FC45772B3ECF70175
+pacman  -Ss easyeffects
+_ pacman -S easyeffects
+neofetch
+gpg --list-keys
+gpg --delete-key 587DCB6139C6F18D16A19C4FC45772B3ECF70175
+gpg --list-keys
+gpg --delete-key 587DCB6139C6F18D16A19C4FC45772B3ECF70175
+gpg --list-keys
+lsa
+gpg --list-keys
+gpg --delete-key A2064B5088647B41C49C7CA41D436F938E99DB8D
+gpg --delete-secret-key A2064B5088647B41C49C7CA41D436F938E99DB8D
+gpg --list-keys
+lsa
+rm -rf private.key
+clear
+lvim app-config.key
+gpg --import app-config.key
+cd
+lsa
+lsa .npm
+bat .npmrc
+rm -rf .npmrc
+npm login --registry https://npm.servalldatasystems.com
+npm login --registry https://npm.servalldatasystems.com
+npm login --registry https://npm.servalldatasystems.com
+npm login --registry https://npm.servalldatasystems.com
+npm login --registry https://npm.servalldatasystems.com
+gpg --list-keys
+gpg --delete-secret-key 112BC41385151695ED0E9841982F3CB01A33B26B
+gpg --delete-key 112BC41385151695ED0E9841982F3CB01A33B26B
+gpg --list-keys
+cd .config/app-config
+lsa
+lsa keychain
+cd keychain
+lsa
+app-config secret import-key
+app-config secret key
+lsa
+cp ~/Downloads/my-key ..
+mv ../my-key .
+lsa
+app-config secret key
+cat my-key
+rm -rf my-key
+app-config secret export ./my-key
+pacman -Ss ttf-droid
+sudo pacman -S ttf-droid
+cd MyDisks
+lsa
+cd xraydisk-1tb
+lsa
+cd f
+cd fparad0x
+lsa
+clear
+lsa
+lsa .n
+lsa .npm
+clear
+lsa
+lsa .ssh
+cp .ssh/my-key ~/.ssh
+lsa
+sudo pacman -Ss insomnia
+paru -Ss insomnioa
+paru -Ss insomnia
+paru -S insomnia-bin
+clear
+lsa
+bat .npmrc
+lsa .npm
+sudo pacman -Ss pavucontrol
+sudo pacman -S pavucontrol
+_ pacman -Syy
+ping www.google.com
+ping www.google.com
+_ pacman -Syy
+reflector
+sudo pacman -S reflector
+_ lvim /etc/pacman.d/mirrorlist
+_ pacman -Syy
+_ pacman -S reflector pavucontrol
+pavucontrol
+cd Desktop
+lsa
+fbg /home/fparad0x/Desktop/ofvhllmjl3q51.jpg
+htop
+cd .config/polybar
+lvim config-i3
+lvim config-i3
+xev
+mpc toggle
+mpc toggle
+mpc toggle
+mpc toggle
+cd ..
+cd i3
+lvim config
+htop
+clear
+cd .config/i3
+lvim config
+cd ..
+cd polybar
+lvim config-i3
+clear
+cd
+clear
+cd Documents/launchcode-symlink/mudtrac-monorepo-fresh
+lsa
+fnm use 16
+clear
+journal -b -1 | ixio
+pacman -Ss journal
+journal
+clear
+yarn
+cd ..
+rm -rf mudtrac-monorepo-fresh
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git ./mudtrac-monorepo-fresh
+cd mudtrac-monorepo-
+cd mudtrac-monorepo-fresh
+clear
+lsa
+yarn
+fnm use 16.0
+yarn
+fnm use 16
+clear
+exit
+cd .mpd
+lsa
+cd .
+cd ..
+cd .gnupg
+lsa
+cat app-config.key
+app-config secret show
+cat app-config.key
+app-config secret key
+exit
+exit
+startx
+cd Documents/launchcode-symlink/mudtrac-monorepo-fresh
+yarn app-config secret agent
+fnm use 16
+clear
+yarn app-config secret agent
+clear
+clear
+yarn install
+pwd
+cd
+cd MyDisks
+cd xraydisk-1tb/
+ls
+cd Launchcode
+lsa
+cd ..
+lsa
+lsa ~/Documents
+cp -r fparad0x/Documents/launchcode ~/Documents
+cd
+cd Documents
+lsa
+rm -rf launchcode
+unlink launchcode-symlink
+lsa
+clear
+mkcd launchcode
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+cd mudtrac-monorepo
+clear
+yarn app-config secret key
+yarn install --verbose
+lsa
+yarn cli setup
+yarn app-config secret agent
+git checkout MUD-43-manage-mud-trac-user-list
+clear
+yarn
+reboot
+fnm use 16
+yarn services:start
+cd
+cd Documents/launchcode/mudtrac-monorepo
+yarn services:start
+clear
+yarn services:start
+_ systemctl status dockerd
+_ systemctl status docker
+pacman -Qs docker
+_ pacman -S docker docker-compose
+clear
+git pull
+clear
+_ systemctl status docker
+_ systemctl enable docker
+clear
+startx
+cd Documents/launchcode/mudtrac-monorepo
+yarn app-config secret agent
+fnm use 16
+yarn app-config secret agent
+yarn app-config secret agent
+ sudo netstat -ltup 
+sudo pacman -S netstat
+ sudo netstat -ltup 
+ss
+! ss -lntu
+! ss -lntu ss -lntu
+sudo ss -lntu
+yarn app-config secret agent
+systemctl status docker
+reboot
+startx
+clear
+yarn services:start
+fnm use 16
+yarn services:start
+git pull origin develop
+git config pull.rebase false  # merge
+git pull origin develop
+git config pull.rebase false
+git pull origin develop
+clear
+yarn services:start
+groups
+sudo groupadd docker
+sudo usermod -aG docker fparad0x
+groups
+sudo su
+cd Documents/launchcode/mudtrac-monorepo
+z
+claer
+clear
+pwd
+lsa
+yarn app-config secret agent
+fnm use 16
+yarn app-config secret agent
+exit
+npm install --global yarn
+exit
+claer
+cd Documents/launchcode/mudtrac-monorepo
+lsa
+clear
+fnm use 16
+fnm default 16.10
+clear
+yarn app-config secret agent
+ls
+yarn
+clear
+yarn
+clear
+source ~/.zshrc
+exit
+fnm use 16
+exit
+cd MyDisks/xraydisk-1tb/fparad0x/.config/
+lsa
+cd ..
+cd .config
+lsa
+exit
+z mono
+yarn api
+cd ..
+rm -rf mudtrac-monorepo/
+clear
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+cd mudtrac-monorepo
+yarn
+yarn cli setup
+yarn app-config secret agent
+reboot
+startx
+cd Documents/launchcode/mudtrac-monorepo
+lsa
+cd ..
+yarn services:start
+cd Documents/launchcode/mudtrac-monorepo
+yarn app-config secret agent
+z mono
+yarn web
+git init
+git status
+cp --help
+cp -a .git .git.old
+git fsck --full
+rm .git/objects/f4/ff4f79635f8987445b8384fe4ba6cb7f96c54a
+rm .git/objects/f4/ff4f79635f8987445b8384fe4ba6cb7f96c54a
+rm .git/objects/f4/ff4f79635f8987445b8384fe4ba6cb7f96c54a
+git fsck --full
+rm .git/objects/1a/45a305d54b6c1464547ff017e54f36a17ca092
+rm .git/objects/1a/45a305d54b6c1464547ff017e54f36a17ca092
+git fsck --full
+git fsck --full
+git reflog
+tail -n 2 .git/logs/refs/heads/master
+tail -n 2 .git/logs/refs/heads/MUD-43-manage-mud-trac-user-list
+git show a36ba299225c60d16c2581318141e1014eb519b5
+git show d782c7ab36295257101dd847b0f2d9cd42398c76
+tail -n 2 .git/logs/refs/heads/MUD-43-manage-mud-trac-user-list
+git update-ref HEAD d782c7ab36295257101dd847b0f2d9cd42398c76
+git fsck --full
+rm .git/index
+git reset
+git fsck --full
+cd ..
+rm -rf mu
+rm -rf mud
+clear
+cd mudtrac-monorepo
+startx
+yarn cli setup
+cd
+clear
+cd Documents/launchcode/mudtrac-monorepo
+yarn cli setup
+yarn api
+yarn services:start\ 
+yarn services:start
+yarn cli setup
+clear
+yarn cli setup
+yarn services:start
+pwd
+reboot
+cd Documents/launchcode/mudtrac-monorepo
+z mono
+clear
+yarn app-config secret agent
+yarn app-config secret agent
+cd
+cd Documents/launchcode/mudtrac-monorepo
+clear
+yarn app-config secret agent
+clear
+git checkout MUD-43-manage-mud-trac-user-list
+yarn app-config secret agent
+cd Documents/launchcode/mudtrac-monorepo
+yarn app-config secret agent
+yarn app-config secret agent
+pwd
+yarn app-config secret agent
+clear
+yarn global add @app-config/cli\
+
+yarn
+yarn yarn cli setup
+yarn
+yarn cli setup
+yarn app-config secret agent
+cd ,,
+cd ..
+clear
+rm -rf mudtrac-monorepo
+g clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+cd mudtrac-monorepo
+git checkout MUD-43-manage-mud-trac-user-list
+clear
+lsa
+git status
+yarn
+yarn cli setup
+clear
+clear
+lsa
+cd ..\\
+exio
+exit
+startx
+yarn cli setup
+yarn cli setup
+yarn services:start
+yarn cache clean
+yarn global remove @app-config/cli
+yarn global add @app-config/cli\
+
+yarn services:start
+cd 
+cd .config
+lsa
+rm -rf app-config
+cd
+clear
+clear
+yarn services:start
+yarn
+yarn services:start
+systemctl status docker
+systemctl status docker
+yarn services:start
+yarn
+yarn services:start
+clear
+pwd
+yarn services:start
+yarn app-config secret init
+clear
+yarn services:start
+npx npkill
+clear
+pacman -Ss bleachbit
+_ pacman -S bleachbit
+yarn cli setup
+cd..
+cd ..
+yarn services:start
+cd mudtrac-monorepo
+yarn services:start
+yarn app-config vars --secrets
+ENV=dev yarn app-config vars --secrets
+clear
+cd ..
+clear
+cd
+clear
+lsa 
+lsa .gnupg
+rm -rf .gnupg
+clear
+clear
+app-config secret init
+app-config secret reset
+app-config secret init
+app-config secret export ./my-key
+lsa
+lsa
+bat ./my-key
+cd Documents/launchcode/mudtrac-monorepo
+cd ..
+rm -rf mudtrac-monorepo
+cd
+cat ./my-key
+cd Documents/launchcode
+lsa
+lsa
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+cd mudtrac-monorepo/
+yarn 
+app-config secret trust ~/my-key
+cd
+lvim my-key
+lvim my-key
+app-config secret trust ~/my-key
+lvim my-key
+clear
+cd -
+yarn cli setup
+yarn app-config secret agent
+echo $PATH | grep -i yarn
+cd
+cd .yarn/bin
+lsa
+rm -rf app-config
+yarn global add @app-config/cli\
+
+cd -
+cd Documents/launchcode/mudtrac-monorepo
+yarn services:start
+yarn app-config secret agent
+yarn app-config secret agent
+app-config secret reset
+clear
+app-config secret init
+clear
+app-config secret reset
+app-config secret init
+clear
+npm login --registry https://npm.servalldatasystems.com
+sudo pacman -Rns docker docker-compose
+reboot
+startx
+yarn services:start
+cd .
+clear
+cd ..
+clear
+lsa
+cd mudtrac-monorepo
+cd
+lsa .gn
+file .gn
+lsa
+lsa .ssh
+cd ss
+cd .ssh
+rm my-key
+cd ..
+clear
+sudo pacman -S docker docker-compose
+clear
+systemctl status docker
+yarn global add @app-config/cli\
+
+app-config secret init
+cd Documents/launchcode/mudtrac-monorepo
+app-config secret trust ./my-key
+app-config secret export ./my-key
+rm -rf my-key
+app-config secret export ./my-key
+app-config secret trust ./my-key
+clear
+yarn app-config secret agent
+git checkout MUD-43-manage-mud-trac-user-list
+git stash
+git checkout MUD-43-manage-mud-trac-user-list
+git stash apply
+app-config secret show
+app-config secret key
+yarn app-config secret agent
+git checkout develop
+git status
+git checkout develop
+yarn
+clear
+l
+rm -rf yarn.lock
+claer
+cd ..
+rm -rf mudtrac-monorepo
+claer
+clear
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+yarn global remove @app-config/cli
+yarn cache clean
+npx npkill
+cd
+npx npkill
+clear
+clear
+clear
+cd .config
+lsa
+rm -rf app-config
+cd
+find ./ -name app-config
+find / -name app-config
+clear
+find ./ -name yarn
+cd .yarn
+lsa
+cd bin
+lsa
+clear
+cd
+cd Documents
+lsa
+cd launchcode
+lsa
+clear
+cd mudtrac-monorepo
+lsa
+yarn global add @app-config/cli\
+
+docker ps
+_ systemctl start docker
+docker ps
+docker prune
+docker volume
+docker volume ls
+docker volume rm $(docker volume ls -q)
+docker stop
+docker docker kill $(docker ps -q)
+docker kill $(docker ps -q)
+docker ps -q
+docker volume rm $(docker volume ls -q)
+docker-compose down --volumes
+docker volume rm $(docker volume ls -q)
+docker volume ls
+docker ps
+reboot
+fnm
+fnm list
+fnm list-remote
+fnm list
+fnm uninstall 16
+fnm uninstall 16.0
+fnm uninstall 16.1
+fnm uninstall 16.10
+fnm uninstall 18.10
+fnm list
+fnm install 16.10
+fnm default 16.10
+fnm current
+clear
+exit
+startx
+app-config secret init
+app-config secret export ./my-key
+app-config secret trust ./my-key
+cd Documents
+cd launchcode
+lsa
+clear
+cd mudtrac-monorepo
+yarn
+yarn cli setup
+app-config secret key
+cd ..
+rm -rf mudtrac-monorepo
+clear
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+cd d
+cd mudtrac-monorepo
+git checkout MUD-43-manage-mud-trac-user-list
+yarn
+app-config secret key
+yarn cli setup
+yarn app-config secret agent
+yarn app-config secret reset
+yarn app-config secret init
+cd
+app-config secret export ./my-key
+gpg --import ./my-key
+clear
+lsa
+cd Documents/launchcode/
+lsa
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+cd mudtrac-monorepo
+git checkout MUD-43-manage-mud-trac-user-list
+git pull
+git pull origin develop
+git config pull.rebase false
+git pull origin develop
+git status
+sudo pacman -Rnsu code
+cd
+npx npkill
+yarn cache clean
+npx npkill
+clear
+bleachbit
+docker volume ls
+docker-compose volumes ld
+docker-compose volumes ls
+docker-compose volume sl
+docker-compose volume ls
+docker-compose images
+clear
+yarn cli setup
+yarn app-config secret decrypt APP_CONFIG_DATABASE_URL
+yarn app-config generate
+ENV=dev yarn app-config vars -s
+yarn app-config vars --secrets
+ENV=dev yarn app-config vars --secrets
+lsa
+clear
+lsa
+sudo pacman -Rnsu git
+sudo pacman -Rns git
+sudo pacman -S git
+cd ..
+rm -rf mudtrac-monorepo
+yarn
+npm install --global yarn
+clear
+cd .config
+lsa
+cd
+find ./ -name app-config
+lsa .config/app-config
+lsa .config/app-config/
+lsa .config/app-config/keychain
+yarn global remove @app-config/cli
+find ./ -name app-config
+rm -rf .config/app-config .yarn/bin/app-config
+find ./ -name app-config
+cd /
+find ./ -name app-config
+_ find ./ -name app-config
+rm -rf /media/Data/xraydisk-1tb/fparad0x/.config/app-config
+rm -rf /media/Data/xraydisk-1tb/fparad0x/Documents/launchcode/*
+clear
+cd
+npx 
+npx npkill
+find -regextype sed -regex "\@app-config\/(.*+)?"
+find -regextype sed -regex "\@?app-config\/(.*+)?"
+find -regextype sed -regex "\@?app-config(\/.*+)?"
+find / -regextype sed -regex "\@?app-config\/(.*+)?"
+_ find / -regextype sed -regex "\@?app-config\/(.*+)?"
+find --help
+_ find / -regextype sed -regex "\@?app-config\/(.*+)?" -maxdepth 20
+cd
+_ find ./ --maxdepth=20 -regextype sed -regex "\@?app-config\/(.*+)?" -maxdepth 20
+_ find ./ --maxdepth 20 -regextype sed -regex "\@?app-config\/(.*+)?"
+_ find ./ -maxdepth 20 -regextype sed -regex "\@?app-config\/(.*+)?"
+clear
+cd .config/i3
+lvim config
+exit
+startx
+startx
+reboot
+cd
+cd .mpd
+ls
+lsa
+lsa playlists
+cd .config/mpd
+lvim mpd.conf
+startx
+clear
+find -regextype sed -regex "code"
+find . -name code
+sudo pacman -Sc
+clear
+sudo pacman -S codee
+sudo pacman -S code
+git rm --cached
+git rm -r --cached .
+lsa .cache/event-sound-cache.tdb.d1d9ec2036504b9d92bd2566dadc54c2.x86_64-pc-linux-gnu
+lsa .cache/git
+lsa /var/cache/
+clear
+sudo pacman -Rnscu code
+lsa
+lsa .config/
+rm -rf .config/Code\ -\ OSS
+clear
+sudo pacman -S code
+lsa .config
+lsa .local/share
+lsa .local/share/applications
+	lsa .local
+lsa .local/lib
+lsa .local/bin
+lsa .local/share
+lsa .local/share/Trash
+clear
+find . -name asvetliakov
+find . -name prisma
+find . -name Prisma
+rm -rf .vscode-oss
+clear
+dmenu
+paru -Ss openrgb
+paru -S openrgb-bin
+clear
+htop
+neofetch
+clear
+killall openrgb
+htop
+clear
+cd Documents/launchcode/mudtrac-monorepo
+lsa
+clear
+lsa
+cd ..
+rm -rf mudtrac-monorepo
+clear
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+cd mudtrac-monorepo
+git checkout MUD-43-manage-mud-trac-user-list
+yarn install
+yarn global add @app-config/cli
+exit
+startx
+yarn cli setup
+yarn services:start
+lsa .config/
+lsa
+rm -rf .app-config.meta.yml
+history | fzf
+sudo pacman -Ss fzf
+sudo pacman -S fzf
+clear
+history | fzf
+clear
+find -regextype sed -regex "(.*)?app-config(.*+)?"
+touch .app-config.meta.yml
+find -regextype sed -regex "(.*)?app-config(.*+)?"
+find -regextype sed -regex ".?app-config(.*+)?"
+find -regextype sed -regex "(.?)app-config(.*+)?"
+find -regextype sed -regex "app-config(.*+)?"
+find . -regextype sed -regex "app-config(.*+)?"
+find . -regextype sed -regex "(.?)app-config(.*+)?"
+find . -iname app-config
+find . -iname .app-config
+find . -iname .app-config.*
+rm .app-config.meta.yml
+clear
+ app-config secret init
+clear
+app-config secret export ./my-key
+app-config secret trust ./my-key
+cd Documents/launchcode/mudtrac-monorepo
+yarn install
+yarn app-config secret agent
+startx
+cd Documents/launchcode/mudtrac-monorepo
+cp ~/my-key .
+app-config secret trust ./my-key
+yarn app-config secret trust ./my-key
+sudo pacman -Qs gnupg
+sudo pacman -Qs gpg
+bat .zsh-history
+ lsa .gnupg
+exit
+cd
+lsa
+bat .zshrc.zni
+lsa .gnupg
+lsa .gnupg/private-keys-v1.d
+rm -rf .config/app-config
+app-config secrets key
+cd Documents/launchcode/mudtrac-monorepo
+clear
+yarn api
+yarn services:start
+yarn
+npm install
+yarn
+npx npkill
+yarn
+yarn global add @app-config/cli
+app-config secrets init
+yarn app-config secret export ./ericks-key
+yarn app-config secret turst ./ericks-key
+yarn app-config secret trust ./ericks-key
+git checkout MUD-43-manage-mud-trac-user-list
+clear
+yarn 
+yarn app-config secret init
+yarn app-config secret reset
+yarn app-config secret init
+yarn app-config secret export ./ericks-key
+lsa
+rm erick-key
+rm ericks-key
+lsa
+yarn app-config secret export ./app-config-key
+yarn app-config secret trust ./app-config-key
+yarn app-config secret agent
+app-config secrets untrust erick@lc.dev
+yarn global bin
+cd $(yarn global bin)
+lsa
+rm -rf *.
+rm -rf *
+lsa
+fnm current
+yarn
+lsa
+rm -rf *
+yarn global add pnpm @app-config/cli
+lsa
+cd
+cd Documents/launchcode/mudtrac-monorepo
+lsa
+yarn app-config secret reset
+yarn app-config secret init
+lsa
+rm -rf app-config-key
+app-config secrets export ./my-key
+bat my-key
+app-config secrets trust my-key
+clear
+yarn
+cd ..
+rm -rf mudtrac-monorepo
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+cd mudtrac-monorepo
+lksa
+lsa
+yarn
+yarn global add pnpm @app-config/cli
+app-config secret init
+yarn app-config secret export ./app-config-key
+yarn app-config secret trust ./app-config-key
+cat ./my-key
+lsa
+bat app-config-key
+yarn app-config secret trust ./app-config-key
+systemctl journald
+journal
+dmesg
+_ dmesg
+exit
+cd Documents/launchcode/mudtrac-monorepo
+lsa
+cd ..
+sudo pacman -Ss discord
+sudo pacman -S discord
+clear
+lsa
+cd mudtrac-monorepo
+app-config secret reset
+clear
+app-config secret init
+app-config secret export ./my-key
+app-config secret export ./my-key2
+yarn app-config secret trust ./my-key2
+clear
+cd ..
+rm -rf mudtrac-monorepo
+git clone ssh://git@gitlab.servalldatasystems.com:2222/mudtrac/mudtrac-monorepo.git
+app-config secret key
+app-config secret reset
+lsa
+cd
+lsa
+rm -rf my-key
+lsa .config/app-config
+lvim .config/app-config/settings.yml
+cd ..
+cd
+rm -rf .config/app-config
+clear
+lsa
+rm -rf .app-config.meta.yml
+lsa
+clear
+lsa
+app-config secret init\\
+
+lsa
+app-config secret init
+cd Documents/launchcode/mudtrac-monorepo
+yarn app-config secret export ./erick-key
+yarn
+yarn app-config secret export ./erick-key
+yarn app-config secret trust ./erick-key
+yarn app-config secrets trust ./erick-key
+clear
+yarn app-config secret agent\
+
+yarn global add @app-config/cli
+fnm uninstall 16.10-
+fnm uninstall 16.10
+clear
+fnm list
+fnm list-remote
+fnm install 16.17
+npm install --global yarn
+cd
+rm -rf .config/app-config
+cd .yarn/bin
+lsa
+file app-config
+cd
+cd .config/yarn/global/
+lsa
+yarn
+cd node_modules
+lsa
+cd app-config
+file app-config
+cd ..
+lsa
+bat package.json
+cd ..
+lsa
+cd global
+lsa
+yarn global remove @app-config/cli
+lsa
+lsa
+lsa node_modules
+cd
+rm -rf .config/yarn
+yarn global add @app-config/cli
+cd Documents/launchcode/mudtrac-monorepo
+lsa
+yarn services:start
+systemctl status docker
+cd
+lsa
+ls
+ls -la
+lsa
+rm -rf .cache/yarn
+cd .config/yarn
+lsa
+cd ..
+rm -rf yarn
+cd yarn
+lsa
+cd global
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+lsa
+bat package.json
+lsa node_modules
+cd pac
+lsa
+cd node_modules
+lsa
+clear
+lsa
+cd @app-config
+lsa
+code .
+cd ..
+lsa
+exit
+cd
+clear
+cd .config/app-config
+lsa
+cd ..
+rm -rf app-config
+exit
+fsck
+exit
+cd .config/i3
+lvim config
+exit
+startx

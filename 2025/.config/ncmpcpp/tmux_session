@@ -1,0 +1,7 @@
+neww
+set -g status off
+send-keys 'ncmpcpp' C-m
+split-window -h
+resize-pane -t 0 -x 35
+select-pane -t 2
+send-keys '~/.ncmpcpp/image.sh' C-m

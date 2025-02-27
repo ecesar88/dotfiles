@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="52"
+   height="52"
+   viewBox="0 0 52 52"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="ok-sys.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   inkscape:export-filename="/home/zsucrilhos/_my-scripts/_icons/ok-sys.png"
+   inkscape:export-xdpi="95.699997"
+   inkscape:export-ydpi="95.699997">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1358"
+     inkscape:window-height="728"
+     id="namedview9"
+     showgrid="false"
+     inkscape:zoom="7.375"
+     inkscape:cx="17.744266"
+     inkscape:cy="28.583281"
+     inkscape:window-x="5"
+     inkscape:window-y="35"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg7" />
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#d3dae3; } .ColorScheme-Highlight { color:#4285f4; }
+  </style>
+  </defs>
+  <path
+     style="color:#d3dae3;fill:#2e3440;stroke-width:4.06119442;fill-opacity:1"
+     class="ColorScheme-Text"
+     d="m 47.155744,4.4000224 c -0.390728,-0.073426 -0.796482,-0.07765 -1.213599,0.00812 -0.888914,0.1920945 -1.708098,0.6925555 -2.284422,1.3960356 L 18.148344,34.994017 9.010656,25.856329 c -1.5283493,-1.528552 -4.309334,-1.528431 -5.8379672,0 -1.528431,1.528471 -1.5285524,4.309334 0,5.837967 l 12.1835842,12.183584 3.172808,3.045896 2.792071,-3.299721 28.428363,-32.489556 c 2.016351,-2.1951332 0.14133,-6.2203943 -2.593771,-6.7342857 z"
+     id="path5"
+     inkscape:connector-curvature="0" />
+</svg>

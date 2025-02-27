@@ -1,0 +1,182 @@
+{
+	"name": "EditorConfig",
+	"displayName": "EditorConfig for VS Code",
+	"description": "EditorConfig Support for Visual Studio Code",
+	"publisher": "EditorConfig",
+	"version": "0.16.4",
+	"icon": "EditorConfig_icon.png",
+	"engines": {
+		"vscode": "^1.51.1"
+	},
+	"author": "EditorConfig Team",
+	"license": "MIT",
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"editor",
+		"config",
+		"multi-root ready"
+	],
+	"homepage": "https://github.com/editorconfig/editorconfig-vscode/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/editorconfig/editorconfig-vscode.git"
+	},
+	"bugs": {
+		"url": "https://github.com/editorconfig/editorconfig-vscode/issues"
+	},
+	"galleryBanner": {
+		"color": "#37699A",
+		"theme": "dark"
+	},
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/editorConfigMain.js",
+	"types": "./out/editorConfigMain.d.ts",
+	"contributes": {
+		"commands": [
+			{
+				"command": "EditorConfig.generate",
+				"title": "Generate .editorconfig"
+			}
+		],
+		"configuration": {
+			"title": "EditorConfig",
+			"properties": {
+				"editorconfig.generateAuto": {
+					"type": "boolean",
+					"default": true,
+					"description": "Automatically generates an .editorconfig file according to your current editor settings."
+				},
+				"editorconfig.template": {
+					"type": "string",
+					"default": "default",
+					"description": "If generateAuto is false, this template path will be used for each newly-generated .editorconfig file."
+				}
+			}
+		},
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "EditorConfig.generate",
+					"when": "explorerResourceIsFolder"
+				}
+			],
+			"explorer/context": [
+				{
+					"command": "EditorConfig.generate",
+					"when": "explorerResourceIsFolder",
+					"group": "EditorConfig@1"
+				}
+			]
+		},
+		"languages": [
+			{
+				"id": "editorconfig",
+				"extensions": [
+					".editorconfig"
+				],
+				"aliases": [
+					"EditorConfig",
+					"editorconfig"
+				],
+				"filenames": [],
+				"configuration": "./editorconfig.language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "editorconfig",
+				"scopeName": "source.editorconfig",
+				"path": "./syntaxes/editorconfig.tmLanguage.json"
+			}
+		]
+	},
+	"dependencies": {
+		"editorconfig": "^0.15"
+	},
+	"devDependencies": {
+		"@types/glob": "^7",
+		"@types/mocha": "^8",
+		"@types/node": "^14",
+		"@types/vscode": "^1",
+		"@typescript-eslint/eslint-plugin": "^4",
+		"@typescript-eslint/parser": "^4",
+		"eslint": "^7",
+		"eslint-config-prettier": "^6",
+		"eslint-config-xo": "^0.33",
+		"eslint-plugin-prettier": "^3",
+		"glob": "^7",
+		"husky": "^4",
+		"lint-staged": "^10",
+		"mocha": "^8",
+		"prettier": "^2",
+		"rimraf": "^3",
+		"typescript": "^4",
+		"vscode-test": "^1",
+		"vscode-test-utils": "^1"
+	},
+	"scripts": {
+		"clean": "rimraf out",
+		"prebuild": "npm run clean",
+		"build": "tsc",
+		"postbuild": "cp -r src/test/suite/fixtures out/test/suite && cp src/DefaultTemplate.editorconfig out",
+		"lint": "eslint src/**/*.ts",
+		"pretest": "npm run lint && npm run build",
+		"prewatch": "npm run build",
+		"watch": "tsc -watch",
+		"check-types": "tsc --noEmit",
+		"test": "node out/test/runTest.js",
+		"vscode:prepublish": "npm run build"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged",
+			"pre-push": "npm run lint && npm run check-types"
+		}
+	},
+	"lint-staged": {
+		"*.ts": [
+			"eslint --fix",
+			"prettier --write",
+			"git add"
+		],
+		"*.{json,md}": [
+			"prettier --write",
+			"git add"
+		],
+		"*.js": [
+			"git reset"
+		]
+	},
+	"eslintConfig": {
+		"extends": [
+			"xo",
+			"prettier"
+		],
+		"env": {
+			"jest": true,
+			"node": true
+		},
+		"rules": {
+			"prettier/prettier": "error"
+		},
+		"plugins": [
+			"prettier"
+		]
+	},
+	"prettier": {
+		"arrowParens": "avoid",
+		"proseWrap": "always",
+		"semi": false,
+		"singleQuote": true,
+		"trailingComma": "all"
+	},
+	"__metadata": {
+		"id": "f60a60a6-95ba-42d4-b41c-3d24c1b89588",
+		"publisherId": "1ed869e4-8588-4af4-a51e-9c1c86b034b9",
+		"publisherDisplayName": null
+	}
+}

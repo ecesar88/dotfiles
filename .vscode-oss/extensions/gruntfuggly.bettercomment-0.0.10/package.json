@@ -1,0 +1,68 @@
+{
+	"name": "bettercomment",
+	"displayName": "Better Comment",
+	"description": "Toggle block or line comments depending on cursor position",
+	"icon": "icon.png",
+	"version": "0.0.10",
+	"publisher": "Gruntfuggly",
+	"repository": "https://github.com/Gruntfuggly/bettercomment",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "bettercomment.toggle",
+				"title": "Better Comment"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "bettercomment.toggle",
+				"key": "ctrl+/",
+				"mac": "cmd+/",
+				"when": "editorTextFocus && !editorReadonly"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Better Comment configuration",
+			"properties": {
+				"betterComment.forcedLineComment": {
+					"type": "array",
+					"description": "Glob patterns to match files that should have block comments treated as multiple line comments ",
+					"default": [
+						"**/*.xml",
+						"**/*.html",
+						"**/*.css",
+						"**/*.md"
+					]
+				}
+			}
+		}
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.32",
+		"@types/node": "^6.0.40",
+		"eslint": "^4.18.2",
+		"mocha": "^7.1.0",
+		"typescript": "^2.0.3",
+		"vscode": "^1.1.36"
+	},
+	"__metadata": {
+		"id": "515c294e-f858-41d3-8714-7d7242bb8d9a",
+		"publisherId": "d4906d2e-f2ee-492d-9c7c-02b6160599ec",
+		"publisherDisplayName": null
+	},
+	"dependencies": {
+		"minimatch": "^3.0.4"
+	}
+}

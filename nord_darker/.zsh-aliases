@@ -1,0 +1,22 @@
+alias sxiv="sxiv -asf"
+alias k="k -h"
+alias zsh-config="nvim ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
+alias i3-config="nvim ~/.config/i3/config"
+alias polybar-config="nvim ~/.config/polybar/config"
+alias cdmysources="cd ~/_my-sources"
+alias cdmyscripts="cd ~/_my-scripts"
+alias fbg="feh --bg-fill"
+
+alias mkdir="mkdir -v"
+alias cp="cp -v"
+alias mv="mv -v"
+
+alias lsa="exa -la"
+alias cdmusicd="cd /my-disks/160g/Downloads/_MyMusic(D)/"
+alias cdmusice="cd /my-disks/681g/Downloads/_MyMusic(E)/"
+
+alias tmux="tmux -2"  # for 256color
+
+alias ix.io="curl -F 'f:1=<-' ix.io"
+

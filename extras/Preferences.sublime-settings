@@ -1,0 +1,26 @@
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+	"font_face": "Monoid, xFira Code",
+	"ignored_packages":
+	[
+		"Pylinter",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"material_theme_contrast_mode": true,
+	"overlay_scroll_bars": "disabled",
+	"rulers":
+	[
+		80,
+		90,
+		95
+	],
+	"tab_size": 4,
+	"theme": "Material-Theme-Palenight.sublime-theme"
+}

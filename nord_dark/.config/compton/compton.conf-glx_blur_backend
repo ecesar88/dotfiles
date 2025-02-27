@@ -1,0 +1,105 @@
+backend = "glx";
+
+fading = true;
+fade-in-step = 0.08;
+fade-out-step = 0.08;
+
+dbe = false;
+unredir-if-possible = true;
+detect-transient = true;
+
+detect-client-opacity = true;
+glx-copy-from-front = false;
+glx-no-rebind-pixmap = true;
+glx-no-stencil = true;
+glx-swap-method = "undefined";
+glx-use-gpushader4 = true;
+mark-wmwin-focused = true;
+paint-on-overlay = true;
+use-ewmh-active-win = true;
+vsync = "opengl-swc";
+
+shadow = true;
+clear-shadow = true;
+no-dnd-shadow = true;
+no-dock-shadow = true;
+shadow-ignore-shaped = true;
+shadow-offset-x = -8;
+shadow-offset-y = -8;
+shadow-opacity = 1.0;
+shadow-radius = 9;
+
+menu-opacity = 1;
+inactive-opacity = 0.6;
+active-opacity = 1.0;
+frame-opacity = 0.4;
+inactive-opacity-override = false;
+alpha-step = 0.06;
+
+#opacity-rule = [ "40:class_g = 'rofi'"  
+
+# Dim inactive windows. (0.0 - 1.0)
+inactive-dim = 0.2;
+# Do not let dimness adjust based on window opacity.
+inactive-dim-fixed = true;
+# Available options: 5x5box, 7x7box, 3x3gaussian, 5x5gaussian, 7x7gaussian, 9x9gaussian y 11x11gaussian. 
+#blur-kern = "9x9gaussian";
+blur-method = "kawase";
+blur-strength = 12;
+#
+# Blur background of transparent windows. Bad performance with X Render backend. GLX backend is preferred.
+blur-background = true;
+# Blur background of opaque windows with transparent frames as well.
+blur-background-frame = true;
+# Do not let blur radius adjust based on window opacity.
+blur-background-fixed = false;
+
+shadow-exclude = [
+	"class_g *= 'Rofi'",
+	"class_i *= 'lemonbar'",
+	"class_i *= 'tray'",
+	"class_i *= 'conky'",
+	"class_g *= 'Compton'",
+	"class_g *= 'compton'",
+	"class_g *= 'conky'",
+	"class_g = 'Chromium' && argb",
+	"class_g = 'Firefox' && argb",
+	"class_g ?= 'maim'",
+	#"!focused",
+	"fullscreen",
+	"width >= 1920",
+	"window_type *= 'normal' && ! name ~= ''"
+];
+
+focus-exclude = [
+	"name *= 'rofi'",
+	"class_i = 'Popup'",
+
+	"class_g = 'mpv'"
+];
+
+blur-background-exclude = [
+	"window_type = 'desktop'",
+	"class_i *= 'tray'",
+	"class_g = 'Firefox' && argb",
+	"class_g = 'conky'",
+	"class_g ?= 'maim'",
+	"class_g ?= 'slop'",
+	"class_g = 'vlc'",
+	"class_g = 'plexmediaplayer'"
+];
+
+fade-exclude = [
+	"width >= 1920",
+	"fullscreen"
+];
+
+opacity-rule = [
+	"80:class_g = 'Termite'",
+	"80:class_g = 'Polybar'",
+    "99:_NET_WM_STATE@[0]:32a = '_NET_WM_STATE_FULLSCREEN'",
+    "99:_NET_WM_STATE@[1]:32a = '_NET_WM_STATE_FULLSCREEN'",
+    "99:_NET_WM_STATE@[2]:32a = '_NET_WM_STATE_FULLSCREEN'",
+    "99:_NET_WM_STATE@[3]:32a = '_NET_WM_STATE_FULLSCREEN'",
+    "99:_NET_WM_STATE@[4]:32a = '_NET_WM_STATE_FULLSCREEN'",
+];

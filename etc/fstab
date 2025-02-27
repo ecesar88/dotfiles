@@ -1,0 +1,27 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sdc3
+UUID=8bf078ab-8f81-4954-934b-08712fc07b39	/         	ext4      	rw,relatime	0 1
+
+# /dev/sdc1
+UUID=229C-EFC9      	/efi      	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sdc2
+UUID=36a6592b-934d-4353-925b-1be294df9809	none      	swap      	defaults  	0 0
+
+#####################################################################################################################################################
+
+# /dev/sda3 - Kingston UV400 120G (Windows Desktop)
+UUID=A24A86704A864151				/mnt/120g	ntfs-3g defaults,nls=utf8,umask=000,dmask=027,fmask=137,uid=1000,gid=1000,windows_names,nofail 0 0 
+
+# /dev/sdb1 - WD Blue 1TB HDD
+UUID=07FC056607FC0566				/mnt/1TbWD	ntfs-3g defaults,nls=utf8,umask=000,dmask=027,fmask=137,uid=1000,gid=1000,windows_names,nofail 0 0 
+
+# /dev/sdd1 - Seagate 1.4TB HDD - Mainly Games
+#UUID=0AC316860AC31686				/mnt/1.4TbSeagate	ntfs-3g defaults,nls=utf8,umask=000,dmask=027,fmask=137,uid=1000,gid=1000,windows_names,nofail 0 0 
+
+# /dev/sde1 - Maxtor 160GB HDD
+#UUID=d91713e3-f7e4-49b8-a744-68c533eee7b7       /mnt/160gMaxtor 	ntfs-3g defaults,nls=utf8,umask=000,dmask=027,fmask=137,uid=1000,gid=1000,windows_names,nofail 0 0 
+

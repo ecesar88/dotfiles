@@ -1,0 +1,152 @@
+{
+	"name": "vscode-color",
+	"version": "0.4.5",
+	"displayName": "Color Picker",
+	"description": "Helper with GUI to generate color codes such as CSS color notations.",
+	"keywords": [
+		"color",
+		"picker",
+		"convert",
+		"palette",
+		"dialog"
+	],
+	"categories": [
+		"Other"
+	],
+	"icon": "icon.png",
+	"badges": [
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/version-short/anseki.vscode-color.svg",
+			"href": "https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color",
+			"description": "VS Marketplace"
+		},
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/installs-short/anseki.vscode-color.svg",
+			"href": "https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color",
+			"description": "installs"
+		},
+		{
+			"url": "https://img.shields.io/github/issues/anseki/vscode-color.svg",
+			"href": "https://github.com/anseki/vscode-color/issues",
+			"description": "GitHub issues"
+		},
+		{
+			"url": "https://img.shields.io/david/anseki/vscode-color.svg",
+			"href": "package.json",
+			"description": "David"
+		},
+		{
+			"url": "https://img.shields.io/badge/license-MIT-blue.svg",
+			"href": "LICENSE-MIT",
+			"description": "license"
+		}
+	],
+	"qna": "https://github.com/anseki/vscode-color/issues",
+	"main": "./extension",
+	"extensionMain": "./lib/color-helper",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"dependencies": {
+		"comma-separated-values": "^3.6.4",
+		"electron-prebuilt": "0.37.3",
+		"js-yaml": "^3.8.3",
+		"process-bridge": "^0.3.6"
+	},
+	"devDependencies": {
+		"asar": "^0.11.0",
+		"clean-css": "^4.0.11",
+		"grunt": "^0.4.5",
+		"grunt-contrib-clean": "^1.0.0",
+		"grunt-contrib-copy": "^0.8.2",
+		"grunt-task-helper": "^0.3.9",
+		"htmlclean": "^3.0.2",
+		"jquery": "^2.2.2",
+		"stats-filelist": "^1.0.0",
+		"vscode": "0.10.x"
+	},
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.colorHelper.pick",
+				"title": "Pick Color"
+			},
+			{
+				"command": "extension.colorHelper.convert",
+				"title": "Convert Color"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.colorHelper.pick",
+				"key": "alt+c p",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "extension.colorHelper.convert",
+				"key": "alt+c c",
+				"when": "editorTextFocus"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Color Picker configuration",
+			"properties": {
+				"colorHelper.pickerForm": {
+					"type": "string",
+					"default": "default",
+					"description": "A name of preset package that switches UI and features. Allowed values are \"default\", \"largePalette\", \"simple\", \"compact\", \"compact2\" or \"byPalette\"."
+				},
+				"colorHelper.storeDir": {
+					"type": "string",
+					"default": "",
+					"description": "A path to directory that contains your color palettes. For information about color palettes, see `README.md` that is found in that directory."
+				},
+				"colorHelper.resident": {
+					"type": "boolean",
+					"default": false,
+					"description": "Stands by for a quick response. After the dialog box is opened, it stays in memory even after it is closed until VS Code is exited (or VS Code might unload it)."
+				},
+				"colorHelper.formatsOrder": {
+					"type": "array",
+					"default": [],
+					"description": "An array that indicates the order of formats in UI (e.g. drop-down list). Allowed items are \"hsb\", \"hsl\", \"hwb\", \"rgb\", \"hex\", \"named\", \"cmyk\" or \"gray\". This array doesn't have to contain all formats. The formats that are not contained in the array are moved to the top of the list in UI automatically when it was used. If you want to make the list static, specify all formats in the order you desire, e.g. [\"hsb\", \"hsl\", \"hwb\", \"rgb\", \"hex\", \"named\", \"cmyk\", \"gray\"]."
+				},
+				"colorHelper.disableGpu": {
+					"type": "number",
+					"default": -1,
+					"description": "1: Disable GPU / 0: System default / -1: Auto"
+				},
+				"colorHelper.disableShadow": {
+					"type": "boolean",
+					"default": false,
+					"description": "Disable drop shadow effect."
+				},
+				"colorHelper.disableTransparent": {
+					"type": "boolean",
+					"default": false,
+					"description": "Disable transparent window."
+				}
+			}
+		}
+	},
+	"activationEvents": [
+		"onCommand:extension.colorHelper.pick",
+		"onCommand:extension.colorHelper.convert"
+	],
+	"homepage": "https://github.com/anseki/vscode-color",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/anseki/vscode-color.git"
+	},
+	"bugs": {
+		"url": "https://github.com/anseki/vscode-color/issues"
+	},
+	"license": "MIT",
+	"publisher": "anseki",
+	"__metadata": {
+		"id": "37d7747f-e652-4eac-83de-f2939f7e2121",
+		"publisherId": "438bb7a7-6997-47eb-b23b-72c3ba845702",
+		"publisherDisplayName": null
+	}
+}

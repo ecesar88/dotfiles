@@ -1,0 +1,5 @@
+starship prompt
+zplug
+oh-my-tmux
+oh-my-zsh
+

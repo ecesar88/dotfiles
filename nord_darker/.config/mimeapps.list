@@ -1,0 +1,26 @@
+[Added Associations]
+application/json=sublime_text_3.desktop;
+application/octet-stream=sublime_text_3.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+application/vnd.corel-draw=inkscape.desktop;
+application/vnd.rar=org.gnome.FileRoller.desktop;
+application/x-theme=sublime_text_3.desktop;
+application/x-xz-compressed-tar=org.gnome.FileRoller.desktop;
+application/x-yaml=sublime_text_3.desktop;
+application/zip=org.gnome.FileRoller.desktop;org.kde.ark.desktop;peazip.desktop;
+audio/flac=clementine.desktop;vlc.desktop;
+audio/mpeg=clementine.desktop;mpv.desktop;org.kde.amarok.desktop;mplayer.desktop;
+image/gif=viewnior.desktop;feh.desktop;krita_gif.desktop;
+image/jpeg=pqiv.desktop;qpiv.desktop;sxiv.desktop;viewnior.desktop;feh.desktop;
+image/png=viewnior.desktop;xnviewmp.desktop;sxiv.desktop;krita_png.desktop;
+image/webp=sxiv.desktop;krita_qimageio.desktop;
+text/html=firefox.desktop;
+text/plain=sublime_text_3.desktop;mousepad.desktop;vim.desktop;
+video/mp2t=mpv.desktop;
+video/mp4=mpv.desktop;vlc.desktop;mplayer.desktop;
+video/webm=mpv.desktop;
+video/x-matroska=mpv.desktop;
+[Default Applications]
+image/webp=sxiv.desktop;
+inode/directory=caja.desktop
+

@@ -1,0 +1,307 @@
+1 - Set the keyboard layout
+
+	List all available layouts:
+		# ls /usr/share/kbd/keymaps/**/*.map.gz
+	
+	Select a layout:
+		# loadkeys de-latin1
+	
+
+2 - Connecting to internet (cable)
+
+	Start the services:
+		# systemctl status dhcpcd
+		# systemctl start dhcpcd
+
+	Check connection:
+		# ping www.google.com
+
+	If you're using wi-fi, start wifi-menu after starting the dhcpcd service
+	
+
+3 - Updating the system clock
+
+	Update the clock:
+		# timedatectl set-ntp true
+		
+		
+4 - Disk partitioning with fdisk:
+
+	#fdisk -l
+
+
+5 - Format the new partitions:
+	# mkfs.ext4 /dev/sdaX
+	
+
+6 - If you created a swap partition, initialize it now:
+	# mkswap /dev/sdaX
+	# swapon /dev/sdaX
+
+
+7 - Mount the filesystem:
+
+	# mount /dev/sdaX /mnt
+	
+	Create mount points for any other partitions:
+		# mkdir /mnt/boot
+		# mount /dev/sdaX /mnt/boot
+		
+		# mkdir /mnt/home
+		# mount /dev/sdaX /mnt/home
+	
+	genfstab will later detect mounted filesystems and the swap
+	
+	
+8 - Select the mirrors
+
+	/etc/pacman.d/mirrorlist
+
+	
+9 - Install the base packages
+	
+	# pacstrap /mnt base base-devel linux linux-firmware
+
+
+10 - Generate the fstab
+
+	# genfstab -U /mnt >> /mnt/etc/fstab
+	
+	Then check it
+	
+	
+11 - chroot
+
+	# arch-chroot /mnt
+	
+	
+12 - Set the timezone
+
+	# ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+	
+	Run hwclock(8) to generate /etc/adjtime: 
+		# hwclock --systohc			
+
+	---------------------------------------------------------------
+	
+	The hardware clock can be queried and set with the timedatectl command. You can see the current hardware clock time standard of the Arch system using: 
+			$ timedatectl | grep local
+			
+		To revert to the hardware clock being in UTC, type:
+			# timedatectl set-local-rtc 0
+
+		These generate /etc/adjtime automatically and update the RTC accordingly; no further configuration is required. 
+
+
+13 - Generate the locales
+
+	Create the /etc/locale.conf file, and set the LANG variable accordingly:
+			Add to the file:
+				LANG=en_US.UTF-8
+
+	Uncomment en_US.UTF-8 UTF-8 and other needed locales in /etc/locale.gen, and generate them with:
+		# locale-gen
+	
+	
+14 - Make the keyboard layout persistent
+	in /etc/vconsole.conf:
+			Add to the file:
+				KEYMAP=de-latin1
+				
+
+15 - Network Configuration
+	
+	Create the hostname file (/etc/hostname):
+		Add to the file:
+			myhostname
+
+	Add matching entries to /etc/hosts:
+
+		127.0.0.1	localhost
+		::1		    localhost
+		127.0.1.1	myhostname.localdomain	myhostname
+
+	If the system has a permanent IP address, it should be used instead of 127.0.1.1.
+	Complete the network configuration for the newly installed environment, that includes installing your preferred network management software. 
+
+
+16 - Set the root password
+
+	# passwd
+
+	
+17 - Create the users and set their passwords
+
+	# useradd -m -g users -G wheel -s /bin/bash <your username>
+	# passwd <your username>
+	
+	
+18 - Download and install grub:
+
+	# pacman -S grub os-prober efibootmgr ntfs-3g
+	# grub-install /dev/sda
+	
+	
+19 - Configure mkinitcpio
+
+	# mkinitcpio -p linux
+	'linux' above should be replaced with whatever kernel you're using
+	
+	
+20 - Configure grub
+
+	# grub-mkconfig -o /boot/grub/grub.cfg
+	
+	
+21 - Exit chroot
+
+	# exit
+
+
+22 - Umount all partitions and reboot the system
+
+	# umount -a
+	# reboot
+
+
+23 - Log-in as root
+
+24 - Set the keyboard layout 
+
+	# loadkeys br-abnt2
+	# mkdir /etc/X11/xorg.conf.d
+	# nano /etc/X11/xorg.conf.d/10-evdev.conf
+
+	The file should look like this: 
+	
+		Section InputClass
+			Identifier evdev "keyboard-hall"
+			MatchIsKeyboard "on"
+			MatchDevicePath "/dev/input/event"
+			Driver "evdev
+			Option XkbLayout "br"
+			Option XkbVariant "abnt2"
+		EndSection
+
+
+25 - Enable sudo in /etc/sudoers
+	
+	Search for root ALL=(ALL) ALL, and insert  <your username> ALL=(ALL) ALL below that line
+	
+	
+26 - Test and enable internet connection:
+
+	# ping -c3 www.google.com
+	# systemctl enable dhcpcd.service
+	# systemctl start dhcpcd
+
+    Enable wi-fi:
+		# systemctl enable NetworkManager.service
+		# systemctl start NetworkManager
+
+	Identify your network:
+		# nmcli dev wifi
+
+    Connect:
+		# nmcli device wifi connect <SSID> password <SENHA DO WiFi>
+
+27 - Install the following packages:
+    Ver nos dotfiles as listas de pacotes
+
+28 - Exit root and log-in as your user
+
+
+29 - Install yay
+	# git clone yay
+	# cd yay
+	# makepkg -si
+
+30 - Creating my folder structure
+
+	# mkdir /home/zsucrilhos/_my-disks
+	# mkdir /home/zsucrilhos/_my-scripts
+	# mkdir /home/zsucrilhos/_my-sources
+	# mkdir /home/zsucrilhos/Documents
+	# mkdir /home/zsucrilhos/Downloads
+	# mkdir /home/zsucrilhos/Music
+	# mkdir /home/zsucrilhos/Pictures
+	# mkdir /home/zsucrilhos/Screenshots
+	# mkdir /home/zsucrilhos/Videos
+	# mkdir /home/zsucrilhos/RemovableMedia
+	# mkdir /home/zsucrilhos/WindowsDesktop
+
+31 - Get the dotfiles
+
+	# cd /home/Downloads/_cloned-repos
+	# git clone https://github.com/zsucrilhos/dotfiles
+	# rsync -a dotfiles /home/zsucrilhos/
+
+32 - Set ZSH as the default shell
+	# chsh -s $(which zsh)
+
+33 - Install oh-my-zsh
+	
+	# sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+    And the plugins:
+
+        k:
+        	# git clone https://github.com/supercrabtree/k $ZSH_CUSTOM/plugins/k
+
+        alias-tips:
+            # cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
+            # git clone https://github.com/djui/alias-tips.git
+
+        zsh-autosuggestions: 
+			# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+		zsh-autocompletions:
+			# git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+34 - Install bspwm (Javyre's fork):
+
+	# git clone https://aur.archlinux.org/bspwm-git.git
+	
+    Change the source varible in the PKGBUILD to use Javyre's fork
+	
+    Compile and install the package with:
+		# makepkg -si
+
+35 - Instale o vim-plug:
+	# curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+35 - Put webcam and other hardware on the init's blacklist
+
+36 - Install polybar:
+
+	# yay -S polybar-git
+
+33 - Criando symlinks:
+	# ln -s /run/media/zsucrilhos RemovableMedia
+	# ln -s /home/zsucrilhos/_my-disks/249g/Users/ecesa/Desktop WindowsDesktop
+	
+	See music dirs links
+
+34 - Restore backed-up files
+
+35 - Reboot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

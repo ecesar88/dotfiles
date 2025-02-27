@@ -1,0 +1,57 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: stop
+current: 24
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:_MyMusic(D)/_Civilization Soundtrack Collection/Beginning a New Earth Music from the Official Trailer Sid Meier's Civilization Beyond Earth/01. Scooter Pietsch - Beginning a New Earth Music from the Official Trailer Sid Meier's Civilization Beyond Earth.mp3
+1:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/01. Geoff Knorr - The Seeding.mp3
+2:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/02. Geoff Knorr - Beyond Earth.mp3
+3:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/03. Geoff Knorr - The Lush Planet.mp3
+4:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/04. Griffin Cohen - The Lush Planet (Ambient Early).mp3
+5:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/05. Geoff Knorr - Beauty in the Eye of the Orbiter.mp3
+6:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/06. Geoff Knorr - Destroyer.mp3
+7:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/07. Griffin Cohen - The Lush Planet (Ambient Middle).mp3
+8:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/08. Geoff Knorr - Lux Perpetua.mp3
+9:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/09. Geoff Knorr - Benedicite.mp3
+10:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/10. Griffin Cohen - The Lush Planet (Ambient Late).mp3
+11:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/11. Geoff Knorr - Our New World.mp3
+12:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/12. Geoff Knorr - The Fungal Planet.mp3
+13:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/13. Griffin Cohen - The Fungal Planet (Ambient Early).mp3
+14:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/14. Geoff Knorr - Acclimation.mp3
+15:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/15. Geoff Knorr - Promethean.mp3
+16:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/16. Griffin Cohen - The Fungal Planet (Ambient Middle).mp3
+17:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/17. Geoff Knorr - Xenomalleum.mp3
+18:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/18. Griffin Cohen - The Fungal Planet (Ambient Late).mp3
+19:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/19. Geoff Knorr - A New Beginning.mp3
+20:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/20. Michael Curran - The Arid Planet.mp3
+21:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/21. Griffin Cohen - The Arid Planet (Ambient Early).mp3
+22:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/22. Grant Kirkhope - Solar Collector.mp3
+23:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/23. Grant Kirkhope - Dogmatic Engineering.mp3
+24:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/24. Griffin Cohen - The Arid Planet (Ambient Middle).mp3
+25:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/25. Grant Kirkhope - Xeno Titan.mp3
+26:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/26. Grant Kirkhope - The Signal.mp3
+27:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/27. Griffin Cohen - The Arid Planet (Ambient Late).mp3
+28:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/28. Grant Kirkhope - Deep Memory.mp3
+29:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/29. Michael Curran - Planetfall.mp3
+30:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/30. Griffin Cohen - Planetfall (Ambient Early 1).mp3
+31:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/31. Michael Curran - Alien Shores.mp3
+32:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/32. Michael Curran - Sky Mine.mp3
+33:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/33. Griffin Cohen - Planetfall (Ambient Early 2).mp3
+34:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/34. Michael Curran - Earth’s Ambassadors.mp3
+35:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/35. Michael Curran - O Muse.mp3
+36:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/36. Griffin Cohen - Planetfall (Ambient Middle).mp3
+37:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/37. Michael Curran - Deep Space.mp3
+38:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/38. Griffin Cohen - Planetfall (Ambient Late 1).mp3
+39:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/39. Michael Curran - Xenomancer.mp3
+40:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/40. Griffin Cohen - Planetfall (Ambient Late 2).mp3
+41:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/41. Griffin Cohen - Solid State Citizen.mp3
+42:_MyMusic(D)/_Civilization Soundtrack Collection/Sid Meier's Civilization Beyond Earth (Original Soundtrack from the Video Game)/42. Geoff Knorr - The Future of Mankind.mp3
+playlist_end

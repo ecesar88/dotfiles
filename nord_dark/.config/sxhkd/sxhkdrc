@@ -1,0 +1,239 @@
+#
+# wm independent hotkeys
+#
+
+# Open alacritty with tmux
+super + shift + Return
+	alacritty -e $SHELL -i -c tmux &
+
+# Open alacritty
+super + Return
+    alacritty &
+
+# program launcher
+super + d
+	rofi --config ~/.config/rofi/config -show drun -theme ~/.config/rofi/nord.rasi
+
+# make sxhkd reload its configuration files:
+super + shift + c
+	pkill -USR1 -x sxhkd && dunstify -u critical "sxhkd" "Configuration reloaded!"
+
+# resource bspwmrc
+super + shift + r
+    source /home/zsucrilhos/.config/bspwm/bspwmrc 
+
+# Volume bindings
+#   Volume up
+super + ctrl + Up
+    pactl set-sink-volume 0 +5%
+
+#   Volume down
+super + ctrl + Down
+    pactl set-sink-volume 0 -5%
+
+#   Previous  MPD track
+F5
+    mpc prev
+
+#   Pause MPD Playback
+F6
+    mpc pause
+
+#   Unpause MPD Playback
+F7
+    mpc play
+
+#   Next MPD track
+F8
+    mpc next
+
+# Open pavucontrol
+ctrl + m
+    pavucontrol &
+
+# Open pulseaudio eq
+ctrl + shift + m
+    pulseaudio-equalizer-gtk &
+##########################
+
+# General start-app bindings
+# start xfce4-appfinder
+super + shift + d
+    xfce4-appfinder
+
+# Start firefox
+super + F2
+    firefox & dunstify -i ~/_my-scripts/firefox-52px.png -u normal "Firefox" "Starting" &
+
+# Start qutebrowser
+super + shift + F2
+    qutebrowser & dunstify -i ~/_my-scripts/qutebrowser-52px.png -u normal "qutebrowser" "Starting" &
+
+# Start caja
+super + F5
+    caja &
+
+# Start ranger in xst
+super + shift + F5
+    alacritty -e $SHELL -i -c ranger &
+
+# Start ncmpcpp 
+super + F7
+    alacritty -e $SHELL -i -c ncmpcpp &
+
+super + shift + F7
+    cantata &
+
+# Start Telegram
+super + F6
+    telegram-desktop & dunstify -i ~/_my-scripts/telegram-52px.png -u normal "Telegram" "Starting" &
+
+# Take a screenshot with maim
+Print
+    ~/_my-scripts/maim-screenshot.sh
+
+# Take a screenshot of the selection with maim and slop
+shift + Print
+    ~/_my-scripts/maim-slice.sh
+
+alt + F12
+    bash ~/_my-scripts/ffmpeg-recording.sh 
+
+alt + F11
+    killall -2 ffmpeg &> /dev/null && dunstify -u critical "ffmpeg" "Recording finished and saved"
+
+super + ctrl + x
+    xkill
+
+# lock screen with betterlockscreen
+alt + shift + x
+    betterlockscreen -l
+
+super + shift + b
+    bspc node @/ --balance
+
+super + shift + ctrl + b
+    bspc node @/ --equalize
+
+# Increase/decrease window gap on focused desktop
+super + bracket{left,right}
+  bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5 ))
+
+#
+# bspwm hotkeys
+#
+
+# quit bspwm normally
+super + alt + Escape
+	bspc quit
+
+# close and kill
+super + {_,shift + }q
+	bspc node -{c,k}
+
+# alternate between the tiled and monocle layout
+super + m
+	bspc desktop -l next
+
+# send the newest marked node to the newest preselected node
+super + y
+	bspc node newest.marked.local -n newest.!automatic.local
+
+# swap the current node and the biggest node
+super + g
+	bspc node -s biggest
+
+# go to the next desktop
+alt + Tab
+    bspc node -f next .local
+    
+# go to the next desktop
+alt + shift + Tab
+    bspc node -f prev .local
+
+
+#
+# state/flags
+#
+
+# set the window state
+super + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# set the node flags
+super + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
+
+#
+# focus/swap
+#
+
+# focus the node in the given direction
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+# focus the node for the given path jump
+super + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+
+# focus the next/previous node in the current desktop
+super + {_,shift + }c
+	bspc node -f {next,prev}.local
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+# focus the last node/desktop
+super + {grave,Tab}
+	bspc {node,desktop} -f last
+
+# focus the older or newer node in the focus history
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+# rotate all the nodes in screen
+super + r
+    bspc node @/ -R 90
+
+#
+# preselect
+#
+
+# preselect the direction
+super + ctrl + {h,j,k,l}
+   bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+#
+# move/resize
+#
+
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# contract a window by moving one of its side inward
+super + alt + shift + {h,j,k,l}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+# move a floating window
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}

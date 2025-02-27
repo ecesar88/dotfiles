@@ -1,0 +1,33 @@
+alias cdmusicd='cd /my-disks/160g/Downloads/_MyMusic(D)/'
+alias cdmusice='cd /my-disks/681g/Downloads/_MyMusic(E)/'
+alias cdmyscripts='cd ~/_my-scripts'
+alias cdmysources='cd ~/_my-sources'
+alias cp='cp -v'
+alias cwd='echo fparad0x'
+alias fbg='feh --bg-fill'
+alias fsh-alias=fast-theme
+alias i3-config='nvim ~/.config/i3/config'
+alias ix.io='curl -F '\''f:1=<-'\'' ix.io'
+alias j=java
+alias jc=javac
+alias k='k -h'
+alias l="exa"
+alias lsa='exa -laF'
+alias mkdir='mkdir -v'
+alias mv='mv -v'
+alias ohmyzsh='nvim ~/.oh-my-zsh'
+alias pewpew=sudo
+alias please=sudo
+alias polybar-config='nvim ~/.config/polybar/config'
+alias run-help=man
+alias sxiv='sxiv -asf'
+alias tmux='tmux -2'
+alias tscRun='tsc \.ts && node \.js'
+alias which-command=whence
+alias xclip='xclip -i -selection clipboard'
+alias yd='yarn dev'
+alias ys='yarn start'
+alias z='_z 2>&1'
+alias zsh-config='nvim ~/.zshrc'
+alias _="sudo "
+

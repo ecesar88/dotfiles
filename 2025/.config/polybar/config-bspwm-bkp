@@ -1,0 +1,762 @@
+;=============================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/jaagr/polybar
+;
+;   The README contains alot of information
+;
+;=============================================================
+
+[colors]
+; Alha channel was 'cc'
+background = #002E3440
+background-alt = #22000000
+foreground = #D8DEE9
+foreground-alt = #8C8C8C
+primary = #84BAC9
+secondary = #5A6E85
+alert = #FFA000
+dimmed-text = #464E58
+
+dim-value = 0.4
+
+;background = #2E343F
+;background-alt = #2C323D
+;foreground = #D8DEE9
+;foreground-alt = #666666
+;primary = #7CADBC
+;secondary = #17728C
+;dimmed-text = #BCC0C5
+
+[hacks]
+;Allow padding of modules while keeping the formatted background colour we've set
+module-margin = "   "
+
+[bar/top]
+monitor = DVI-D-0
+width = 100%
+height = 25
+;offset-x = 1%
+;offset-y = 95%
+radius = 0
+fixed-center = true
+
+;border-bottom-size = 3
+;border-bottom-color = ${colors.primary}
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = ${colors.primary}
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = "Iosevka Medium:pixelsize=9;1:antialias=true;2"
+font-1 = "Material Icons:size=12;3"
+font-2 = "Hack Nerd Font:pixelsize=10;1:antialias=true;2"
+font-3 = "Material Design Icons:size=13;2"
+font-4 = "mononoki Nerd Font:size=10;1"
+
+modules-left = bspwm
+modules-center = xwindow
+modules-right = wireless-network filesystem temperature info-redshift-temp
+
+separator = 
+
+;tray-position = right
+;tray-padding = 5
+;tray-background = #16031F
+
+wm-restack = bspwm
+;wm-restack = i3
+
+override-redirect = false
+enable-ipc = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+;cursor-scroll = ns-resize
+
+[bar/bottom]
+monitor = DVI-D-0
+width = 100%
+height = 25
+;offset-x = 1%
+;offset-y = 95%
+radius = 0
+fixed-center = true
+bottom = true
+
+;border-top-size = 3
+;border-top-color = ${colors.primary}
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #ff000000
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 2
+
+font-0 = "Iosevka Medium:pixelsize=9;1:antialias=true;2"
+font-1 = "Material Icons:size=12;3"
+font-2 = "Hack Nerd Font:pixelsize=10;1:antialias=true;2"
+font-3 = "Material Design Icons:size=14;2"
+font-4 = "mononoki Nerd Font:size=10;1"
+
+modules-left = powermenu cpu system-nvidia-smi memory
+modules-center = mpd
+modules-right = pulseaudio time popup-calendar
+
+separator = 
+
+;tray-position = right
+;tray-padding = 5
+;tray-transparent = true
+;tray-background = #000000
+
+wm-restack = bspwm
+;wm-restack = i3
+
+override-redirect = false
+enable-ipc = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+;cursor-scroll = ns-resize
+;
+[module/crypto]
+type = custom/script
+interval = 300
+exec = ~/_my-scripts/polybar-crypto/crypto.py
+
+[module/info-redshift-temp]
+type = custom/script
+exec = ~/_my-scripts/info-redshift-temp.sh
+click-left = ~/_my-scripts/redshift-toggle.sh  
+interval = 1
+
+[module/metar]
+type = custom/script
+
+exec = bash ~/_my-scripts/metar.sh
+tail = true
+interval = 198000
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:70:..%
+;label = %title%
+
+[module/xkeyboard]
+type = internal/xkeyboard
+;blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
+
+label-layout = %layout%
+label-layout-underline = ${colors.secondary}
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+;format-mounted-prefix = " "
+format-mounted-prefix = " "
+format-mounted-prefix-foreground = ${colors.primary}
+format-mounted = <label-mounted>
+label-mounted = %percentage_used%%
+
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.dimmed-text}
+
+
+[module/bspwm]
+type = internal/bspwm
+
+;label-focused = %index%
+label-focused = %name%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.primary}
+label-focused-padding = 2
+
+;label-occupied = %index%
+label-occupied-padding = 2
+
+;label-urgent = %index%!
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+;label-empty = %index%
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = 2
+
+; Use fuzzy (partial) matching on labels when assigning 
+; icons to workspaces
+; Example: code;♚ will apply the icon to all workspaces 
+; containing 'code' in the label
+; Default: false
+; fuzzy-match = true
+
+;ws-icon-0 = um;♚
+;ws-icon-1 = dois;♛
+;ws-icon-2 = tres;♜
+;ws-icon-3 = quatro;♝
+;ws-icon-5 = cinco;♞
+;ws-icon-6 = seis;♞
+;ws-icon-7 = sete;♞
+;ws-icon-8 = oito;♞
+;ws-icon-9 = nove;♞
+
+;ws-icon-default = ♟
+
+; Separator in between workspaces
+;label-separator = |
+;label-separator-padding = 2
+;label-separator-foreground = #ffb52a
+
+[module/mpd]
+type = internal/mpd
+;format-online = <icon-prev> <icon-stop> <toggle> <icon-next>  <icon-repeat> <icon-single> <icon-random> <bar-progress> <label-time>  <label-song>
+format-online = <icon-prev> <icon-stop> <toggle> <icon-next>  <icon-repeat> <icon-single> <icon-random> <label-time>  <label-song>
+
+icon-play = 
+icon-pause = 
+icon-stop = 
+icon-prev = 
+icon-next = 
+icon-random = 
+icon-repeat = 
+#icon-single = 
+icon-single = 
+
+label-song = %artist% - %title%
+label-song-maxlen = 75
+label-song-ellipsis = true
+
+label-offline =  mpd offline
+
+toggle-on-foreground =
+toggle-off-foreground = #55
+
+bar-progress-width = 10
+bar-progress-format = %{A4:mpdseek+2: A5:mpdseek-2:}%fill%%indicator%%empty%%{A A}
+bar-progress-indicator = |
+bar-progress-indicator-foreground = ${colors.primary}
+bar-progress-indicator-font = 6
+bar-progress-fill = ─
+bar-progress-fill-foreground = ${colors.primary}
+bar-progress-fill-font = 6
+bar-progress-empty = ─
+bar-progress-empty-font = 6
+bar-progress-empty-foreground = #44
+
+
+[module/mpd-simple]
+type = internal/mpd
+format-online =   <toggle>  <label-song> 
+icon-play = 
+icon-pause = 
+icon-stop = 
+icon-prev = 
+icon-next = 
+icon-random = 
+icon-repeat = 
+icon-single = 
+
+;label-time = %elapsed% / %total%
+;label-time = 
+;
+label-song = %artist% - %title%
+label-song-maxlen = 60
+label-song-ellipsis = true
+
+label-offline =  mpd offline
+
+toggle-on-foreground =
+toggle-off-foreground = #55
+
+bar-progress-width = 10
+bar-progress-format = %{A4:mpdseek+2: A5:mpdseek-2:}%fill%%indicator%%empty%%{A A}
+bar-progress-indicator = |
+bar-progress-indicator-foreground = ${colors.primary}
+bar-progress-indicator-font = 6
+bar-progress-fill = ─
+bar-progress-fill-foreground = ${colors.primary}
+bar-progress-fill-font = 6
+bar-progress-empty = ─
+bar-progress-empty-font = 6
+bar-progress-empty-foreground = #44
+
+
+[module/backlight]
+type = internal/backlight
+card = acpi_video0
+output = LVDS-1
+
+format = <ramp> <bar>
+;label = %percentage:3%%
+
+ramp-0 =  
+ramp-1 = 
+ramp-2 =  
+
+bar-width = 10
+bar-indicator = |
+bar-indicator-font = 6
+bar-indicator-foreground = #ff
+bar-fill = ─
+bar-fill-font = 6
+bar-fill-foreground = #c9665e
+bar-empty = ─
+bar-empty-font = 6
+bar-empty-foreground = #44
+
+[module/xbacklight]
+type = internal/xbacklight
+card = acpi_video0
+output = LVDS-1
+
+enable-scroll = true
+format = <ramp> <bar>
+label = %percentage:3%%
+
+ramp-0 =  
+ramp-1 = 
+ramp-2 =  
+
+bar-width = 7
+bar-indicator = |
+bar-indicator-font = 3
+bar-indicator-foreground = #ff
+bar-fill = ─
+bar-fill-font = 3
+bar-fill-foreground = #c9665e
+bar-empty = ─
+bar-empty-font = 3
+bar-empty-foreground = #44
+
+[module/cpu]
+type = internal/cpu
+interval = 0.5
+format = <label> 
+format-prefix = %{A1:gnome-system-monitor:}%{A} 
+;format-prefix = %{A1:gnome-system-monitor:}CPU%{A}
+format-prefix-font = 4
+label = %percentage:3%%
+format-prefix-foreground = ${colors.primary}
+;label =   %percentage%%
+click-left = exec gnome-system-monitor &
+
+ramp-coreload-0 = ▁
+ramp-coreload-0-font = 2
+ramp-coreload-0-foreground = #aaff77
+ramp-coreload-1 = ▂
+ramp-coreload-1-font = 2
+ramp-coreload-1-foreground = #aaff77
+ramp-coreload-2 = ▃
+ramp-coreload-2-font = 2
+ramp-coreload-2-foreground = #aaff77
+ramp-coreload-3 = ▄
+ramp-coreload-3-font = 2
+ramp-coreload-3-foreground = #aaff77
+ramp-coreload-4 = ▅
+ramp-coreload-4-font = 2
+ramp-coreload-4-foreground = #fba922
+ramp-coreload-5 = ▆
+ramp-coreload-5-font = 2
+ramp-coreload-5-foreground = #fba922
+ramp-coreload-6 = ▇
+ramp-coreload-6-font = 2
+ramp-coreload-6-foreground = #ff5555
+ramp-coreload-7 = █
+ramp-coreload-7-font = 2
+ramp-coreload-7-foreground = #ff5555
+
+[module/system-cpu-frequency]
+type = custom/script
+exec = ~/_my-scripts/system-cpu-frequency.sh
+interval = 5
+
+[module/system-nvidia-smi]
+type = custom/script
+exec = ~/_my-scripts/system-nvidia-smi.sh
+interval = 1
+;format-prefix = "GPU "
+format-prefix = " "
+format-prefix-font = 4
+format-prefix-foreground = ${colors.primary}
+label = %output:3%%
+click-left = exec nvidia-settings
+
+[module/memory]
+type = internal/memory
+interval = 1
+format = <label>
+;format-prefix = 
+format-prefix = %{A1:gnome-system-monitor:}%{A}
+;format-prefix = %{A1:gnome-system-monitor:}RAM%{A}
+format-prefix-font = 4
+format-prefix-foreground = ${colors.primary}
+label = %percentage_used:3%%
+#label = %percentage_used:3%%
+;label = 
+click-left = exec gnome-system-monitor &
+
+bar-used-width = 13
+bar-used-foreground-0 = #aaff77
+bar-used-foreground-1 = #aaff77
+bar-used-foreground-2 = #fba922
+bar-used-foreground-3 = #ff5555
+bar-used-indicator = |
+bar-used-indicator-font = 6
+bar-used-indicator-foreground = #ff
+bar-used-fill = ─
+bar-used-fill-font = 6
+bar-used-empty = ─
+bar-used-empty-font = 6
+bar-used-empty-foreground = #444444
+
+[module/wlan]
+type = internal/network
+interface = enp3s0
+interval = 3.0
+
+format-connected =   <label-connected>
+;format-connected-underline = #9f78e1
+label-connected = %essid%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = ${colors.foreground-alt}
+click-left = $TERMINAL
+
+[module/updates-arch-combined]
+type = custom/script
+exec = ~/_my-scripts/updates-arch-combined.sh
+interval = 600
+
+[module/updates-pacman-test]
+type = custom/script
+exec = "pacman -Qum | wc -l"
+format-prefix = "C "
+format-prefix-foreground = ${colors.primary}
+format-prefix-font = 11
+interval = 600
+
+[module/updates-aur-test]
+type = custom/script
+exec = "yay -Qum | wc -l"
+format-prefix = "AUR    "
+format-prefix-foreground = ${colors.primary}
+format-prefix-font = 10
+interval = 600
+
+[module/wireless-network]
+type = internal/network
+interface = wlp0s18f2u1
+interval = 1.0
+ping-interval = 10
+unknown-as-up = true
+
+format-connected = <ramp-signal>
+; To use when not using <ramp-signal>
+;format-connected-prefix = " "
+;format-connected-foreground = ${colors.primary}
+
+label-connected = %signal:3% %ssid%
+label-connected-foreground = ${colors.foreground}
+
+label-disconnected = 郎
+label-disconnected-foreground = ${colors.primary}
+label-disconnected-font = 4
+
+;label-connected =  %essid%   %signal%    %downspeed%    %upspeed%
+;label-connected =  %essid%   %signal%    %downspeed%
+;label-connected =  %signal%   %downspeed%   %upspeed%
+
+ramp-signal-0 = 冷
+ramp-signal-1 = 爛
+ramp-signal-2 = 嵐
+ramp-signal-3 = 襤
+ramp-signal-4 = 蠟 
+ramp-signal-foreground = ${colors.primary}
+ramp-signal-font = 4
+
+
+
+animation-packetloss-0 = 
+animation-packetloss-0-foreground = ${colors.alert}
+animation-packetloss-1 = 
+animation-packetloss-1-foreground = ${colors.alert}
+
+animation-packetloss-framerate = 500
+
+
+[module/eth]
+type = internal/network
+interface = enp3s0
+interval = 3.0
+
+;format-connected-underline = #55aa55
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.primary}
+label-connected = %local_ip%
+
+;format-disconnected = " "
+;format-disconnected-foreground = #464E58
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+[module/time]
+type = internal/date
+interval = 5
+
+time =⠀ %H:%M
+format-prefix =  
+format-prefix-foreground = ${colors.primary}
+;format-underline = #0a6cf5
+
+label =%time%
+
+[module/date]
+type = internal/date
+interval = 5
+
+date = " %d/%m"
+format-prefix = " "
+format-prefix-foreground = ${colors.primary}
+;format-underline = #0a6cf5
+
+label =%date%
+
+[module/popup-calendar]
+type = custom/script
+exec = ~/_my-scripts/popup-calendar.sh
+interval = 5
+click-left = ~/_my-scripts/popup-calendar.sh --popup
+format-prefix = " "
+format-prefix-foreground = ${colors.primary}
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+;format-volume = <label-volume> <bar-volume>
+;label-volume = VOL %percentage%%
+;label-volume-foreground = ${root.foreground}
+
+;label-muted = 🔇 muted
+;label-muted-foreground = #666
+
+;bar-volume-width = 21
+;bar-volume-foreground-0 = #55aa55
+;bar-volume-foreground-1 = #55aa55
+;bar-volume-foreground-2 = #55aa55
+;bar-volume-foreground-3 = #55aa55
+;bar-volume-foreground-4 = #55aa55
+;bar-volume-foreground-5 = #f5a70a
+;bar-volume-foreground-6 = #ff5555
+;bar-volume-gradient = false
+;bar-volume-indicator = |
+;bar-volume-indicator-font = 2
+;bar-volume-fill = ─
+;bar-volume-fill-font = 2
+;bar-volume-empty = ─
+;bar-volume-empty-font = 2
+;bar-volume-empty-foreground = ${colors.foreground-alt}
+
+headphone-id = 14
+
+mapped = true
+
+interval = 5
+
+format-volume = <ramp-volume> <label-volume>
+format-volume-padding = 0
+label-volume = %percentage:3%%
+label-muted = " "
+label-muted-foreground = ${colors.dimmed-text}
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-foreground = ${colors.primary}
+
+ramp-headphones-0 = 
+ramp-headphones-1 = 
+
+
+[module/alsa]
+type = internal/alsa
+
+master-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
+
+master-mixer = Master
+speaker-mixer = Speaker
+headphone-mixer = Headphone
+headphone-id = 14
+
+mapped = true
+
+interval = 5
+
+format-volume = <ramp-volume> <label-volume>
+label-volume = %percentage:3%%
+label-muted = 
+label-muted-foreground = ${colors.dimmed-text}
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+ramp-headphones-0 = 
+ramp-headphones-1 = 
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ACAD
+full-at = 98
+
+format-charging = <animation-charging>  <label-charging>
+;format-charging-underline = #ffb52a
+
+format-discharging = <animation-discharging> <label-discharging>
+;format-discharging-underline = ${self.format-charging-underline}
+
+format-full-prefix = " "
+format-full-prefix-foreground = ${colors.primary}
+;format-full-underline = ${self.format-charging-underline}
+
+ramp-capacity-0 = 
+ramp-capacity-0-foreground = #FF0000
+ramp-capacity-1 = 
+ramp-capacity-1-foreground = #FF6600
+ramp-capacity-2 = 
+ramp-capacity-2-foreground = #FF0000
+;ramp-capacity-foreground = ${colors.foreground-alt}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+;animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-framerate = 750
+
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+;animation-discharging-foreground = ${colors.foreground-alt}
+animation-discharging-framerate = 750
+
+[module/temperature]
+type = internal/temperature
+interval = 0.5
+thermal-zone = 0
+warn-temperature = 65
+hwmon-path = /sys/devices/platform/it87.552/hwmon/hwmon2/temp1_input
+
+label = %temperature-c%
+
+format = <ramp> <label>
+format-warn = <ramp> <label-warn>
+
+ramp-0 = 
+ramp-foreground = ${colors.primary}
+
+label-warn = %temperature-c% WARN
+label-warn-foreground = ${colors.alert}
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+label-active-font = 0
+
+label-open = ⏻ 
+label-open-foreground = ${colors.primary}
+label-close =  
+label-close-foreground = ${colors.primary}
+label-separator = |
+label-separator-foreground = ${colors.primary}
+label = ${colors.primary}
+
+menu-0-0 = 
+menu-0-0-exec = betterlockscreen -l 
+
+menu-0-1 = 
+menu-0-1-exec = shutdown -r now
+
+menu-0-2 = ⏻ 
+menu-0-2-exec = shutdown -h now
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+compositing-border = over
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+; vim:ft=dosini

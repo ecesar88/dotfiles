@@ -1,0 +1,2 @@
+#!/bin/bash
+dunstify -a ncmpcpp -u normal

@@ -1,0 +1,49 @@
+background yes
+# border_margin 5
+border_width 5
+default_color ffffff     	# grey 5f5f5f 3F3F3F
+double_buffer yes
+draw_borders no
+draw_outline no
+draw_shades yes
+alignment top_middle
+gap_x 0
+gap_y 250
+maximum_width 260
+minimum_size 175
+no_buffers yes
+override_utf8_locale yes
+
+own_window yes
+own_window_argb_value 0
+own_window_argb_visual true
+own_window_transparent yes
+own_window_title conky
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_type override
+# normal /override /desktop
+
+own_window_class conky
+
+text_buffer_size 8000
+total_run_times 0
+update_interval 0.5
+uppercase no
+use_xft yes
+xftalpha 1
+xftfont Freesans:pixelsize=9
+
+#				fonts
+#	Blue Highway
+#	Zegoe Light - U
+#	Zekton
+#	Calibri
+#	Engebrechtre
+#	Opeln2001
+
+TEXT
+${font Ubuntu-B:pixelsize=90}${alignc}${time %H:%M}${font}
+
+${font Ubuntu-C:pixelsize=20}${alignc}${time  %B %d, %Y}
+${alignc}${time %A}${font}
+

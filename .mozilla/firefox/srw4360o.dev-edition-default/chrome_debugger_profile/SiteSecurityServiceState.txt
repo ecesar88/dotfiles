@@ -1,0 +1,3 @@
+firefox.settings.services.mozilla.com:HSTS	0	18811	1656891733293,1,0,2
+services.addons.mozilla.org:HSTS	0	18811	1656891853330,1,0,2
+aus5.mozilla.org:HSTS	0	18811	1656891853614,1,0,2

@@ -1,0 +1,2 @@
+#!/bin/bash
+dunstify -a telegram -u normal

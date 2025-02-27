@@ -1,0 +1,167 @@
+
+/**
+*----------------------
+* Theme Settings
+*----------------------
+*
+*----------------------
+* Colors
+*----------------------
+**/
+
+* {
+    one-dark0:                       #282c34;
+    one-dark1:                       #3B4252;
+    one-dark2:                       #434C5E;
+    one-dark3:                       #4C566A;
+    one-dark4:                       #dfdfdf;
+    one-dark5:                       #b2b2b2;
+    one-dark6:                       #b2b2b2;
+    one-dark7:                       #6eaafb;
+    one-dark8:                       #88C0D0;
+    one-dark9:                       #81A1C1;
+    one-dark10:                      #5E81AC;
+    one-dark11:                      #BF616A;
+    one-dark12:                      #eb6e67;
+    one-dark13:                      #e5c07b;
+    one-dark14:                      #98c379;
+    one-dark15:                      #B48EAD;
+
+    background:                  @one-dark0;
+    foreground:                  @one-dark4;
+    selected-normal-foreground:  @one-dark4;
+    normal-foreground:           @foreground;
+    alternate-normal-background: @one-dark0;
+    selected-urgent-foreground:  @one-dark4;
+    urgent-foreground:           @foreground;
+    alternate-urgent-background: @one-dark0;
+    active-foreground:           @foreground;
+    selected-active-foreground:  @foreground;
+    alternate-active-background: @one-dark0;
+    bordercolor:                 @one-dark11;
+    alternate-normal-foreground: @foreground;
+    normal-background:           @background;
+    selected-normal-background:  @one-dark3;
+    border-color:                @one-dark0;
+    spacing:                     2;
+    separatorcolor:              @one-dark3;
+    urgent-background:           @background;
+    selected-urgent-background:  @one-dark3;
+    alternate-urgent-foreground: @urgent-foreground;
+    background-color:            @background;
+    alternate-active-foreground: @active-foreground;
+    active-background:           @background;
+    selected-active-background:  @one-dark3;
+}
+
+window {
+    background-color: @background;
+}
+
+mainbox {
+    border:  4;
+    padding: 20;
+}
+
+message {
+    border:       4px 4px 4px ;
+    border-color: @separatorcolor;
+    padding:      20 ;
+}
+
+textbox {
+    text-color: @foreground;
+}
+
+listview {
+    fixed-height: 0;
+    padding:	  5 0 0;
+    spacing:      5px ;
+}
+
+element {
+    border:  0;
+    padding: 5px ;
+}
+
+element.normal.normal {
+    background-color: @normal-background;
+    text-color:       @normal-foreground;
+}
+
+element.normal.urgent {
+    background-color: @urgent-background;
+    text-color:       @urgent-foreground;
+}
+
+element.normal.active {
+    background-color: @active-background;
+    text-color:       @active-foreground;
+}
+
+element.selected.normal {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+
+element.selected.urgent {
+    background-color: @selected-urgent-background;
+    text-color:       @selected-urgent-foreground;
+}
+
+element.selected.active {
+    background-color: @selected-active-background;
+    text-color:       @selected-active-foreground;
+}
+
+element.alternate.normal {
+    background-color: @alternate-normal-background;
+    text-color:       @alternate-normal-foreground;
+}
+
+element.alternate.urgent {
+    background-color: @alternate-urgent-background;
+    text-color:       @alternate-urgent-foreground;
+}
+
+element.alternate.active {
+    background-color: @alternate-active-background;
+    text-color:       @alternate-active-foreground;
+}
+
+button.selected {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+
+inputbar {
+    spacing:    5;
+    text-color: @normal-foreground;
+    padding:    5px ;
+    border:	0 0 2;
+    border-color: @separatorcolor;
+}
+
+case-indicator {
+    spacing:    0;
+    text-color: @normal-foreground;
+}
+
+entry {
+    spacing:    0;
+    text-color: @normal-foreground;
+}
+
+prompt {
+    spacing:    0;
+    text-color: @normal-foreground;
+}
+
+element-icon {
+    size: 25px;
+}
+
+
+/* vim:ft=css
+*/
+

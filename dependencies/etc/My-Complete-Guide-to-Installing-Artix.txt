@@ -1,0 +1,291 @@
+1 - Set the keyboard layout
+
+	List all available layouts:
+		#  ls -R /usr/share/kbd/keymaps
+	
+	Select a layout:
+		# loadkeys br-abnt2
+	
+		
+2 - Disk partitioning with fdisk:
+
+	# fdisk -l
+
+NOTE: The BIOS boot partition is necessary on UEFI systems with a GPT-partitioned disk. EFI system partition has to be created and mounted at /mnt/boot or /mnt/efi, and the suggested size is around 512 MiB. 
+
+3 - Format the new partitions:
+	# mkfs.ext4 /dev/sdaX
+	
+
+	If you created a swap partition, initialize it now:
+	# mkswap /dev/sdaX
+	# swapon /dev/sdaX
+
+
+5 - Mount the filesystem:
+
+	# mount /dev/sdaX /mnt
+	
+	Create mount points for any other partitions:
+		# mkdir /mnt/boot
+		# mount /dev/sdaX /mnt/boot
+		
+		# mkdir /mnt/home
+		# mount /dev/sdaX /mnt/home
+		
+	
+	fstabgen will later detect mounted filesystems and the swap
+	
+	
+6 - Connecting to internet (cable)
+
+	Start the services:
+		# yourinit management service tool status dhcpcd
+		# yourinit management service tool start dhcpcd
+
+	Check connection:
+		# ping artixlinux.org
+
+	If you're using wi-fi, see the wiki
+	
+
+
+7 - Install base system
+
+	 # basestrap /mnt base base-devel openrc
+
+
+8 - Install a kernel
+	
+	# basestrap /mnt linux linux-firmware
+	
+	
+9 - Use fstabgen to generate /etc/fstab, use -U for UUIDs and -L for partition labels:
+
+	# fstabgen -U /mnt >>/mnt/etc/fstab
+	> check it
+	
+	
+10 - chroot
+	# artools-chroot /mnt
+
+
+
+11 - Updating the system clock
+
+	Set the time zone:
+
+	# ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+	this will set the time to utc, see:
+	https://wiki.archlinux.org/index.php/System_time#UTC_in_Windows
+
+12 - Localization
+
+	pacman -Sy vim
+	# vim /etc/locale-gen
+	
+	locale-gen
+	
+	To set the locale systemwide, create or edit /etc/locale.conf (which is sourced by /etc/profile) or 	/etc/bash/bashrc.d/artix.bashrc or /etc/bash/bashrc.d/l20sudoocal.bashrc; user-specific changes may be made to their respective ~/.bashrc.
+	
+	export LANG="en_US.UTF-8" 
+	
+	
+13 - Make the keyboard layout persistent
+	in /etc/vconsole.conf:
+			Add to the file:
+				KEYMAP=de-latin1
+						
+
+14 - Network Configuration
+
+	Create the hostname file (/etc/hostname):
+		Add to the file:
+			coolhostname
+
+	Add matching entries to /etc/hosts:
+
+		127.0.0.1	localhost
+		::1		    localhost
+		127.0.1.1	coolhostname.localdomain	coolhostname
+
+	If the system has a permanent IP address, it should be used instead of 127.0.1.1.
+	Complete the network configuration for the newly installed environment, that includes installing your preferred network management software. 
+
+		# pacman -S connman-openrc connman-gtk (or cmst for Qt-based DEs)
+		# rc-update add connmand
+
+
+15 - Set the root password
+
+	# passwd
+
+	
+16 - Create the users and set their passwords
+
+	# useradd -m -g users -G wheel <your username>
+	# passwd <your username>
+	
+	
+17 - Setup the bootloader
+
+	# pacman -S grub os-prober efibootmgr
+	# grub-install --recheck /dev/sda
+	
+	Configure grub:
+
+	# grub-mkconfig -o /boot/grub/grub.cfg
+	
+	
+20 - Exit chroot
+
+	# exit
+
+
+22 - Umount all partitions and reboot the system
+
+	# umount -R /mnt
+	# reboot
+
+
+23 - Log-in as root
+
+24 - Set the keyboard layout 
+
+	# loadkeys br-abnt2
+	# mkdir /etc/X11/xorg.conf.d
+	# nano /etc/X11/xorg.conf.d/10-evdev.conf
+
+	The file should look like this: 
+	
+		Section InputClass
+			Identifier evdev "keyboard-hall"
+			MatchIsKeyboard "on"
+			MatchDevicePath "/dev/input/event"
+			Driver "evdev
+			Option XkbLayout "br"
+			Option XkbVariant "abnt2"
+		EndSection
+
+
+25 - Enable sudo in /etc/sudoers
+	
+	Search for root ALL=(ALL) ALL, and insert  <your username> ALL=(ALL) ALL below that line
+	
+	
+26 - Test and enable internet connection:
+
+	# ping -c3 www.google.com
+	# systemctl enable dhcpcd.service
+	# systemctl start dhcpcd
+
+    Enable wi-fi:
+		# systemctl enable NetworkManager.service
+		# systemctl start NetworkManager
+
+	Identify your network:
+		# nmcli dev wifi
+
+    Connect:
+		# nmcli device wifi connect <SSID> password <SENHA DO WiFi>
+
+27 - Install the following packages:
+    Ver nos dotfiles as listas de pacotes
+
+28 - Exit root and log-in as your user
+
+
+29 - Install yay
+	# git clone yay
+	# cd yay
+	# makepkg -si
+
+30 - Creating my folder structure
+
+	# mkdir /home/zsucrilhos/_my-disks
+	# mkdir /home/zsucrilhos/_my-scripts
+	# mkdir /home/zsucrilhos/_my-sources
+	# mkdir /home/zsucrilhos/Documents
+	# mkdir /home/zsucrilhos/Downloads
+	# mkdir /home/zsucrilhos/Music
+	# mkdir /home/zsucrilhos/Pictures
+	# mkdir /home/zsucrilhos/Screenshots
+	# mkdir /home/zsucrilhos/Videos
+	# mkdir /home/zsucrilhos/RemovableMedia
+	# mkdir /home/zsucrilhos/WindowsDesktop
+
+31 - Get the dotfiles
+
+	# cd /home/Downloads/_cloned-repos
+	# git clone https://github.com/zsucrilhos/dotfiles
+	# rsync -a dotfiles /home/zsucrilhos/
+
+32 - Set ZSH as the default shell
+	# chsh -s $(which zsh)
+
+33 - Install oh-my-zsh
+	
+	# sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+    And the plugins:
+
+        k:
+        	# git clone https://github.com/supercrabtree/k $ZSH_CUSTOM/plugins/k
+
+        alias-tips:
+            # cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
+            # git clone https://github.com/djui/alias-tips.git
+
+        zsh-autosuggestions: 
+			# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+		zsh-autocompletions:
+			# git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+34 - Install bspwm (Javyre's fork):
+
+	# git clone https://aur.archlinux.org/bspwm-git.git
+	
+    Change the source varible in the PKGBUILD to use Javyre's fork
+	
+    Compile and install the package with:
+		# makepkg -si
+
+35 - Instale o vim-plug:
+	# curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+35 - Put webcam and other hardware on the init's blacklist
+
+36 - Install polybar:
+
+	# yay -S polybar-git
+
+33 - Criando symlinks:
+	# ln -s /run/media/zsucrilhos RemovableMedia
+	# ln -s /home/zsucrilhos/_my-disks/249g/Users/ecesa/Desktop WindowsDesktop
+	
+	See music dirs links
+
+34 - Restore backed-up files
+
+35 - Reboot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

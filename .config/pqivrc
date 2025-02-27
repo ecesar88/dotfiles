@@ -1,0 +1,32 @@
+[options]
+fullscreen=0
+transparent-background=1
+scale-images-up=1
+background-pattern=checkerboard
+fade=1
+fade-duration=0.08
+thumbnail-size=256x256
+end-of-files-action=wrap-no-reshuffle
+hide-info-box=0
+window-title="pqiv - $IMAGE_NUMBER/$IMAGE_COUNT"
+enforce-window-aspect-ratio=1
+scale-mode-screen-fraction=0.9
+
+
+[keybindings]
+o { goto_file_relative(-1); }
+p { goto_file_relative(1); }
+
+y {  }
+u {  }
+
+# Copy the path to current image to clipboard
+c { command(echo -n $1 | xclip -selection clipboard); }
+
+
+# Quit and return to the last image
+q { command(bspc node -f last); quit(); }
+
+
+
+

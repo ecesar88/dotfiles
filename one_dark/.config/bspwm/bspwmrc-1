@@ -1,0 +1,122 @@
+#! /bin/sh
+
+#bspc monitor -d I II III IV V VI VII VIII IX X
+
+# Kill all running applications before starting
+killall -9 sxhkd picom dunst numlockx unclutter mpDris2 redshift flashfocus udiskie lightsOn.sh blurme polybar
+
+#bspc monitor -d 一 二 三 四 五 六 七 八 九 十 
+#bspc monitor -d 1 2 3 4 5 6 7 8 9 10
+bspc monitor -d 0 1 2 3 4 5 6 7 8 9
+
+sxhkd -c ~/.config/sxhkd/sxhkdrc &
+
+bspc config click_to_focus true
+bspc config border_width          0
+bspc config window_gap            5
+bspc config split_ratio           0.52
+bspc config borderless_monocle    false
+bspc config gapless_monocle       true
+bspc config focus_follows_pointer true
+
+bspc config border_radius 6
+#bspc config normal_border_color "#767676"
+bspc config normal_border_color "#2e3440"
+#bspc config focused_border_color "#bfc7d5"
+bspc config focused_border_color "#ff0000"
+bspc config presel_feedback_color "#88C0D0"
+
+# Mice bindings
+#   Set mouse 1 to move floating windows
+bspc config pointer_action1 move
+
+#   Mouse 2 button resizes the window by side
+bspc config pointer_action2 resize_side
+
+#   Mouse 3 button (right mouse) resize by corner
+bspc config pointer_action2 resize_corner
+
+# Window rules
+#   Open in specific workspace
+bspc rule -a Termite desktop='^1' follow=on
+bspc rule -a qutebrowser desktop='^2' follow=on
+bspc rule -a Chromium desktop='^2' follow=on
+bspc rule -a Navigator desktop='^2'  follow=on
+bspc rule -a Mousepad desktop='^3' follow=on
+bspc rule -a Subl3 desktop='^3' follow=on
+bspc rule -a Code desktop='^3' follow=on
+bspc rule -a Notepadqq desktop='^3' follow=on
+bspc rule -a Deluge desktop='^4' follow=on
+bspc rule -a mpv desktop='^4' follow=on state=tiled
+bspc rule -a Sxiv desktop='^4' follow=on state=tiled
+bspc rule -a Pqiv desktop='^4' follow=on state=tiled
+bspc rule -a Viewnior desktop='^4' follow=on state=tiled
+bspc rule -a Nemo desktop='^5' follow=on
+bspc rule -a Thunar desktop='^5' follow=on
+bspc rule -a Spacefm desktop='^5' follow=on
+bspc rule -a Caja desktop='^5' follow=on
+bspc rule -a TelegramDesktop desktop='^6' follow=on
+bspc rule -a cantata desktop='^7' follow=on
+bspc rule -a Zathura desktop='^8' follow=on state=tiled
+bspc rule -a Steam desktop='^9' follow=on
+bspc rule -a qBittorrent desktop='^9' follow=on
+bspc rule -a discord desktop='^10' follow=on
+bspc rule -a Steam desktop='^10' follow=off
+
+# Window state configs
+bspc rule -a Yad state=floating focus=on floating=on
+bspc rule -a Nvidia-settings state=floating focus=on floating=on
+bspc rule -a Xfce4-appfinder state=floating focus=on floating=on 
+bspc rule -a alsamixer state=floating focus=on
+bspc rule -a GParted state=floating focus=on
+bspc rule -a Lxappearance state=floating focus=on
+bspc rule -a nitrogen state=floating focus=on
+bspc rule -a SimpleScreenRecorder state=floating focus=on
+bspc rule -a Pulseffects state=floating focus=on
+bspc rule -a Pulseaudio-equalizer-gtk state=floating focus=on
+bspc rule -a Pavucontrol state=floating focus=on center=on
+bspc rule -a __main__.py state=floating focus=on center=on
+bspc rule -a Gnome-system-monitor state=tiled focus=on center=on
+
+bspc rule -a Alacritty state=tiled focus=on
+bspc rule -a Viewnior focus=on state=tiled
+
+# Old
+#xset dpms 330 360 360 &
+
+# Start pulseeffects equalizer as a deamon
+pulseeffects --gapplication-service &
+xset r rate 300 80 &
+redshift -x &
+xrandr --output DVI-D-0 --gamma 1.0:1.0:1.0 &
+
+#feh --bg-fill "/home/zsucrilhos/Desktop/lava_volcano_cliff_136106_3840x2160.jpg" &
+#feh --bg-fill "/home/zsucrilhos/Desktop/tarmo-juhola-talotornit2-kopio.jpg"
+#feh --bg-fill "/home/zsucrilhos/Downloads/not-embedded-the-northerner-diaries-darkened-wallpaper-polybar-placeholder.png" &
+#feh --bg-fill "/home/zsucrilhos/Desktop/Desktop/wal1/A_long_trip_matte_painting-HD-4k.jpg" &
+#feh --bg-fill "/home/zsucrilhos/Desktop/295.jpg" &
+#feh --bg-fill "/home/zsucrilhos/Downloads/Kotatogram Desktop/96901_1588345407.jpg" &
+feh --bg-fill "/home/zsucrilhos/Desktop/Desktop/nordic-SBKjnxm.jpg" &
+
+dunst &
+picom -b --config /home/zsucrilhos/.config/picom/picom.conf &
+unclutter &
+numlockx on &
+udiskie -a &
+xsetroot -cursor_name left_ptr &
+setxkbmap -layout br -variant abnt2 &
+
+#/home/zsucrilhos/_my-scripts/blurme & not using this for now
+
+/usr/bin/mpDris2 &
+redshift -c /home/zsucrilhos/.config/redshift.conf &
+flashfocus &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+xautolock -locker "betterlockscreen -l" -time 5 -notify 25 -corners ---- -cornerdelay 10 -cornersize 20 -notifier "dunstify -i ~/_my-scripts/_icons/locking.png -a System -u critical System 'Locking in 25 seconds.'"  &
+
+/home/zsucrilhos/_my-scripts/polybarstart-bspwm &
+/home/zsucrilhos/_my-scripts/lightsOn.sh &
+
+dunstify -a System -i ~/_my-scripts/_icons/ok-sys.png -u critical "SYSTEM" $'System started sucessfully.\nAll apps running and OK... Or are they?' 
+

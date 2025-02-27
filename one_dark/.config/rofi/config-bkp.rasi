@@ -1,0 +1,25 @@
+configuration {
+	modi: "run,drun,window";
+	width: 1024;
+	lines: 8;
+	columns: 2;
+	font: "Iosevka Bold 12";
+	bw: 8;
+	location: 2;
+	padding: 5;
+	yoffset: 180;
+	xoffset: 0;
+	fixed-num-lines: false;
+	show-icons: true;
+	terminal: "alacritty";
+  drun-display-format: "{icon} {name}";
+  display-drun: " ";
+  display-run: " ";
+  display-window: " ";
+}
+
+@theme "onedark-pro"
+
+element {
+    children: [element-icon, element-text];
+}

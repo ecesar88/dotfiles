@@ -1,0 +1,677 @@
+{
+    "XAContextGenerator": {
+        "prefix": "ctx",
+        "body": [
+            "import { Context, createContext } from \"react\";",
+            "import { I${1}Context } from \"../Interfaces/I${1}Context.interface\"",
+            "",
+            "/**",
+            " * ## ${1}Context",
+            " */",
+            "export const ${1}Context: Context<I${1}Context> = createContext<I${1}Context>(null as any);",
+            "",
+            "${1}Context.displayName = \"${1}Context\";"
+        ],
+        "description": "Creates a context snippet that you can export and use in other places."
+    },
+    "XAContextGeneratorWComponent": {
+        "prefix": "ctxwc",
+        "body": [
+            "import React, { Context, createContext, useState } from \"react\";",
+            "import { I${1}Context } from \"../Interfaces/I${1}Context.interface\"",
+            "",
+            "/**",
+            " * ## ${1}Context",
+            " */",
+            "export const ${1}Context: Context<I${1}Context> = createContext<I${1}Context>(null as any);",
+            "",
+            "${1}Context.displayName = \"${1}Context\";",
+            "",
+            "interface I${1}ContextWrapperProps {}",
+            "",
+            "/**",
+            " * ## ${1} context wrapper component",
+            " * ",
+            " */",
+            "export const ${1}ContextWrapper: React.FC<I${1}ContextWrapperProps> = (props) => {",
+            "   const [${2}, set${2}] = useState<${3}>(${4});",
+            "",
+            "   const ${5} = (): ${6} => {",
+            "       ${7}",
+            "   }",
+            "",
+            "   return (",
+            "       <${1}Context.Provider value={{",
+            "           ${5}",
+            "       }}>",
+            "           <${1}Context.Consumer>",
+            "               {(ctxValue: I${1}Context) => props.children}",
+            "           </${1}Context.Consumer>",
+            "       </${1}Context.Provider>",
+            "   )",
+            "}"
+        ],
+        "description": "Creates a context and a component that provides it with a value."
+    },
+    "XAImportCss": {
+        "prefix": "iml",
+        "body": ["import \"./Less${0}\";"],
+        "description": "Starts the import line of the css file for a view component."
+    },
+    "XAImportStyleCss": {
+        "prefix": "ims",
+        "body": ["import \"./Style${0}\";"],
+        "description": "Starts the import line of the css file for a view component."
+    },
+    "XAReactClass": {
+        "prefix": "cc",
+        "body": [
+            "import React from \"react\";",
+            "import IError from \"xa-generics\"",
+            "",
+            "export type I${0}Props = {}",
+            "",
+            "export interface I${0}State {",
+            "    loading: boolean;",
+            "    error: IError;",
+            "}",
+            "",
+            "class ${0} extends React.Component<I${0}Props, I${0}State> {",
+            "    state: I${0}State = {",
+            "        loading: true,",
+            "        error: null,",
+            "    };",
+            "",
+            "    render() {",
+            "        return (",
+            "           <div>",
+            "               ",
+            "           </div>",
+            "        );",
+            "    }",
+            "}",
+            "",
+            "export default ${0};"
+        ],
+        "description": "Generates a react class component."
+    },
+    "XAReactClassRedux": {
+        "prefix": "ccr",
+        "body": [
+            "import React from \"react\";",
+            "import { connect } from \"react-redux\";",
+            "import IError from \"xa-generics\";",
+            "",
+            "export type I${0}Props = IReduxState & IReduxAction & {}",
+            "",
+            "export interface I${0}State {",
+            "    loading: boolean;",
+            "    error: IError;",
+            "}",
+            "",
+            "class ${0} extends React.Component<I${0}Props, I${0}State> {",
+            "    state: I${0}State = {",
+            "        loading: true,",
+            "        error: null,",
+            "    };",
+            "",
+            "    render() {",
+            "        return (",
+            "           <div>",
+            "               ",
+            "           </div>",
+            "        );",
+            "    }",
+            "}",
+            "",
+            "interface IReduxState {}",
+            "",
+            "const mstp = (state, {}): IReduxState => {return {}};",
+            "",
+            "interface IReduxAction {}",
+            "",
+            "const mdtp = (dispatch, {}): IReduxAction => {return {}};",
+            "",
+            "export default connect(mstp,mdtp)(${0});"
+        ],
+        "description": "Generates a react class component with redux."
+    },
+    "XAReactMapStateToProps": {
+        "prefix": "mstp",
+        "body": [
+            "interface IReduxState {}",
+            "",
+            "const mstp = (state, {}): IReduxState => {return {}};"
+        ],
+        "description": "Generates a redux map state to props function in a react component."
+    },
+    "XAReactMapDispatchToProps": {
+        "prefix": "mdtp",
+        "body": [
+            "interface IReduxAction {}",
+            "",
+            "const mdtp = (dispatch, {}): IReduxAction => {return {}};"
+        ],
+        "description": "Generates a redux map dispatch to props function in a react component."
+    },
+    "XAReactRedux": {
+        "prefix": "redux",
+        "body": [
+            "interface IReduxState {}",
+            "",
+            "const mstp = (state, {}): IReduxState => {return {}};",
+            "",
+            "interface IReduxAction {}",
+            "",
+            "const mdtp = (dispatch, {}): IReduxAction => {return {}};",
+            "",
+            "export default connect(mstp,mdtp)(${0});"
+        ],
+        "description": "Generates a default export with the mstp and mdtp redux functions implemented above."
+    },
+    "XAImportReact": {
+        "prefix": "imr",
+        "body": "import React from \"react\";",
+        "description": "Imports React."
+    },
+    "XAConnect": {
+        "prefix": "conn",
+        "body": "import { connect } from \"react-redux\";",
+        "description": "Imports the { connect } from react-redux."
+    },
+    "XAErrorProp": {
+        "prefix": "er",
+        "body": "error={${1}props.error}",
+        "description": "Generates error={props.error}."
+    },
+    "XALoadingErrorProp": {
+        "prefix": "per",
+        "body": ["error={error}", "loading={loading}"],
+        "description": "Generates two prop passing lines for a component that passed the useState error and loading states."
+    },
+    "XAFormStandard": {
+        "prefix": "form",
+        "body": [
+            "const [ form, setForm ] = useState<${1}>(cloneDeep(${2}));",
+            "const [ loading, set_loading ] = useState<ILoading>(null);",
+            "const [ error, set_error ] = useState<IError>(null);"
+        ],
+        "description": "Generates a form state with error and loading included"
+    },
+    "XAFormChange": {
+        "prefix": "onChange",
+        "body": "onChange={(e: IInputChange) => setForm(changeHandler(form, e.fieldName, e.value))}",
+        "description": "Generates a form state with error and loading included"
+    },
+    "XAImportErrorAndLoadingState": {
+        "prefix": "eli",
+        "body": ["import { IError, ILoading } from \"xa-generics\""],
+        "description": "Generates an error and loading state in a functional component (hook-based)."
+    },
+    "XAErrorAndLoadingState": {
+        "prefix": "el",
+        "body": [
+            "const [ error, setError ] = useState<IError>(null);",
+            "const [ loading, setLoading ] = useState<ILoading>(false);"
+        ],
+        "description": "Generates an error and loading state in a functional component (hook-based)."
+    },
+    "ImportErrorAndLoading": {
+        "prefix": "iel",
+        "body": ["loading: ILoading;", "error: IError;"]
+    },
+    "XAReactStatelessComponentInheritor": {
+        "prefix": "sfci",
+        "body": [
+            "import { I${0}Props, I${0}State } from \"../Controller/${0}.controller\"",
+            "",
+            "export type I${1}Props = I${0}Props & I${0}State & {};",
+            "",
+            "const ${1}: React.FC<I${1}Props> = (props) => {",
+            "    return (",
+            "       <div>",
+            "           ",
+            "       </div>",
+            "    );",
+            "}",
+            "",
+            "export default ${1};"
+        ],
+        "description": "(Class-based ctrl) => Generates a react function component which inherits cloned props and state from parent component."
+    },
+    "XAReactStatelessComponentInheritorFromViewType": {
+        "prefix": "sfcv",
+        "body": [
+            "import { I${0}Props } from \"./${1}.view\"",
+            "",
+            "export interface I${1}Props extends I${0}Props {};",
+            "",
+            "const ${1}: React.FC<I${1}Props> = (props) => {",
+            "    return (",
+            "       <div>",
+            "           ",
+            "       </div>",
+            "    );",
+            "}",
+            "",
+            "export default ${1};"
+        ],
+        "description": "(Hook-based view) => Generates a react function component which inherits cloned props from a main view component."
+    },
+    "XAReactStatelessComponentInheritorFromFunctionControllerType": {
+        "prefix": "sfhci",
+        "body": [
+            "import { I${0}Props } from \"../Controller/${0}.controller\"",
+            "",
+            "export interface I${1}Props extends I${0}Props {};",
+            "",
+            "const ${1}: React.FC<I${1}Props> = (props) => {",
+            "    return (",
+            "       <div>",
+            "           ",
+            "       </div>",
+            "    );",
+            "}",
+            "",
+            "export default ${1};"
+        ],
+        "description": "(Hook-based ctrl) => Generates a react function component which inherits cloned props from parent component."
+    },
+    "XAReactStatelessComponent": {
+        "prefix": "sfc",
+        "body": [
+            "",
+            "export interface I${0}Props {};",
+            "",
+            "const ${0}: React.FC<I${0}Props> = (props) => {",
+            "    return (",
+            "        <div>",
+            "            ",
+            "        </div>",
+            "    );",
+            "}",
+            "",
+            "export default ${0};"
+        ],
+        "description": "Generates a react function component which inherits cloned props and state from parent component."
+    },
+    "XAReactFunctionCmpRedux": {
+        "prefix": "sfcr",
+        "body": [
+            "import React from \"react\";",
+            "import { connect } from \"react-redux\";",
+            "import { IError } from \"xa-generics\";",
+            "",
+            "export type I${0}Props = IReduxState & IReduxAction & {}",
+            "",
+            "const ${0}: React.FC<I${0}Props> = (props) => {",
+            "    return (",
+            "        <div>",
+            "            ",
+            "        </div>",
+            "    );",
+            "}",
+            "",
+            "interface IReduxState {}",
+            "",
+            "const mstp = (state, {}): IReduxState => {return {}};",
+            "",
+            "interface IReduxAction {}",
+            "",
+            "const mdtp = (dispatch, {}): IReduxAction => {return {}};",
+            "",
+            "export default connect(mstp,mdtp)(${0});"
+        ],
+        "description": "Generates a react function component with redux."
+    },
+    "XAReactReducer": {
+        "prefix": "reducer",
+        "body": [
+            "import types from \"../../Store/actions/actionTypes\";",
+            "import IActions from \"../../Interfaces/IActions\"",
+            "",
+            "export interface I${1}State {}",
+            "",
+            "function Init(): I${1}State {",
+            "    return {}",
+            "}",
+            "",
+            "interface I${1}Actions extends IActions, I${1}State {}",
+            "",
+            "const ${1} = (state: I${1}State = Init(), action: I${1}Actions): I${1}State => {",
+            "    switch(action.type) {",
+            "        case types.${0}:",
+            "            return {...state, ...{}}",
+            "        default: return state;",
+            "    }",
+            "}",
+            "",
+            "export default ${1};"
+        ],
+        "description": "Generates a react function component which inherits cloned props and state from parent component."
+    },
+    "XAReactDAO": {
+        "prefix": "dao",
+        "body": [
+            "import { axios } from \"xa-generics\"",
+            "import { AxiosPromise, AxiosResponse } from \"axios\"",
+            "",
+            "export abstract class ${1}DAO {",
+            "    private static readonly base: string = \"${2}\"",
+            "",
+            "    ${3}",
+            "}"
+        ],
+        "description": "Generates a Data Access Object for an API."
+    },
+    "XAReactModel": {
+        "prefix": "model",
+        "body": [
+            "import { ModelConstructor, IDynamicObject } from \"xa-generics\";",
+            "",
+            "export class ${1}Model {",
+            "    constructor(rawData?: IDynamicObject<any>) {",
+            "        if (!rawData) return;",
+            "        const data = rawData as ${1}MData;",
+            "        ModelConstructor(data, this);",
+            "    }",
+            "",
+            "    ${3}",
+            "}",
+            "",
+            "//If you add public methods, you may want to replace the empty string with them!",
+            "export type ${1}MData = Partial<InstanceType<typeof ${1}Model>>"
+        ],
+        "description": "Generates a Model with a generic constructor and data interface included (It's inferred from the model values)."
+    },
+    "XAReactInterface": {
+        "prefix": "inf",
+        "body": ["export interface ${0} {}"],
+        "description": "Generates an interface."
+    },
+    "XATypeDef": {
+        "prefix": "typ",
+        "body": ["export type ${1} = ${2}"]
+    },
+    "XAReactSetState": {
+        "prefix": "ss",
+        "body": ["this.setState({})"],
+        "description": "Generates a setState function."
+    },
+    "XAReactSetStateCB": {
+        "prefix": "ssc",
+        "body": ["this.setState({}, () => {});"],
+        "description": "Generates a setState function with a callback."
+    },
+    "XAGenericFunction": {
+        "prefix": "tfoo",
+        "body": ["export const ${1} = <T>(${3}): ${2} => {", "    ", "};"],
+        "description": "Generates a named function with a generic parameter."
+    },
+    "XAReactFunction": {
+        "prefix": "foo",
+        "body": ["const ${1} = (${3}): ${2} => {", "    ", "};"],
+        "description": "Generates a named function."
+    },
+    "XAReactClassFunction": {
+        "prefix": "foo",
+        "body": ["${1} = (${3}): ${2} => {", "    ", "};"],
+        "description": "Generates a named arrow function in a react class."
+    },
+    "XAExportReactFunction": {
+        "prefix": "efoo",
+        "body": ["export const ${1} = (${3}): ${2} => {", "    ", "};"],
+        "description": "Generates an exported and named function."
+    },
+    "XAExportGenerictFunction": {
+        "prefix": "egfoo",
+        "body": ["export const ${1} = <T = ${2}>(${4}): ${3} => {", "    ", "};"],
+        "description": "Generates an exported and named function."
+    },
+    "XAReactMathF": {
+        "prefix": "floor",
+        "body": ["Math.floor(${1});"],
+        "description": "Generates a Math.floor() function."
+    },
+    "XAUseState": {
+        "prefix": "ust",
+        "body": ["const [${1}, set${1}] = useState<${3}>(${2});"],
+        "description": "Generates a useState() function."
+    },
+    "XAUseEffect": {
+        "prefix": "usef",
+        "body": [
+            "useEffect(() => {",
+            "    ${2}",
+            "    return () => {}",
+            "},",
+            "//eslint-disable-next-line",
+            "[${1}]);"
+        ],
+        "description": "Generates a React.useEffect() function."
+    },
+    "XAUseEffectNoComment": {
+        "prefix": "usefnc",
+        "body": ["const init${1} = (): void => {};", "useEffect(init${1}, [${2}]);"],
+        "description": "Generates a React.useEffect() function."
+    },
+    "XADocs": {
+        "prefix": "doc",
+        "body": ["/**", " * ## ${0}", " */"],
+        "description": "Generates a documentation comments. /** ... */"
+    },
+    "XACDM": {
+        "prefix": "cdm",
+        "body": ["componentDidMount() {", "    ${0}", "}"],
+        "description": "Generates a componentDidMount lifecycle method."
+    },
+    "XACDU": {
+        "prefix": "cdu",
+        "body": ["componentDidUpdate(prevProps: I${1}, prevState: I${2}) {", "    ${2}", "}"],
+        "description": "Generates a componentDidUpdate lifecycle method."
+    },
+    "XADeriv": {
+        "prefix": "deriv",
+        "body": [
+            "static getDerivedStateFromProps(props: I${1}, state: I${2}) {",
+            "    ${2}",
+            "    return state;",
+            "}"
+        ],
+        "description": "Generates a componentDidMount lifecycle method."
+    },
+    "XADAOFoo": {
+        "prefix": "daofoo",
+        "body": [
+            "public static async ${1} (): Promise<${2}> {",
+            "    const request: AxiosPromise<${3}> = axios.getInstance().${4}(`${this.base}`)",
+            "    const response: AxiosResponse<${3}> = await request;",
+            "    return ${5}",
+            "}"
+        ],
+        "description": "Generates a DAO request method."
+    },
+    "XADAOFooPost": {
+        "prefix": "daofoopost",
+        "body": [
+            "public static async save${1} (data: string): Promise<void> {",
+            "    const request: AxiosPromise<void> = axios.getInstance().post(`${this.base}`, data)",
+            "    const response: AxiosResponse<void> = await request;",
+            "    return response.data;",
+            "}"
+        ],
+        "description": "Generates a POST DAO request method."
+    },
+    "XADAOFooPatch": {
+        "prefix": "daofoopatch",
+        "body": [
+            "public static async update${1} (id: string, data: string): Promise<void> {",
+            "    const request: AxiosPromise<void> = axios.getInstance().patch(`${this.base}/${ id }`, data)",
+            "    const response: AxiosResponse<void> = await request;",
+            "    return response.data;",
+            "}"
+        ],
+        "description": "Generates a PATCH DAO request method."
+    },
+    "XADAOFooDelete": {
+        "prefix": "daofoodelete",
+        "body": [
+            "public static async remove${1} (id: string): Promise<void> {",
+            "    const request: AxiosPromise<void> = axios.getInstance().delete(`${this.base}/${ id }`)",
+            "    const response: AxiosResponse<void> = await request;",
+            "    return response.data;",
+            "}"
+        ],
+        "description": "Generates a DELETE DAO request method."
+    },
+    "XADAOFooGet": {
+        "prefix": "daofooget",
+        "body": [
+            "public static async load${1} (): Promise<${2}[]> {",
+            "    const request: AxiosPromise<IDynamicObject[]> = axios.getInstance().get(`${this.base}`)",
+            "    const response: AxiosResponse<IDynamicObject[]> = await request;",
+            "    return response.data.map((item) => new ${2}(item));",
+            "}"
+        ],
+        "description": "Generates a GET DAO request method, which loads a list."
+    },
+    "XADAOFooGetOne": {
+        "prefix": "daofoogetone",
+        "body": [
+            "public static async load${1} (id: string): Promise<${2}> {",
+            "    const request: AxiosPromise<IDynamicObject> = axios.getInstance().get(`${this.base}/${ id }`)",
+            "    const response: AxiosResponse<IDynamicObject> = await request;",
+            "    return new ${2}(response.data);",
+            "}"
+        ],
+        "description": "Generates a GET DAO request method, which loads an item of something."
+    },
+    "XADAOBatch": {
+        "prefix": "daofoobatch",
+        "body": [
+            "public static async ${1} (idList: string[]): Promise<void> {",
+            "    const requests: AxiosPromise<${2}>[] = [];",
+            "    for (let id of idList) {",
+            "        requests.push(axios.getInstance().${3}(`${this.base}/${id}`))",
+            "    }",
+            "    await Promise.all(requests);",
+            "    return;",
+            "}"
+        ],
+        "description": "Generates a GET DAO request method, which loads an item of something."
+    },
+    "XADAOFull": {
+        "prefix": "daofoofull",
+        "body": [
+            "public static async load${1} (): Promise<${2}[]> {",
+            "    const request: AxiosPromise<IDynamicObject[]> = axios.getInstance().get(`${this.base}`)",
+            "    const response: AxiosResponse<IDynamicObject[]> = await request;",
+            "    return response.data.map((item) => new ${2}(item));",
+            "}",
+            "",
+            "public static async save${1} (data: string): Promise<void> {",
+            "    const request: AxiosPromise<void> = axios.getInstance().post(`${this.base}`, data)",
+            "    const response: AxiosResponse<void> = await request;",
+            "    return response.data;",
+            "}",
+            "",
+            "public static async update${1} (id: string, data: string): Promise<void> {",
+            "    const request: AxiosPromise<void> = axios.getInstance().patch(`${this.base}/${ id }`, data)",
+            "    const response: AxiosResponse<void> = await request;",
+            "    return response.data;",
+            "}",
+            "",
+            "public static async remove${1} (id: string): Promise<void> {",
+            "    const request: AxiosPromise<void> = axios.getInstance().delete(`${this.base}/${ id }`)",
+            "    const response: AxiosResponse<void> = await request;",
+            "    return response.data;",
+            "}"
+        ],
+        "description": "Generates all the DAO request methods (POST/GET/PATCH/DELETE)."
+    },
+    "XALodashCloneDeep": {
+        "prefix": "cd",
+        "body": ["import { cloneDeep } from \"lodash\""],
+        "description": "Generates a lodash clone deep import."
+    },
+    "XALodashMap": {
+        "prefix": "map",
+        "body": ["import { map } from \"lodash\""],
+        "description": "Generates a lodash map import."
+    },
+    "UniqArray": {
+        "prefix": "uniqarr",
+        "body": "Array.from(new Set(${0}))",
+        "description": "Generates an Array.from with Set to create an unique array from primite type array."
+    },
+    "UniqArrayWithObject": {
+        "prefix": "uniqarrobj",
+        "body": [
+            "//Creates an array of objects with unique elements from an array of string arrays.",
+            "//Example: siteLangs: string[][] = [ ['hu','en'], ['ro','en'], ['ru','en'] ]",
+            "//The array of arrays above will be flattened to ['hu','en','ro','en','ru','en'] and then",
+            "//new Set() will turn it into an unique array (so the duplicate 'en' keys would be removed in this case).",
+            "//The rest is then a simple mapping as the unique array is turned into an array of objects.",
+            "Array.from(new Set(${1}.flat(1))).map((item: string) => ({",
+            "    id: item,",
+            "    name: item.toUpperCase()",
+            "}))"
+        ],
+        "description": "Generates an Array.from with Set to create an unique array from primite type array."
+    },
+    "ForLoop": {
+        "prefix": "for",
+        "body": ["for (let ${2} of ${1} {", "${3}", "}"],
+        "description": "Generates a for loop with 'of'"
+    },
+    "ForLoopIn": {
+        "prefix": "forin",
+        "body": ["for (let ${2} in ${1} {", "${3}", "}"],
+        "description": "Generates a for loop with 'in'"
+    },
+    "PureFunctionComponent": {
+        "prefix": "pfc",
+        "body": [
+            "import React from \"react\";",
+            "",
+            "const ${0}: React.FC = () => {",
+            "    return (",
+            "        <div>",
+            "            ",
+            "        </div>",
+            "    );",
+            "}",
+            "",
+            "export default ${0};"
+        ],
+        "description": "Generates a pure function component"
+    },
+    "ImportExportlessSFC": {
+        "prefix": "sfcnie",
+        "body": [
+            "interface I${0}Props {}",
+            "",
+            "const ${0}: React.FC<I${0}Props> = (props) => {",
+            "    return (",
+            "        <div>",
+            "            ",
+            "        </div>",
+            "    );",
+            "}"
+        ],
+        "description": "Generates a simple function component without import and export"
+    },
+    "ImportExportlessPFC": {
+        "prefix": "pfcnie",
+        "body": [
+            "const ${0}: React.FC = () => {",
+            "    return (",
+            "        <div>",
+            "            ",
+            "        </div>",
+            "    );",
+            "}"
+        ],
+        "description": "Generates a propless function component without import and export"
+    }
+}

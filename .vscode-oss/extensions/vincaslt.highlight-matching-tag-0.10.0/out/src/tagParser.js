@@ -1,0 +1,88 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const tagLexer_1 = require("./tagLexer");
+// Returns a list of partial tag pairs that exist in the given text
+function parseTags(text, emptyElements = []) {
+    // Here the tags will be put as they are resolved
+    const workingList = [];
+    // Looks for last unclosed opening tag, e.g. <div attr=""
+    const closeLastOpening = (endPosition) => {
+        for (let i = workingList.length - 1; i >= 0; i--) {
+            const openingTag = workingList[i].opening;
+            if (openingTag && !openingTag.end) {
+                openingTag.end = endPosition;
+                return openingTag;
+            }
+        }
+        return undefined;
+    };
+    /*
+      Looks for the last "name" tag pair without a matching closing tag;
+      Closes any unclosed tags in between;
+      Closes the matching tag;
+    */
+    const closeMatchingOpeningTag = (closingTag, nestingLevel) => {
+        const unclosedPairs = [];
+        for (let i = workingList.length - 1; i >= 0; i--) {
+            const openingTag = workingList[i].opening;
+            if (openingTag &&
+                openingTag.end &&
+                !workingList[i].closing &&
+                workingList[i].attributeNestingLevel === nestingLevel &&
+                !unclosedPairs.includes(workingList[i])) {
+                if (openingTag.name === closingTag.name) {
+                    workingList[i].closing = closingTag;
+                    return;
+                }
+                unclosedPairs.push(workingList[i]);
+            }
+        }
+        // No opening tag was found, so we push a pair with closing tag only
+        workingList.push({
+            attributeNestingLevel: nestingLevel,
+            closing: closingTag
+        });
+    };
+    // Every block inside of attribute has higher level, to avoid matching with outside
+    let attributeNestingLevel = 0;
+    let lastOpening;
+    tagLexer_1.default.reset(text);
+    let match = tagLexer_1.default.next();
+    while (match !== undefined) {
+        switch (match.type) {
+            case 'tagOpening':
+                workingList.push({
+                    attributeNestingLevel,
+                    opening: {
+                        name: match.value.slice(1),
+                        start: match.offset
+                    }
+                });
+                attributeNestingLevel += 1;
+                break;
+            case 'closeTag':
+                lastOpening = closeLastOpening(match.offset + 1);
+                attributeNestingLevel -= 1;
+                if (emptyElements.includes(lastOpening.name)) {
+                    closeMatchingOpeningTag(lastOpening, attributeNestingLevel);
+                }
+                break;
+            case 'tagSelfClose':
+                lastOpening = closeLastOpening(match.offset + 2);
+                attributeNestingLevel -= 1;
+                closeMatchingOpeningTag(lastOpening, attributeNestingLevel);
+                break;
+            case 'tagClosing':
+                closeMatchingOpeningTag({
+                    name: match.value.slice(2, -1),
+                    start: match.offset,
+                    end: match.offset + match.value.length
+                }, attributeNestingLevel);
+                break;
+        }
+        match = tagLexer_1.default.next();
+    }
+    return workingList;
+}
+exports.parseTags = parseTags;
+//# sourceMappingURL=tagParser.js.map

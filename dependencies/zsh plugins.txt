@@ -1,0 +1,2 @@
+syntax highlighting and others
+MY GTK AND CURSOR THEMEs

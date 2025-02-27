@@ -1,0 +1,37 @@
+configuration {
+	modi: "run,drun,window";
+	font: "Iosevka Bold 12";
+	terminal: "alacritty";
+  drun-display-format: "{icon} {name}";
+  display-drun: " ";
+  display-run: " ";
+  display-window: " ";
+}
+
+@theme "onedark-pro"
+
+element {
+    children: [element-icon, element-text];
+}
+
+window {
+  width:    1024px;
+  y-offset: 0px;
+  x-offset: 0px;
+  padding:  5px;
+
+  border: 8px;
+
+  location: center;
+  anchor:   center;
+}
+
+listview {
+  lines: 8;
+  columns: 2;
+}
+
+element-icon, element-text {
+  background-color: inherit;  
+  text-color: inherit;  
+}

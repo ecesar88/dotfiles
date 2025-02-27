@@ -1,0 +1,5357 @@
+zplug install
+exit
+source .zshrc
+source .zprofile
+source .zshrc
+lsa
+fnm --version
+lvim .zshrc
+lvim .zshrc
+starship init zsh
+pacman -Ss starship
+sudo pacman -Rs starship
+sudo pacman -S --overwrite "*" starship
+starship init zsh
+exit
+echo $SHELL
+sudo pacman -Ss zsh
+cat /etc/zsh/zprofile
+cat /etc/zsh/zprofile 
+file /etc/zsh/zprofile
+cat /etc/profil
+cat /etc/profile
+c
+clear
+zsh
+source .zshrc
+lsa
+fnm
+fnm
+fnm
+fnm
+fnm
+fnm
+lvim .zshrc
+vim 
+nvim .zshrc
+paru -Ss
+paru -Syyu
+paru -Syyu
+clear
+paru -Syyu
+pacman -Qs
+pacman -Qs gcc
+pacman -Qs gcc11
+_ pacman -Rnsu gcc11-libs gcc11
+clear
+pacman -Ss gcc
+paru -Syyu
+paru -Syyu
+rm -rf .cache/*
+pwd
+ls
+pwd
+clear
+ls
+cat 0x0 
+file 0x0 
+rm 0x0 
+clear
+zsh
+zsh
+zsh
+zsh
+zsh
+clear
+lsa
+cleear
+lsa
+echo $SHELL
+clear
+lsa
+clear
+lsa
+mv .zprofile-bkp .zprofile
+l
+cat w
+cat WindowsDesktop 
+file WindowsDesktop 
+clear
+ls
+ls
+paru -Syyu
+sudo pacman -Rnsu jamesdsp
+paru -Syyu
+sudo pacman -Rnsu react-native-debugger-bi
+sudo pacman -Rnsu react-native-debugger-bin
+paru -Syyu
+sudo pacman -R -h
+sudo pacman -R zsh
+sudo pacman -S zsh
+sudo pacman -Syy
+sudo pacman -S zsh
+exit
+neofetch
+sudo chsh -S /bin/zsh fparad0x
+sudo chsh -s /bin/zsh fparad0x
+vivaldi
+_ pacman -S --overwrite "*" vivaldi
+vivaldi
+_ pacman -Rns vivaldi
+pacman -Qs vivaldi
+_ pacman -S vivaldi
+exit
+exit
+grep -i fparad0x /etc/passwd
+vivaldi
+file /bin
+ls -la /bin | grep vivaldi
+ls -la /usr/bin | grep vivaldi
+vivaldi-stable
+telegram-desktop
+paru -Ss rustfetch
+startx
+lvim .zshrc
+fnm
+lvim .zprofile
+reboot
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+pacman -Ss fnm
+paru -Ss fnm
+paru -S fnm-bin
+paru -S fnm
+sudo pacman -Syy
+paru -S fnm-bin
+_ pacman -Sc
+paru -S fnm-bin
+pacman -Ss rust
+_ pacman -R rust
+pacman -Qo /usr/lib/libwx_baseu_xml-3.2.so.0.2.1
+pacman -Qo /usr/lib32/libOSMesa.so.8
+_ pacman -Sf  lib32-mesa
+_ pacman -S --overwrite "*" lib32-mesa
+_ pacman -Rnsu lib32-mesa
+_ pacman -Rnsu lib32-mesa lib32-libunwind lib32-libxdamage lib32-libxxf86vm lib32-lm_sensors
+_ pacman -Rns lib32-mesa lib32-libunwind lib32-libxdamage lib32-libxxf86vm lib32-lm_sensors
+_ pacman -Rns lib32-mesa lib32-libunwind lib32-libxdamage lib32-libxxf86vm lib32-lm_sensors lib32-libglvnd
+_ pacman -Rns lib32-mesa lib32-libunwind lib32-libxdamage lib32-libxxf86vm lib32-lm_sensors lib32-libglvnd lib32-glu lib32-sdl2
+_ pacman -Rns lib32-mesa lib32-libunwind lib32-libxdamage lib32-libxxf86vm lib32-lm_sensors lib32-libglvnd lib32-glu lib32-sdl2 lib32-faudio\
+
+_ pacman -S --overwrite "*" lib32-mesa lib32-libunwind lib32-libxdamage lib32-libxxf86vm lib32-lm_sensors lib32-libglvnd lib32-glu lib32-sdl2 lib32-faudio
+ldconfig
+_ pacman -S --overwrite "*" libffi6
+pacman -Ss libffi6
+pacman -Ss libff
+_ pacman -S --overwrite "*" libffi
+_ pacman -S --overwrite "*" libffi
+pacman -Ss libwx
+paru -Ss libwx
+paru -Ss libwx
+paru -Ss libnode
+pacman -Ss libnode
+pacman -Fy
+_ pacman -Fy
+pacman -F -h
+pacman -h
+man pacman 
+pacman -Fyy
+_ pacman -Fyy
+_ pacman -Fo usr/lib/libKF5NetworkManagerQt.so
+_ pacman -Fy usr/lib/libKF5NetworkManagerQt.so
+_ pacman -Fy 
+_ pacman -Fy /usr/lib/libwx_gtk3u_html-3.2.so.0
+pacman -Ss wxwidgets
+_ pacman -S --overwrite "*" wxwidgets-common wxwidgets-gtk3
+_ pacman -Fy /usr/lib32/libicudata.so.73
+_ pacman -S --overwrite "*" lib32-icu
+_ pacman -Fy /usr/lib32/libLLVM.so
+_ pacman -S --overwrite "*" lib32-llvm-libs
+_ pacman -Fy libnode.so
+_ pacman -S --overwrite "*" nodejs
+_ pacman -Fy /usr/lib/libxfconf-0.so.3
+_ pacman -S --overwrite "*" xfconf
+_ pacman -Fy /usr/lib/libQt5WebEngineCore.so.5.15.14
+_ pacman -S --overwrite "*" qt5-webengine
+_ pacman -Fy /usr/lib/libhandle.so
+_ pacman -Fy /usr/lib/libxxhash.so.0.8.2
+_ pacman -S --overwrite "*" xxhash xfsprogs
+_ pacman -Fy /usr/lib/libwebkit2gtk-4.0.so /usr/lib/libjavascriptcoregtk-4.0.so.18.22.14
+_ pacman -S --overwrite "*" webkit2gtk
+_ pacman -Fy /usr/lib/libQt6Gui.so /usr/lib/libQt6Gui.so.6 /usr/lib/libQt6Gui.so.6.5.2
+_ pacman -S --overwrite "*" qt6-base
+pacman -Ss qt6gtk2
+paru -Ss qt6gtk2
+paru -S qt6gtk2
+fnm --version
+startx
+paru -S fnm-bin
+curl -fsSL https://fnm.vercel.app/install | bash
+fnm
+fnm --version
+source .zshrc
+fnm --version
+startx
+lvim .zshrc
+startx
+lvim .zprofile
+reboot
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+telegram-desktop
+exit
+startx
+yarn services:start
+z for
+clear
+zplug install
+zplug update
+clear
+yarn app-config secret-agent
+yarn app-config secret agent
+yarn web
+z for
+clear
+yarn start
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+abbr load
+co 
+co
+c o
+co 
+co 
+co 
+clear
+abbr add yacsa="yarn app-config secret agent"
+yacsa 
+abbr list
+lvim .zshrc
+zplug install
+zplug update
+zplug --help
+zplug clear
+zplug clean
+zplug info
+zplug list
+zplug check
+zplug load
+lvim .zshrc
+zplug install
+source .zshrc
+zplug update\ 
+zplug update
+zplug load
+c
+git checkout main
+exit
+abbr --list
+abbr list
+man abbr
+abbr --help
+exit
+z for
+co
+co;
+yarn app-config secret agent
+reset
+yacsa
+exit
+yarn services:start
+exit
+startx
+yarn web
+yarn services:start
+yarn services:start
+yacsa
+yacsa 
+abbr list
+yarn app-config secret agent
+z for
+yarn start
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+qalc
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+yarn services:start
+yarn web
+z for
+yarn app-config secret agent
+z for
+yarn start
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+neofetch
+clear
+neofetch
+startx
+z for
+yarn app-config secret agent
+z for
+clear
+yarn start
+yarn services:start
+yarn web
+yarn web
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z for
+yarn app-config secret agent
+yarn services:start
+qalc
+ls
+cd /m
+cd /mnt
+lsa
+lsa
+ls -la
+cd
+cd -
+cd /media
+lsa
+cd d
+cd Data
+lsa
+clear
+lsa
+cd wdBlue-1tb
+lsa
+lsa Games/
+lsa Games\ Downloaded
+cd Games\ Downloaded
+lsa
+cd Baldurs.Gate.3.GOG.Rip-InsaneRamZes
+lsa
+_ df -h
+_ ncdu .
+yarn web
+yarn cache clean
+yarn web
+z for
+yarn start
+yarn seeed
+yarn seed
+yarn seed
+yarn start
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+yarn services:start
+z for
+yarn app-config secret agent
+yarn web
+pacman -Syy
+_ pacman -Syy
+_ pacman -S code
+z for
+clear
+yarn start
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+yarn services:start
+docker ps
+z for
+yarn start
+yarn seed
+yarn seed
+yarn seed
+yarn start
+yarn migration:run
+yarn start
+yarn db:rmfg
+yarn db:rmf
+yarn db:remake
+yarn start
+git pull
+git fetch
+git fetch
+yarn start
+yarn seed
+yarn seed
+yarn seed
+yarn seed
+yarn seed
+yarn seed
+yarn seed
+yarn seed
+yarn start
+z for
+git branch -d refactor/major-table-refactor
+yarn web
+yarn
+yarn 
+yarn
+yarn web
+yarn install --force
+yarn web
+yarn cache clean
+yarn clean
+yarn web
+npx npkill
+yarn
+yarn web
+yarn lint
+yarn fix
+yarn web
+yarn build
+yarn web
+yarn web:bundle
+yarn web
+yarn clean
+yarn build
+yarn web
+yarn build
+yarn web
+yarn build
+yarn web
+z for
+yarn app-config secret agent
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+yarn web
+clear
+yarn build
+yarn web
+yarn web
+qalc
+yarn web
+yarn build
+yarn web
+yarn services:start
+z for
+yarn app-config secret agent
+z for
+yarn start
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z for
+yarn app-config secret agent
+yarn services:start
+z for
+yarn start
+yarn start
+yarn web
+yarn build
+yarn web
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+yarn web
+z for
+yarn app
+yarn app-config secret agent
+yarn services:start
+z for
+clear
+yarn start
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z for
+yarn app-config secret agent
+z for
+clear
+yarn start
+yarn web
+yarn install --force
+yarn web
+yarn
+yarn web
+yarn 
+yarn weeb
+yarn web
+yarn services:start
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+yarn services:start
+cd 
+cd Desktop
+lsa
+mkcd musicas_aniversario
+yt-dlp https://www.youtube.com/watch?v=t8trCpHEpe4&list=PLCwAHfhr-Gc-diZqYw41EP7J9UFNTiiJi
+yt-dlp 'https://www.youtube.com/watch?v=t8trCpHEpe4&list=PLCwAHfhr-Gc-diZqYw41EP7J9UFNTiiJi'
+lsa
+cd ..
+cp -r musicas_aniversario /run/media/fparad0x/WIN_11
+_ cp -r musicas_aniversario /run/media/fparad0x/WIN_11
+watch -d grep -e Dirty: -e Writeback: /proc/meminfo
+z for
+yarn aopop-config secret agent
+yarn app-config secret agent
+lsblk
+cd /dev/sda1
+cd /run/media/fparad0x/WIN11_PRO_2
+lsa
+cd ..
+umount WIN11_PRO_2
+mount /dev/sdb1 ./WIN_11
+_ mount /dev/sdb1 ./WIN_11
+mkdir WIN_11
+sudo mkdir WIN_11
+_ mount /dev/sdb1 ./WIN_11
+cd WIN_11
+lsa
+lsblk
+cd ..
+_ umount ./WIN_11
+lsa
+lsa WIN_11
+_ mount /dev/sde1 ./WIN_11
+lsa WIN_11
+lsa WIN_11/Download
+lsa WIN_11/DCIM
+cd WIN_11
+lsa
+cd DCIM
+lsa
+cd ..
+cd ..
+umount WIN_11
+_ umount WIN_11
+lsa
+lsblk
+_ mkfs.vfat /dev/sde1
+lsa
+mount /dev/sde1 ./WIN_11
+_ mount /dev/sde1 ./WIN_11
+lsa
+lsa WIN_11
+lsa WIN_11/musicas_aniversario
+sync
+_ umount WIN_11
+yarn web
+z for
+yarn start
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+yarn web
+yarn services:start
+z for
+yarn starrt
+yarn start
+z for
+yarn app-config secret agent
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+startx
+startx
+lsa
+find -iname guide .
+find . -iname guide
+cat /etc/host
+cat /etc/hostname
+_ fdisk -l
+_ fdisk /dev/sda
+_ fdisk /dev/sda
+df -h
+_ fdisk /dev/sdd
+_ fdisk -l
+_ fdisk /dev/sdb
+_ fdisk /dev/sda
+_ mkfs.vfat /dev/sda1
+_ mkfs.ext4 /dev/sda2
+_ mkfs.ext4 /dev/sda3
+clear
+sync
+find . -iname install
+startx
+lsblk
+sudo pacman -Syyu
+cat /etc/pacman.d/mirrorlist
+reflector --latest 50 --sort rate --save /etc/pacman.d/mirrorlist --country 'Brazil,Canada,United States'
+reflector --latest 200 --sort rate --save /etc/pacman.d/mirrorlist --country 'Brazil,Canada,United States'
+_ reflector --latest 200 --sort rate --save /etc/pacman.d/mirrorlist --country 'Brazil,Canada,United States'
+cat /etc/pacman.d/mirrorlist
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+_ pacman -S discord
+cd Desktop
+git clone https://github.com/MarcosAlmeidaFreitas/nwl-ia.git
+cd nwl-ia
+lsa
+cd upload-ia-api
+pnpm install
+pnpm i
+pnpm i pnpm
+yarn
+yarn 
+yarn
+clear
+fnm use
+fnm install 18
+pnpm i
+fnm use
+fnm use 18
+pnpm i
+pnpm prisma migrate dev
+pnpm dev
+clear
+pnpm dev
+clear
+pnpm dev
+pnpm dev
+pnpm dev
+lsblk
+bat /etc/fstab
+lsblk
+cd /mnt
+_ mkdir WindowsDesktop
+lsa
+_ mount /dev/sdb3 /mnt/WindowsDesktop
+cd WindowsDesktop
+lsa
+cd Users
+lsa
+cd fParad0x_
+lsa
+cd Downloads
+lsa
+cp NWL.zip ~/Desktop
+pnpm -vb
+pnpm -v
+pnpm prisma studio
+pnpm prisma migrate:reset
+pnpm prisma migrate reset
+pnpm prisma studio
+pnpm prisma migrate reset
+pnpm prisma studio
+cd 
+cd Desktop
+clear
+mkdir NWL
+lsa
+rmdir NWL
+mkdir NLW
+mv NWL.zip NLW.zip
+unzip NLW.zip ./NLW
+unzip ./NLW ./NLW.zip
+unzip NLW.zip
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+startx
+_ pa0cman -S discord
+_ pacman -S discord
+_ pacman -Syy discord
+startx
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+pacman -Ss android-studio
+paru -Ss android-studipo
+paru -Ss android-studio
+exit
+lsa
+lsa .aws
+rm -rf .aws
+pacman -Qi | grep -i aws
+_ pacman -Rnsu aws-cli
+pacman -Qi | grep -i azure
+_ pacman -Rnsu azure-cli
+pacman -Ss rbenv
+paru -Ss rbenv
+paru -S rbenv
+rbenv install 3.22.
+rbenv --help
+rbenv global 3.2.2
+rbenv commands
+rbenv init
+lvim .zprofile
+rbenv versions
+source .zprofile
+rbenv install
+rbenv global 3.2.2
+rbenv install -l
+rbenv --version
+exit
+lvim .zshrc
+exit
+_ pacman -Syyu
+_ pacman -S yt-dlp
+_ pacman -Rnsu yt-dlp
+_ pacman -Syyu
+_ pacman -C
+pacman -Sc
+_ pacman -Sc
+_ pacman -Syyu
+_ pacman -Syyu --overwrite "*"
+_ pacman -S yt-dlp
+_ pacman -S yt-dlp --overwrite "*"
+_ pacman -Syyu
+paru -Syyu
+paru -S flashfocus
+python -v
+paru -S flashfocus
+python --version
+pyenv --help
+pyenv global 3.8
+pyenv versions
+pyenv global 3.9
+paru -S flashfocus
+pyenv global 3.10
+pyenv global 3.9
+pyenv global 3.10
+paru -S flashfocus
+pyenv global 3.11
+pip install build
+paru -S flashfocus
+pip install wheel
+paru -S flashfocus
+pip install installer
+paru -S flashfocus
+_ pacman -Rnsu passmark-performancetest-bin
+_ pacman -Rnsu watchman-in
+_ pacman -Rnsu watchman-bin
+paru -S slack-desktop
+paru -Syyu
+cd Downloads
+lsa
+cd _cloned-repos
+lsa
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+paru -Syyu
+paru -S paru
+paru -Syyu
+clear
+exit
+startx
+rbenv install -l\ 
+rbenv install -l
+paru -Ss ruby-build
+paru -S ruby-build
+rbenv install -l
+rbenv install 3.2.2
+rbenv global 3.2.2
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+killall slack
+htop
+slack &
+fg
+fg
+fg
+slack 
+exit
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+echo $RESOLUTIONN
+echo $RESOLUTION
+cantata
+paru -S qt5-styleplugins
+cantata
+lsa Music
+lsa Music/_MyMusic-D
+lsa /media/Data/wdBlue-2tb-p1/_MyMusic(D)
+lsa "/media/Data/wdBlue-2tb-p1/_MyMusic(D)"
+lsa /media/Data/wdBlue-2tb-p1
+df -h
+lsa Documents/launchcode
+cd Documents/launchcode
+cp -r forged-drilling ./forged-drilling-zip
+lsa
+cd forged-drilling-zip
+npx npkill
+npx npkill
+cd ..
+zip -ur forged-drilling-zip
+lsa
+zip -ur forged-drilling-zip.zip forged-drilling-zip
+cd ..
+lsa
+cd ck
+cd CKL/customer
+cd ..
+lsa
+cd web/
+bundle install
+node -v
+yarn 
+npm i -g yarn
+yarn
+lsa
+bundle install
+rbenv install 3.1.4
+yarn
+bundle install
+bundle install
+bundle install pg
+gem install pg
+gem install pg 
+direnv allow .
+pacman -Ss direnv
+_ pacman -S direnv
+direnv allow .
+bundle install && npm install
+gem install rails
+./bin/rails c
+./bin/rails c
+bundle install
+bundle install
+./bin/rails c
+bundle install
+./bin/rails c
+docker-compose up -d
+./bin/rails c
+docker ps
+pacman -Ss code | grep -i -A2 code
+paru -S visual-studio-code-bin
+paru -S visual-studio-code-bin
+lsa
+df -h
+lsblk
+_ fdisk -l
+lsa
+lsa
+_ mount /dev/sdb3 ./kingdian-256gb
+cd kingdian-256gb
+lsa
+pacman -Ss zoom
+paru -Ss zoom
+paru -S zoon
+paru -S zoom
+BROWSER=firefox zoom
+pacman -Qi xf86-video
+pacman -Qi xf86
+pacman -Qi | grep -i xf86-video
+pacman -Qi | grep -i xf86
+pacman -Qi xf86-video-intel
+telegram-desktop
+pacman -Qs qt6
+_ pacman -S qt6ct
+telegram-desktop
+pacman -Qs qt6
+_ pacman -S qt6gtk2 
+paru -S qt6gtk2 
+telegram-desktop
+cd
+reset
+pacman -Ss starship
+yarn -v
+bat .npmrc
+rm .npmrc
+cd .local/share/fonts
+lsa
+htop
+cd /media
+lsa
+cd d
+cd Data
+lsa
+cd ..
+lsa
+cd Data
+lsa
+mkdir kingdian-256gb
+_ mkdir kingdian-256gb
+lsa
+cd
+cd Documents
+lsa
+mkdir CKL
+cd CKL
+clear
+git clone git@github.com:camp-stores/web.git
+git config --help
+git config --get-all
+git config --global --get-all
+git config --help
+git config -l
+git config --global user.email=erick.silva@ckl.io
+git clone git@github.com:camp-stores/web.git
+git clone git@github.com:camp-stores/web.git
+git clone https://github.com/camp-stores/customer
+git clone git@github.com:camp-stores/customer.git
+git clone git@github.com:camp-stores/shopify-admin.git
+l
+ruby -v
+cd
+cd .ss
+lsa
+cd .ssh
+lsa
+rm -rf *
+lsa
+ssh-keygen -o -t rsa -C "erick.silva@ckl.io"
+lsa
+bbat id_rsa.pub
+bat id_rsa.pub
+cat id_rsa.pub
+l
+lsa .yarn
+lvim .yarn/berry
+lvim .yarnrc
+mv .yarnrc .yarnrc-bkp
+pacman -Ss arandr
+_ pacman -S arandr
+clear
+cd .config/polybar/
+lvim config-i3
+cd ..
+cd i3
+lsa
+lvim i3-startup-once.sh
+lvim i3-startup-always.sh
+cd ..
+cd -
+lvim config
+$(xrandr --query | grep " connected" | cut -d" " -f1)
+$(xrandr --query | grep " connected" | cut -d" " -f1)
+xrandr --query | grep " connected" | cut -d" " -f1
+cd _my-scripts
+lvim polybarstart-
+lvim polybarstart-i3
+polybar
+./polybarstart-i3
+lvim polybarstart-i3
+lvim polybarstart-i3
+./polybarstart-i3
+lvim polybarstart-i3
+./polybarstart-i3
+lvim polybarstart-i3
+./polybarstart-i3
+clear
+exit
+cd Documents/CKL
+lsa
+cd customer
+lll
+l
+sla
+lsa
+cp .env.example .env
+yarn
+cd ../shopify-admin
+yarn
+yarn dev
+yarn generate
+docker ps
+lsa ~/.docker
+lsa ~/.docker/buildx
+yarn generate
+yarn generate
+yarn generate
+yarn generate
+yarn generate
+rm -rf node_modules
+npm i
+npm i
+npm run dev
+npm run generate
+npm run generate
+npm run dev
+npm run generate
+npm run generate
+npm run generate
+direnv allow .
+npm run generate
+npm run generate
+npm run generate
+ping http://localhost:7544/
+exit
+cd ..
+cd shopify-admin
+ping http://localhost:7544/
+wget http://localhost:7544/graphql
+bat graphql
+npm run generate
+npm run generate
+npm run generate
+cd ..
+rm -rf shopify-admin
+git clone git@github.com:camp-stores/shopify-admin.git
+cd shopify-admin/
+npm install
+fnm list
+cp .env.example .env
+npm run generate
+npm run generate
+npm run generate
+npm run build
+npm run generate
+npm run start
+npm run dev
+npm run dev
+eexit
+exit
+cd
+lvim .zprofile
+source .zprofile
+lvim .zprofile
+bat .npmrc
+pacman -Qi | grep -i postgresql
+pacman -Qi postgresql-libs
+pacman -Qi postgresql
+pacman -Ss postgresql
+_ pacman -S postgresql
+pacman -Ss buildx
+_ pacman -S docker-buildx
+cd .bundle
+lsa
+lsa
+ecd
+cd
+cd .bundle
+l
+rm config
+exit
+bundle config --local gems.contribsys.com ec718469:3236dd82
+bat .bundle/config
+startx
+ngrok http 8788
+ngrok http 8788
+ngrok http --domain=illegally-main-shrew.ngrok-free.app 80
+ngrok config add-authtoken 2XE2GYS7tiw8BotGQgBEh5rAPja_7P8mxxiSLbYKoi5Je1ZXS
+ngrok http --domain=comic-squid-super.ngrok-free.app 80
+ngrok http --domain=comic-squid-super.ngrok-free.app 8778
+ngrok http 8778 --domain=comic-squid-super.ngrok-free.app 
+ngrok http 8778 --domain=comic-squid-super.ngrok-free.app
+ngrok http 8788 --subdomain=-comic-squid-super -region=global
+ngrok http 8788 --subdomain=-comic-squid-super --region=global
+ngrok http 8788 --subdomain=-comic-squid-super --region=Global
+ngrok http 8788 --subdomain=-comic-squid-super --region='Global -'
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+pacman -Qs postgresql
+pacman -Ss postgresql-devel
+pacman -Ss postgresql-
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+_ pacman -Rnsu qutebrowser
+clear
+cd
+cd .docker
+pwd
+lsa
+cd
+z web
+lsa
+bat Gemfile
+lsa bin
+file bin/rails
+yarn generate
+PREVENT_REINDEX=true bin/rails db:setup contentful:import_now shopify:import_staging_data shopify:import_users
+PREVENT_REINDEX=true bin/rails db:setup contentful:import_now shopify:import_staging_data shopify:import_users
+git pull
+git pull
+bundle install
+bundle install
+bundle install
+direnv allow .
+bundle install
+rbenv local 3.2.2
+bundle install
+rbenv local 3.1.4
+bundle install
+pacman -Ss postgres
+sudo pacman -S postgresql-libs
+bundle install
+bundle install
+rails c
+bundle config --local
+bundle config 
+bundle config 
+docker compose up
+docker compose up
+docker build --no-cache
+docker build --no-cache
+docker-compose build --no-cache
+docker ps
+docker-compose build 
+docker-compose up
+docker-compose up --build
+docker-compose build
+docker rm -f $(docker ps -a -q)
+docker volume rm $(docker volume ls -q)
+docker-compose up -d
+docker ps
+rails c
+bundle install
+lsa .bundle
+bat .bundle/config
+bundle install
+bat .bundle/config
+bundle install
+bundle -h
+cp .bundle/config ~/.bundle/
+bundle install
+bundle install RAILS_ENV="development"
+bundle install RAILS_ENV=development
+RAILS_ENV=development bundle install
+echo $BUNDLE_APP_CONFIG
+bundle config set --global gems.contribsys.com \ec718469:3236dd82
+bundle config set --global gems.contribsys.com ec718469:3236dd82
+export BUNDLE_ENTERPRISE__CONTRIBSYS__COM="ec718469:3236dd82"\
+\
+\
+\
+\
+\
+
+bundle install
+rails c
+clear
+rails s
+PREVENT_REINDEX=true bin/rails db:setup contentful:import_now shopify:import_staging_data shopify:import_users
+rails s
+rails s
+rails s
+rails s
+rails s
+_ pacman -Rnsu postgresql-libs
+_ pacman -R postgresql-libs
+_ pacman -R postgresql-libs postgresql
+bundle install
+bundle install pg
+gem install pg
+_ pacman -S postgresql-libs postgresql
+bundle install
+rails server
+ngrok http 8788
+npm run generate
+cd ../customer
+npm run dev
+npm run generate
+npm run dev
+npm run dev
+z admin
+npm run generate
+npm run generate
+clear
+npm run generate
+npm run generate
+npm run dev
+npm run dev
+npm run dev
+git branch -d docs/improve-documentation-on-project-setup
+startx
+rails s
+rails s
+rails s
+PREVENT_REINDEX=true bin/rails db:setup contentful:import_now shopify:import_staging_data shopify:import_users
+PREVENT_REINDEX=true bin/rails db:reset contentful:import_now shopify:import_staging_data shopify:import_users
+rails s
+z weebb
+z web
+clear
+docker compose up
+docker compose up
+z web
+clear
+lsa
+lsa .bundle
+rm -rf shopify-admin
+_ rm -rf shopify-admin
+rails c
+rails c
+cd ../shopify-admin
+clear
+npm run dev
+cd ../web
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+sntp
+pacman -Ss sntp
+paru -Ss sntp
+ntp
+pacman -Ss ntp
+_ pacman -S nntp
+_ pacman -S ntp
+sudo sntp -sS time.google.com
+gem install robocop
+gem remove robocop
+gem install rubocop
+gem install solargraph
+startx
+z web
+clear
+docker compose up
+cd .config/i3
+lsa
+lvim config
+cd
+cd Desktop/csv-rh
+lsa
+pnpm install
+clear
+cd
+cd .config/i3
+lsa
+lvim config
+lsa
+lvim i3-startup-always.sh
+rails s
+git pull
+rails s
+PREVENT_REINDEX=true bin/rails db:setup contentful:import_now shopify:import_staging_data shopify:import_users
+bundle install
+PREVENT_REINDEX=true bin/rails db:setup contentful:import_now shopify:import_staging_data shopify:import_users
+PREVENT_REINDEX=true bin/rails db:reset contentful:import_now shopify:import_staging_data shopify:import_users
+rails s
+rails c
+cd ../shopify-admin
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+sudo sntp -sS time.google.com
+sudo sntp -sS time.google.com
+cd Downloads/
+lsa
+cd Telegram\ Desktop
+fbg 45618_pogea_fplus_pogea_cars_2018_cars_hd_4k_ferrari_auto_x2_colored.jpg
+fbg 45618-pogea-fplus-pogea-cars-2018-cars-hd-4k-ferrari_auto_x2.jpg
+fbg /home/fparad0x/Downloads/cecilie-johnsen-hk3695TrMZA-unsplash.jpg
+fbg zxxx123\ \(1\)_auto_x2.jpg
+fbg /home/fparad0x/Downloads/eric-welch-eRwWGWkh0vU-unsplash.jpg
+cd ../shopify-admin
+npm run dev
+startx
+cd ../shopify-admin
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+killall openrgb
+cd Documents
+lsa
+rails new project
+rbenv global 3.2.2
+rails new project
+gem install rails\ 
+gem install rails
+gem install rails
+gem update --system 3.4.21
+rails new project
+cd project
+lsa ../
+rails s
+rails  generate controller Articles index --skip-routes
+rails s
+rails s
+rails generate model Article title:string body:text
+rails s
+rails db:migrate
+rails s
+pacman -Ss aptana
+paru -Ss aptana
+rails c
+rails console
+./bin/rails console
+rails sc
+rails c
+s0udo sntp -sS time.google.com
+sudo sntp -sS time.google.com
+lsa 
+cd
+cd Desktop
+cd
+cd Music
+lsa
+lsa _MyMusic-
+lsa _MyMusic-D
+clear
+cd 
+cd /etc
+_ lvim fstab
+ntfs-3g
+clear
+lvim fstab
+clear
+fbg /home/fparad0x/Downloads/eric-welch-eRwWGWkh0vU-unsplash.jpg
+cd .config/i3
+lvim i3-startup-always.sh
+fbg --bg-fill /home/fparad0x/Downloads/eric-welch-eRwWGWkh0vU-unsplash.jpg
+clear
+clear
+cd
+clear
+z web
+rails s
+docker compose up
+rails c
+cd ../shopify-admin
+npm run dev
+lsblk
+cd /media
+lsa
+lsa Data
+l;sa
+clear
+lsa
+cd d
+cd Data
+clear
+lsa
+lsa wdBlue-
+lsa wdBlue-*
+lsa kingdian-256gb
+_ rmdir kingdian-256gb
+_ rmdir nvme-256
+lsblk
+_ mount /dev/sdc2 ./wdBlue-2tb-p1
+_ mount /dev/sdc3 ./wdBlue-2tb-p2
+_ mount /dev/sdd1 ./wdBlue-1tb
+lsa
+lsa *
+lsblk
+lsblk -f
+lsa
+file wdBlue-*
+df -h
+_ umount ./wdBlue-1tb
+_ umount ./wdBlue-2tb-p1
+_ umount ./wdBlue-2tb-p2
+umount -af
+_ umount -af
+sync
+_ umount /media/Data/wdBlue-2tb-p1
+_ umount /media/Data/wdBlue-2tb-p2
+df -h
+cd ../
+cd ../
+cd mnt
+lsa
+cd /media
+lsa
+cd Data
+lsa
+_ rmdir *
+lsa
+cd ..
+cd ..
+cd mnt/
+lsa
+mkdir WDBlue-1TB WDBlue-2TB-P1
+_ mkdir WDBlue-1TB WDBlue-2TB-P1
+_ mkdir -1TB WDBlue-2TB-P2
+_ mkdir WDBlue-2TB-P2
+lsa
+_ mount /dev/sdd1 ./WDBlue-1TB
+_ mount /dev/sdc2 ./WDBlue-2TB-P1
+_ mount /dev/sdc3 ./WDBlue-2TB-P2
+lsa
+lsa *
+_lsblk -f
+_ lsblk -f
+mount -a
+_ mount -a
+_ systemctl daemon-reload
+_ mount -a
+cd
+cd Music
+lsa
+lsa *
+lsa _MyMusic-D
+file _MyMusic-m
+file _MyMusic-D
+ln /mnt/WDBlue-2TB-P1/_MyMusic\(D\) _MyMusic-D
+ln -s /mnt/WDBlue-2TB-P1/_MyMusic\(D\) _MyMusic-D
+ln -sfn /mnt/WDBlue-2TB-P1/_MyMusic\(D\) _MyMusic-D
+lsa
+ln -sfn /mnt/WDBlue-2TB-P1/_MyMusic\(E\) _MyMusic-E
+lsa
+lsa *
+mpd -u
+mpd update
+mpc update
+lsa /home/fparad0x/Music
+cd
+lsa .mpd
+rm .mpd/database
+mpc update
+lsa .mpd
+df -h
+startx
+rails c
+fbg --bg-fill /home/fparad0x/Downloads/eric-welch-eRwWGWkh0vU-unsplash.jpg
+clear
+cd .config/i3
+lvim config
+lvim i3-startup-always.sh
+cd
+clear
+cd Documents/project
+lsa
+clear
+rails s
+startx
+fbg --bg-fill /home/fparad0x/Downloads/eric-welch-eRwWGWkh0vU-unsplash.jpg
+cd .config/i3
+lsa
+lvim i3-startup-always.sh
+i3l -h
+clear
+cd
+cd Documents/project
+lsa
+cd Documents/project
+pacman -Ss ttf-noto-fonts-emoji-ib
+paru -Ss ttf-noto-fonts-emoji-ib
+paru -Ss ttf-noto-fonts
+paru -S ttf-noto-fonts-simple
+pacman -Ss noto-color-emoji-fontconfig
+paru -Ss noto-color-emoji-fontconfig
+paru -S noto-color-emoji-fontconfig noto-fonts-emoji
+exit
+fc-match MononokiNerdFont
+fc-match MononokiNerdFontItalic
+fc-match MononokiNerdFont-Italic
+fc-match MononokiNerdFont:style=Italic
+exit
+fc-cache -vf
+l
+fc-list | grep -i mononoki
+exit
+cd
+cd .local/share/fonts
+lsa
+rm -rf mononoki*
+lsa
+bat uu
+bat .uuid
+cp ~/Downloads/Mononoki.zip .
+lsa
+unzip Mononoki.zip
+reset
+pacman -Qs noto-fonts-emoji
+cd ~/.config/fontconfig/ && ls
+bat fonts.conf.back
+cd
+clear
+cd .config/alacritty/
+lsa
+lvim alacritty.yml
+clear
+exit
+rails routes
+exit
+rails c
+exit
+i3
+i3
+i3 focus output left
+exit
+lvim .zprofile
+exit
+startx
+rails c
+cd .config/i3
+lvim config
+paru -Ss aptana
+paru -S aptana-studio
+lsa Documents/Aptana_Studio_Workspace
+bat Documents/Aptana_Studio_Workspace/.metadata
+lsa Documents/Aptana_Studio_Workspace/.metadata
+bat Documents/Aptana_Studio_Workspace/.metadata/.lo
+bat Documents/Aptana_Studio_Workspace/.metadata/.log
+java -v
+java --version
+bat Documents/Aptana_Studio_Workspace/.metadata/.log
+paru -Ss jaba
+paru -Ss jabba
+paru -S jabba-bin
+_ pacman -Sc
+lsa /var/cache/pacman/pkg/
+_ pacman -Sc
+sudo rm -rf /var/cache/pacman/pkg/*
+_ pacman -Sc
+clear
+_ pacman -Syy
+paru -S jabba-bin
+paru -S jabba
+pacman -Ss jabba
+paru -S jabba
+paru -Ss 
+paru -Ss jabba
+paru -S jabba
+jabba -v
+jabba current
+jabba ls-remote
+jabba install openjdk@18
+source .zprofile
+jabba -h
+echo JAVA_HOME
+echo $JAVA_HOME
+jabba ls
+jabba use openjdk@18.0.
+jabba use openjdk@18.0.2
+echo $JAVA_HOME
+source .zprofile
+jabba use openjdk@18.0.2
+echo $JAVA_HOME
+aptana-studio
+_ pacman -Qs java
+_ pacman -Qs opendjk
+_ pacman -Qs openjdk
+pacman -Ss aptana
+paru -Ss aptana
+pacman -Ss rubymine
+paru -Ss rubymine
+paru -S rubymine
+gem install solargraph-rails --pre
+solargraph download-core
+rbbs
+rbs
+rbs --help
+man rbs
+pacman -Qi rbs
+pacman -Qo rbs
+yard gems
+clear
+echo $JAVA_HOME
+source .zshrc
+jabba -h
+jabba current
+jabba use openjdk@18.0.2
+jabba current
+jabbba use openjk
+jabba use opendjk
+jabba use opendjk@18
+lvim .zprofile
+lsa
+find . -iname jabba
+lsa .jabba
+lsa
+export JABBA_VERSION=...\
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash -s -- --skip-rc && . ~/.jabba/jabba.sh
+export JABBA_VERSION=...
+export JABBA_VERSION=...
+_ pacman -Rnsu jabbba
+_ pacman -Rnsu jabba
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash -s -- --skip-rc && . ~/.jabba/jabba.sh
+export JABBA_VERSION=...
+export JABBA_VERSION="..."
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash -s -- --skip-rc && . ~/.jabba/jabba.sh
+export JABBA_VERSION="0.11.2"
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash -s -- --skip-rc && . ~/.jabba/jabba.sh
+jabba install openjdk@18
+jabba install openjdk@18.0.2
+jabba ls-remote
+jabba ls-remote | grep -i opendjk
+jabba ls-remote | grep -i openjdk
+jabba ls-remote 
+jabba install openjdk@1.11.0
+ech
+echo $JAVA_HOME
+jabba ls
+jabba current
+aptana-studio
+jabba ls-remote
+jabba ls
+jabba install zulu@1.8.282\
+
+echo $JAVA_HOME
+aptana-studio
+_ pacman -Rnsu aptana-studio
+jabba ls-remote
+jabbba use graalvm@21.1.0
+jabba install graalvm@21.1.0
+jabba use graalvm@21.1.0
+jabba current
+echo $JAVA_HOME
+du -hcs .jabba
+clear
+rails routes
+echo $_JAVA_OPTIONS
+echo $JAVA_VERSION
+echo $JAVA_HOME
+source z.sh
+cd
+source .zshrc
+echo $JAVA_HOME
+cd -
+bundle install
+cd Documents/project
+lsa
+clear
+rails s
+rails s
+rails generate model Comment commenter:string body:text article:references
+rails db:migrate
+rails s
+rails db:migrate
+rails generate controller Comments
+rails s
+rails db:migrate
+rails generate controller Comments
+rails s
+gem intall solargraph
+gem install solargraph
+bundle install solargraph
+solargraph config
+solargraph reporters
+yard gems
+solargraph bundle
+gem install solargraph-rails-init
+solargraph-rails-init
+rails s
+htop
+htop
+startx
+clear
+cd 
+clear
+lsa
+lsa
+cd go
+cd
+cd Documents
+l
+cd project
+clear
+rails s
+rails generate migration AddStatusToArticles status:string
+rails s
+rails db:migrate\
+
+bundle
+bundle install 
+bundle fund
+rails 
+rails s
+cls
+clear
+cls
+rails c
+npm install
+clear
+killall openrgb
+startx
+reboot
+history 
+killall openrgb
+clear
+exit
+exit
+exit
+htop
+kill 13290
+clear
+cd go
+cd
+cd Downloads
+lsa
+cd Telegram\ Desktop
+lsa
+rm zxxx12*
+lsa
+cd
+clear
+cd Documents/CKL
+lsa
+cd web
+lsa
+lsa db
+htop
+clear
+irb
+clear
+cd
+clear
+irb
+exit
+lvim
+exit
+rails generate model Car wheels:number
+rails generate model Car wheels:int
+rails generate model Car wheels:string
+rails s
+rails db:migratee
+rails db:migrate\ 
+rails db:migratee
+rails db:migrate
+rails db:reset
+rails server
+rails s
+irb
+rails console
+rails s
+exit
+cd Desktop
+clear
+lsa
+clear
+lsa
+fbg minas-tirith-1228045-2667x2000-desktop-hd-gondor-wallpaper-image.jpg
+clear
+neofetch
+exit
+startx
+z web
+clear
+docker compose up
+c;ear
+clear
+rails s
+docker compose up
+cd /mnt/WindowsDesktop
+lsa
+cd
+inxi -m
+clear
+cd
+cd Desktop
+lsa
+mv \#paulokogos paulokogos.mp4
+l
+clear
+lsa
+_ pacman -S inxi
+inxi -m
+_ inxi -m
+rm -rf sdcard.img
+clear
+lsa
+lsa -h
+lsa -lah
+mv Table-backup.ts Table-backup.ts.n
+node -v
+irb
+z adm
+clear
+npm run dev
+rails s
+rails s
+rails s
+rails c
+rails c
+bg
+g
+xteiei
+fg 
+rails c
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+startx
+z we
+clear
+rails s
+pacman -Ss postman
+paru -Ss postman
+paru -S postman-bin
+vim
+z admi
+clear
+npm run dev
+clear
+cd Downloads/
+lsa
+betterlockscreen -l /home/fparad0x/Downloads/eric-welch-eRwWGWkh0vU-unsplash.jpg
+betterlockscreen -u /home/fparad0x/Downloads/eric-welch-eRwWGWkh0vU-unsplash.jpg
+betterlockscreen -l /home/fparad0x/Downloads/eric-welch-eRwWGWkh0vU-unsplash.jpg
+clear
+z web
+docker compose up
+rails c
+rails c
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+startx
+_ pacman -S telegram-desktop discord
+_ pacman -Sy telegram-desktop discord
+clear
+z web
+clear
+docker compose up
+rails c
+z adm
+npm run dev
+npm run generate
+npm run dev
+p
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails s
+rails s
+rails db:migrate
+rails s
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z adm
+clear
+npm run dev
+npm run generate
+npm run dev
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm i
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm install
+npm run dev
+npm run generate
+npm run dev
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+git config pull.rebase false
+z web
+clear
+docker compose up
+rails c
+rails 
+rails s
+rails db:migrate
+rails s
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+rails c
+du -hcs
+lsblk
+_ fdisk -l
+exit
+startx
+z admin
+clear
+npm run dev
+pnpm run prisma migrate:dev
+cd backend
+pnpm run prisma migrate:dev
+pnpm prisma migrate:dev
+pnpm prisma migrate dev
+pnpm prisma migrate dev
+nest g service PrismaService
+nest g controller user
+fnm use 22
+fnm list
+fnm use 220
+fnm use 20
+cls
+clear
+nest g controller user
+nest g service user
+nest g resource user
+nest g resource user
+clear
+prisma migrate dev
+pnpm prisma migrate dev
+pnpm prisma migrate dev
+pnpm prisma migrate dev
+pnpm prisma generate
+pnpm prisma migrate dev
+pnpm add --dev @nestjs/config
+pnpm add -D @nestjs/config
+echo $TZ
+pnpm run dev
+pnpm run start
+clear
+pnpm run dev
+pnpm run start
+pnpm run start
+z web
+clear
+docker compose up
+cd ../
+cd frontend
+pnpm install
+cd Documents/CKL/csv-rh
+clear
+lsa
+pnpm install
+pnpm run start
+pacman -Ss libreoffice
+pacman -S libreoffice-fresh 
+_ pacman -S libreoffice-fresh 
+cd ../..
+clear
+git clone git@github.com:ecesar88/taskmanager-monorepo.git
+cd taskmanager-monorepo
+pnpm install
+ls
+cd backend
+pnpm install
+fnm -v
+fnm current
+fnm list
+fnm use 20
+pnpm install
+killall openrgb
+htop
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails s
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+rails s
+z webb
+z web
+cp app/graphql/resolvers/query_type/overlapping_events_resolver.rb ~/Desktop
+bat ~/Desktop/overlapping_events_resolver.rb
+bat ~/Desktop/overlapping_events_resolver.rb
+rails c
+z web
+clear
+rails c
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z adm
+clear
+npm run dev
+npm run generate
+npm run generate
+npm run generate
+npm run dev
+localectl status
+setxkbmap -print -verbose 10
+z web
+clear
+docker compose up
+lvim .xinitrc
+lvim .zprofile
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails c
+rails s
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+lvim .xinitrc
+lvim .zprofile
+lvim .zshrc
+lsa
+lvim .Xresources
+lvim .xinitrc
+lvim .zprofile
+lvim .zshrc
+source .zprofile
+lsa
+source .zshrc
+source .zprofile
+lvim .zprofile
+lvim .zsh-aliases
+source .zsh-aliases
+lim .zshrc.zni 
+lvim .zshrc.zni 
+z web
+docker compose up
+lsa
+cd .config/i3
+lsa
+lvim config
+lvim i3-startup-always.sh
+lvim i3-startup-once.sh
+rails c
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+bat ~/Desktop/overlapping_events_resolver.rb
+z adm
+pnpm run start
+npm run dev
+rails s
+xset r rate 300 80 &\
+
+setxkbmap -layout us -variant intl &\
+
+ps aux | grep -i xautolock
+xautolock -locker "betterlockscreen -l" -time 5 -notify 25 -corners ---- -cornerdelay 10 -cornersize 20 -notifier "dunstify -i ~/_my-scripts/_icons/locking.png -a System -u critical System 'Locking in 25 seconds.'" &\
+
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+cd
+cd .config/coc
+cd
+cd .config/polybar
+lvim config-i3
+exit
+lvim /etc/polybar/config.ini
+exit
+htop
+lutris
+python -v
+python --version
+clear
+lutris
+_ pacman -S lutris
+lutris
+_ pacman -Syy
+lutris
+pip install  lutris
+pip install --upgrade-pip
+clear
+lvim /etc/polybar/config.ini
+tmux
+exit
+echo $MONITOR
+ps aux | grep -i polybar
+cd
+cd _my-scripts
+lsa
+cd
+cd .config/i3
+lsa
+lvim i3-startup-always.sh
+cd
+cd _my-scripts
+lvim polybarstart-i3
+./polybarstart-i3
+exit
+exit
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+rails s
+rails s
+z adm
+clear
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+cd _my-scripts
+lvim polybarstart-i3
+./polybarstart-i3
+./polybarstart-i3
+killall polybar
+./polybarstart-i3
+./polybarstart-i3
+./polybarstart-i3
+rails c
+htop
+neofetch
+setxkbmap -layout us -variant intl &\
+
+setxkbmap -layout us -variant intl &\
+
+setxkbmap -layout us -variant intl &\
+
+clear
+xset r rate 300 80 &\
+
+clear
+lvim /etc/polybar/config.ini
+z weeb
+z web
+clear
+docker compose up
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+cd frontend/
+pnpm add @chakra-ui/react @emotion/react @emotion/styled framer-motion
+pnpm add react-router-dom localforage match-sorter sort-by
+fnm use 20
+pnpm run dev
+cd .config/polybar
+lvim config-i3
+xrandr -q | grep " connected" | cut -d ' ' -f1
+ps aux | grep -i polybar
+killall polybar
+./polybarstart-i3
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+killall polybar
+lsa
+cp config-i3 config-i3-bkp
+lsa
+mv config-i3-bkp 
+rm config-i3-bkp 
+lsa
+cp config-i3 config-i3-bkp
+clear
+pnpm run dev
+pnpm run start
+cd backend/
+clear
+pnpm run start
+pnpm run start
+pnpm run start
+pnpm run start
+pnpm run start
+pnpm run start
+cls
+clear
+pnpm run start
+cls
+clear
+pnpm run start
+clear
+pnpm run start
+clear
+pnpm run start
+clear
+pnpm run start
+\\
+clear
+pnpm run start
+pnpm run start
+pnpm run start
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+xprop | grep -i class
+cd .config/i3
+lvim config
+exit
+xprop | grep -i class
+xprop | grep -i name
+xprop | grep -i name
+exit
+xprop | grep -i name
+exit
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+htop
+z adm
+clear
+npm run dev
+npm run generate
+clear
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+p
+npm run generate
+npm run generate
+npm run deg
+npm run dev
+rails s
+clear
+rails s
+clear
+rails s
+clear
+rails s
+clear
+rails s
+rails s
+clear
+rails s
+dmesg
+_ dmesg
+ find /sys | grep drivers.*02:00
+lsa /sys
+lsa /sys/dev
+lsa /sys/devices
+lsa /sys/dev
+lsa /sys/devices
+lsa /sys/devices/pci0000:00
+lsa /sys/devices/pci0000:00/0000:00:02.0
+lsusb
+setxkbmap -layout us -variant intl &\
+
+xset r rate 300 80 &\
+
+pacman -Ss logitech
+paru -Ss logitech
+pacman -Ss hyperx
+paru -Ss hyperx
+lsusb -v
+lsusb -v | grep -i -A5 -B5 hyperdx
+lsusb -v | grep -i -A5 -B5 hyperx
+lsusb -v | grep -i -A5 -B50 hyperx
+lsusb -v | grep -i -A50 -B50 hyperx
+lsusb -v -d HyperX Alloy FPS RGB
+lsusb -v -d "HyperX Alloy FPS RGB"
+lsusb -v -d "0x16dc"
+lsusb -v -d "0x0951"
+lsusb -v -d 0x16dc
+lsusb -v -d 0x0951:0x16dc
+lsmod
+lsusb -v -d 0x0951:0x16dc
+_ dmesg
+setxkbmap -layout us -variant intl &\
+
+xset r rate 300 80 &\
+
+z webb
+z web
+clear
+docker compose up
+pnpm run dev
+pnpm run start
+cd frontend
+pnpm run start
+pnpm run dev
+rails c
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+alacritty
+tmux
+neofetch
+figlet aaaaaaaaaaaaaaaa
+htop
+gtop
+journalctl
+lsa
+lsblk
+cmatrix
+startx
+z task
+clear
+cd frontend/src/assets/fonts
+lsa
+_ pacman -Syyu
+_ pacman -Syyu
+faillock
+faillock faillock --user myUsername --reset
+faillock --user myUsername --reset
+faillock --user $(whoami) --reset
+_ pacman -Syyu
+_ pacman -Syyu
+_ pacman -Rnsu jre-openjdk
+_ pacman -Rn jre-openjdk
+_ pacman -R jre-openjdk
+_ pacman -Rnsu jre-openjdk
+_ pacman -Syyu --overwrite "*"
+_ pacman -Syyu --overwrite "*"
+_ lvim /etc/pacman.conf
+_ pacman -Syyu --overwrite "*"
+_ pacman -Syyu --force
+_ pacman -Syyu
+pacman -Qs tesseract
+_ pacman -Syyu
+pacman -Qi tessdata
+pacman -Qs tessdata
+pacman -Qs 
+_ pacman -Syyu
+pacman -Qs openjdk
+_ pacman -R jre-openjdk jre-openjdk-headless
+_ pacman -R jre-openjdk jre-openjdk-headless dbeaver
+_ pacman -R jdk-openjdk
+java-environment
+_ pacman -S jre-openjdk jre-openjdk-headless
+_ pacman -S jre-openjdk 
+_ pacman -S jre-openjdk 
+_ pacman -S jdk-openjdk 
+_ pacman -Syyu
+_ pacman -Rns cuda nvidia-utils
+gpufetch
+_ pacman -Rns cuda nvidia-utils
+_ pacman -Syyu
+_ pacman -Syyu --overwrite "*"
+lutris
+_ pacman -Rnsu lutris
+_ pacman -S lutris dxvk
+_ pacman -S lutris
+lutris
+paru -Su
+lutris
+pyenv global 3.6
+pyenv install 3.6
+python --version
+pyenv install 3.6
+lutris
+pyenv global 3.6
+lutris
+pacman -Ss python
+pacman -S python
+_ pacman -S python
+lutris
+pyenv install 3..7
+pyenv install 3.7
+lvim .zprofile
+lvim .zshrc
+source .zshrc
+lutris
+python lutris
+python python /usr/bin/lutris
+python /usr/bin/lutris
+lvim .zshrc
+cd frontend
+fnm use 20
+fnm use 16
+cd ..
+cd backend
+cd ..
+cd backend
+cd ..
+cd backend/
+cd ..
+cd b a
+cd backend/
+cd ..
+cd backend
+node --version > .node-version
+fnm use 220
+fnm use 20
+node --version > .node-version
+cd ..
+fnm use 16
+cd backend
+fnm current
+eval "$(fnm env --use-on-cd)"
+fnm use 16
+cd ..
+cd backend/q
+cd backend
+lvim .zshrc
+cd .local/share/fonts
+fc-list | grep -i ubuntu
+lsa | grep -i ubuntu
+lutris
+pacman -Qi cuda
+nvidia-utils
+cd
+clear
+cd .config/polybar
+lvim config-i3
+echo $PYENV_ROOT
+lsa /home/fparad0x/.pyenv/bin
+lsa /home/fparad0x/.pyenv/shims
+sudo pacman -Qkk lutris
+sudo pacman -Q h-
+sudo pacman -Q -h
+sudo pacman -Qkk lutris
+sudo pacman -Qk lutris
+cd ../frontend
+pnpm run dev
+clear
+pnpm run dev
+clear
+pnpm run dev
+pnpm run dev
+pnpm cache clean
+pnpm store prune
+pnpm run dev
+lsa /usr/lib
+lsa /usr/lib/python3.11
+lsa /usr/lib/python3.11 | grep -i lutris
+pip install lutris
+python --version
+pyenv global 3.11
+python --version
+pip install lutris
+pip install --upgrade pip
+lutris
+lsa /usr/lib/python3.10/site-packages/lutris
+lsa /usr/lib/python3.11/site-packages/lutris
+pacman -Qi lutris
+pacman -Ss vkd3d
+_ pacman -S vkd3d
+_ pacman -S lib32-gamemode python-protobuf innoextract
+pacman -Qi lutris
+lutris
+pip search lutris
+pip -gh
+pip -h
+pip search lutris
+
+lutris
+#! /usr/bin/env python3
+which python
+python --version
+lvim .zshrc
+source .zshrc
+lutris
+lvim .zshrc
+source .zshrc
+pyenv init -
+lutris
+pacman -Qs pyenv
+pacman -Qqo /usr/lib/python3.11 | pacman -Qqn - | sudo pacman -S - 
+pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U
+pip list --outdated | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U
+lutris
+~/.local/lib/
+lsa ~/.local/lib/
+cd ~/.local/lib/
+lsa
+mkdir py-bkp
+mv * ./py-bkp
+lsa
+lutris
+pyenv --version
+pyenv current
+pyenv -hg
+pyenv -h
+pyenv local
+pyenv global
+pyenv global
+pyenv global 3.10
+lutris
+pyenv install 3.11
+lsa
+lutris
+python --version
+pyenv global 3.11
+python --version
+lutris]
+lutris
+lsa /usr/lib
+lsa /usr/lib | grep -i python
+lsa /usr/lib/python3.11
+lsa /usr/lib/python3.11/site-packages/
+lsa /usr/lib/python3.11/site-packages/ | grep -i lutris
+lsa /usr/lib/python3.11/site-packages/lutris
+which python
+python -m site
+lsa
+mv py-bkp/* .
+lsa
+rmdir py-bkp
+cd
+lsa .pyenv/versions/3.11.6
+_ pacman -Rnsuc lutris
+lutris
+_ pacman -Sc
+_ pacman -S lutris
+lutris
+pacman -Ss gamemode
+_ pacman -S gamemode
+pacman -Ss lutris
+paru -Ss lutris
+pip list --outdated
+pip upgrade setuptools
+pip install --upgrade setuptools
+pip list --outdated
+pip install --upgrade pip
+pip list --outdated
+pip list
+pip install lutris
+pacman -Qqo /usr/lib/python3.10/
+pacman -Qqo /usr/lib/python3.11
+python --version
+python /usr/lib/python3.11/site-packages/lutris
+python /usr/lib/python3.11/site-packages/lutris/__init__.py
+bat /usr/lib/python3.11/site-packages/lutris/__init__.py
+python /usr/lib/python3.11/site-packages/lutris/startup.py
+lutris
+paru -Syy
+cd Documents
+lsa
+cd taskmanager-monorepo
+lsa
+cd backend
+pnpm run start
+lvim .zshrc
+lvim .zprofile 
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z task
+cd frontend
+pnpm run dev
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+reboot now
+reboot 
+z web
+clear
+docker compose up
+rails c
+pacman -Ss xfce
+pacman -Ss xfce 
+pacman -Ss xfce | grep -i app
+_ pacman -S xfce4--appfinder
+_ pacman -S xfce4-appfinder
+_ pacman -Rnsu xfce4-appfinder
+pacman -Ss xfce4 | grep -i app
+_ pacman -S xfce4-appfinder
+free hm
+free -hm
+clear
+setxkbmap -layout us -variant intl &\
+
+xset r rate 300 80 &\
+
+z admin
+npm run dev
+npm run generate
+npm run generate
+npm run dev
+npm run generate
+npm run generate
+npm run dev
+clear
+npm run dev
+npm run dev
+npm run generate
+npm run dev
+npm run dev
+npm run generate
+npm run generate
+npm run generate
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails s
+clear
+rails s
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+clear
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+sudo sntp -sS time.google.com
+z web
+clear
+lsa
+docker compose up
+rails s
+rails c
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z web
+clear
+docker compose up
+xset r rate 300 80 &\
+
+setxkbmap -layout us -variant intl &\
+
+sudo sntp -sS time.google.com
+z admin
+z web
+rails s
+rails sc
+rails c
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+which nvim
+nvim
+lvim
+lvim .config/nvim/vscode.vim
+rails s
+rails db:migrate
+rails s
+z web
+clear
+rails c
+docker compose up
+sudo sntp -sS time.google.com
+qalc
+man sort
+rails c
+z admin
+npm run dev
+npm run generate
+npm run dev
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admim
+z admin
+clear
+npm run dev
+npm run generate
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails s
+z webbb
+z web
+clear
+docker compose up
+rails c
+sudo sntp -sS time.google.com
+_ pacman  -Syyu
+pacman -Ss openrgb
+paru -Ss openrgb
+htop
+killall code
+killall nvim
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z ad
+z admin
+npm run dev
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+pnpm run dev
+npm run generate
+pnpm run dev
+clear
+pnpm run dev
+rails c
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+sudo sntp -sS time.google.com
+xset r rate 300 80 &\
+
+setxkbmap -layout us -variant intl &\
+
+rails s
+z web
+clear
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+clear
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+sudo sntp -sS time.google.com
+z web
+docker compose up
+rails c
+rails s
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z web
+clear
+docker compose up
+rals c
+rails c
+rails c
+rails c
+killall openrgb
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+setxkbmap -layout br -variant abnt2
+xset r rate 300 80 &\
+
+setxkbmap -layout br -variant abnt2
+setxkbmap -layout us -variant intl &\
+
+xset r rate 300 80 &\
+
+sudo sntp -sS time.google.com
+setxkbmap -layout br -variant abnt2
+setxkbmap -layout us -variant intl &\
+
+setxkbmap -layout br -variant abnt2
+rails s
+z admin
+clear
+npm run dev
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+exit
+killall picom
+exit
+lsblk
+lsblk
+eixt
+exit
+exit
+i3l spiral
+exit
+startx
+z admin
+clear
+npm run dev
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+pacman -Ss kde
+_ pacman -S kde
+_ pacman -S kde-meta
+_ pacman -Ss kde
+_ pacman -S plasma-meta
+neofetch
+neofetch --ascii_distro ubuntu
+neofetch --ascii_distro fedora
+neofetch 
+ufetch
+cd .config/i3
+lvim i3-startup-always.sh
+lvim i3-startup-once.sh
+bat i3-startup-once.sh
+lvim i3-startup-once.sh
+sudo sntp -sS time.google.com
+killall openrgb
+killall polybar
+lsa
+lvim config
+i3l -h
+i3l --help
+lsa
+lvim i3-startup-once.sh
+lsa
+lvim i3-startup-always.sh
+lvim config
+rails s
+setxkbmap -layout br -variant abnt2
+z web
+clear
+docker compose up
+rails c
+cd
+cd _my-scripts
+lsa
+lvim polybarstart-i3
+startx
+ls /boot
+lsa /boot
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+npm run dev
+rails c
+z web
+docker compose up
+sudo sntp -sS time.google.com
+xset r rate 300 80 &\
+
+setxkbmap -layout br -variant abnt2
+rails s
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z web
+clear
+docker compose up
+z admin
+clear
+npm run dev
+rails c
+rails s
+sudo sntp -sS time.google.com
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+clear
+pnpm run dev
+cat /etc/vconsole.conf
+clear
+z web
+docker compose up
+rails c
+sudo sntp -sS time.google.com
+pacman -Rnsu  rubymine
+_ pacman -Rnsu  rubymine
+rails s
+grep -i fparad0x /etc/passwd
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+clear
+npm run dev
+sudo sntp -sS time.google.com
+wc -l "aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa"
+wc -l `aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+_app.schedule._index.tsx:672 aaaaaaaaaaaaa\
+`
+xset r rate 300 80 &\
+
+setxkbmap -layout br -variant abnt2
+rails s
+z web
+docker compose up
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails c
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z admin
+npm run dev
+clear
+npm run dev
+npm i
+npm run dev
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+xprop WM_CLASS
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+npm run dev
+z web
+docker compose up
+rails s
+clear
+rails s
+git pull origin develop
+git config pull.rebase false 
+git pull origin develop
+rails s
+rails db:migrate
+rails s
+xprop WM_CLASS
+cd .config/picom
+picom --config ./picom.conf
+picom --config ./picom.conf
+sudo sntp -sS time.google.com
+rails c
+cd .config/picom
+lvim picom.conf
+picom
+killall picom
+picom -h
+picom -h | grep -i "confi"
+picom --config ./picom.conf
+lvim picom.conf
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+clear
+npm run dev
+rails s
+_ pacman -Syyu
+gpufetch
+pacman -Ss libcuda
+pacman -Ss libcudart
+_ pacman -Rnsu cuda
+_ pacman -Rns cuda
+_ pacman -Rns cuda gpufetch-git
+_ pacman -Ss gpufetch
+paru -Ss gpufetch
+neofetch 
+cpufetch
+paru -S gpufetch
+z web
+docker compose up]
+docker compose up
+gpufetch
+setxkbmap -layout br -variant abnt2
+xset r rate 300 80 &\
+
+sudo sntp -sS time.google.com
+rails c
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z adminh
+z admin
+clear
+npm run dev
+npm run generate
+git pull origin develop
+git pull origin develop
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm install
+npm install
+git status
+git commit
+npm run tsc
+npm run typecheck
+npm run typecheck
+npm run typecheck
+npm run dev
+rails c
+paru -S gpufetch
+gpufetch
+lspci -nn | grep VGA
+gpufetch -h
+gpufetch -l
+_ pacman -Rnsu gpufetch
+_ pacman -Rns gpufetch
+_ pacman -Rns gpufetch-git
+pacman -Rnsu cuda
+_ pacman -Rnsu cuda
+_ pacman -Rns cuda
+_ pacman -Rns cuda cuda-tools
+pacman -Qs nvidia-
+pacman -Qs nvidia-utils
+pacman -Rns nvidia-utils
+_pacman -Rns nvidia-utils
+_ pacman -Rns nvidia-utils
+telegram-desktop
+_ pacman -Qs qt
+_ pacman -S qt6gtk2
+paru -Qs
+paru -Qs qt
+paru -Qsm qt
+paru -Qm qt
+paru -Qs qt
+paru -Qn qt
+paru -Qn 
+xs
+xset r rate 300 80 &\
+
+setxkbmap -layout br -variant abnt2
+paru -Qn | grep -i qt
+paru -S qt6ct
+paru -S qt6ct --force
+paru -S qt5ct
+telegram-desktop
+paru -Ss qt
+paru -S qt5-styleplugins yleplugins
+paru -S qt5-styleplugins
+paru -S qt6-styleplugins
+telegram-desktop
+paru -Ss qt6
+pacman -Ss qt6
+pacman -Qs qt
+pacman -S qt6ct qt6-base qt6-5compat 
+_ pacman -S qt6ct qt6-base qt6-5compat 
+telegram-desktop
+_ pacman -Rnsu qt5-styleplugins
+_ pacman -S qt5-styleplugins
+paru -S qt5-styleplugins
+telegram-desktop
+paru -Qn | grep -i qt
+paru -S qt6-tools
+paru -Rnsu qt6ct
+paru -S qt6ct
+clear
+telegram-desktop
+clear
+clear
+pacman -Qs qt | grep 6
+qbittorrent
+qt6ct
+qt6ct --version
+qt5c5
+qt5ct
+_ pacman -S qt6ct --overwrite="*"
+qt6ct
+paru -Ss qt6
+paru -Ss qt6-
+paru -Ss qt6- | grep -i style
+paru -Syyu
+paru -Syyu
+telegram-desktop
+paru -Syyu
+_ pacman -R insomnia-bin
+paru -Syyu
+paru -S insomnia-bin
+paru -Syy
+paru -S insomnia-bin
+pacman -Ss insomnia
+paru -Ss insomnia
+pacman -Scc
+_ pacman -Scc
+_ pacman -Scc
+paru -S insomnia-bin
+lsa /var/cache/pacman/pkg/
+lsa .cache/paru
+lsa .cache/paru/clone
+rm -rf .cache/paru/clone/insomnia-bin
+paru -S insomnia-bin
+paru -Syy
+paru -Syyu
+telegram-desktop
+rm -rf .cache/paru/clone/*
+clear
+paru -S qt6ct
+paru -S at6
+paru -S qt6ct
+paru -Ss qt6ct
+paru -Ss qt5ct
+paru -S qt5ct
+paru -S qt5-styleplugins
+telegram-desktop
+sudo sntp -sS time.google.com
+telegram-desktop
+_ pacman -S telegram-desktop
+paru -Scc
+paru -Syy
+paru -Syyu
+telegram-desktop
+firefox
+clear
+z web
+clear
+docker compose up
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails s
+git pull origin develop
+rails db:migrate
+rails s
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+clear
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm run dev
+sudo sntp -sS time.google.com
+telegram-desktop
+clear
+telegram-desktop
+killall wine
+htop
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+htop
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+free -hm
+rails s
+rails db:migrate
+rails s
+rails db:migrate
+rails s
+rails c
+gtop
+telegram-desktop
+clear
+z web
+docker compose up
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+telegram-desktop
+_ pacman -S qt6ct
+_ pacman -S telegram-desktop
+_ pacman -Syy
+_ pacman -S telegram-desktop
+telegram-desktop
+qt6ct --version
+pacman -Qi qt6ct
+pacman -Si qt6-base
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-base/qt6-base-6.6.0-3-x86_64.pkg.tar.zst
+_ pacman -S qt6gtk2
+paru -S qt6gtk2
+telegram-desktop
+cantata
+_ pacman -S telegram-desktop
+telegram-desktop
+pacman -Qi qt6ct
+_ pacman -U https://archive.archlinux.org/packages/q/qt6ct/qt6ct-0.9-3-x86_64.pkg.tar.zst  
+telegram-desktop
+pacman -Qs qt6
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-declarative/qt6-declarative-6.6.0-1-x86_64.pkg.tar.zst 
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-declarative/qt6-image-formats/qt6-imageformats-6.6.0-1-x86_64.pkg.tar.zst 
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-declarative/qt6-svg/qt6-svg-6.6.0-2-x86_64.pkg.tar.zst 
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-declarative/qt6-tools/qt6-tools-6.6.0-1-x86_64.pkg.tar.zst 
+pacman -Qs qt6
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-declarative/qt6-translations/qt6-translations-6.6.0-1-any.pkg.tar.zst 
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-declarative/qt6-wayland/qt6-wayland-6.6.0-2-x86_64.pkg.tar.zst 
+telegram-desktop
+paru -S qt6gtk2
+paru -Sc
+paru -S qt6gtk2
+rm -rf .cache/paru/clone/*
+paru -S qt6gtk2
+telegram-desktop
+qt6ct --version
+pacman -Ss snap
+_ pacman -S snapd
+paru -S snapd
+_ pacman -S apparmor
+_ systemctl enable apparmor.service
+_ systemctl start apparmor.service
+_ lvim /boot/grub/grub.cfg
+sudo snap install telegram-desktop
+_ systemctl enable snapd.apparmor.service
+_ systemctl start snapd.apparmor.service
+snap find telegram
+_ systemctl enable snapd.socket
+_ systemctl start snapd.socket
+snap find telegram
+snap install telegram-desktop
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z web
+clear
+docker compose up
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails c
+z admin
+clear
+npm run dev
+npm run dev
+rails s
+telegram-desktop
+_ snap install telegram-desktop
+_ snap install hello-world
+_ pacman -R telegram-desktop
+telegram-desktop
+ps aux | grep -i telegra
+hello-world.evil
+dmesg
+_ dmesg
+setxkbmap -layout br -variant abnt2
+xset r rate 300 80 &\
+
+sudo snap install telegram-desktop
+sudo sntp -sS time.google.com
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+clear
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+sudo sntp -sS time.google.com
+z web
+clear
+docker compose up
+rails c
+rails s
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+npm run dev
+rails s
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails c
+sudo sntp -sS time.google.com
+telegram-desktop
+snap remove telegram-desktop
+z web
+clear
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+iex
+pacman -Ss elixir
+_ pacman -S elixir
+iex
+cd go
+cd
+cd Documents
+lsa
+mix phx.new
+mix local.hex\
+
+mix archive.install hex phx_new\
+
+elixir -v
+mix phx.new
+mix phx.new
+mix phx.new elixir-project
+mix phx.new elixir_project
+cd elixir_project
+iex -S mix phx.server
+pacman -Ss inotify
+_ pacman -S inotify-tools
+iex -S mix phx.server
+mix phx.server
+mix deps.get
+mix credo
+mix ecto.create
+mix phx.server
+iex -S mix phx.server
+cd ..
+rm -rf elixir_project
+mix phx.new elixir-sqlite --database sqlite3
+mix phx.new elixir_sqlite --database sqlite3
+cd elixir_sqlite
+mix ecto.create
+mix credo
+mix deps.get
+mix credo
+iex -S mix phx.server
+_ pacman -Syyu
+xset r rate 300 80 &\
+
+setxkbmap -layout br -variant abnt2
+paru -Syyu
+_ pacman -S telegram-desktop
+telegram-desktop
+pacman -Qs snap
+_ pacman -Rns snapd
+_ pacman -Rn snapd
+telegram-desktop
+pacman -Qs qt
+pacman -Qs qt6
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-declarative/qt6-base/qt6-base-6.6.0-2-x86_64.pkg.tar.zst 
+telegram-desktop
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-declarative/qt6-imageformats/qt6-imageformats-6.6.0-2-x86_64.pkg.tar.zst
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-imageformats/qt6-imageformats-6.6.0-2-x86_64.pkg.tar.zst
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-imageformats/qt6-imageformats-6.6.0-x86_64.pkg.tar.zst
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-imageformats/qt6-imageformats-6.0.0-2-x86_64.pkg.tar.zst 
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-svg/qt6-svg-6.0.0-1-x86_64.pkg.tar.zst 
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-svg/qt6-svg-6.6.0-2-x86_64.pkg.tar.zst 
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-imageformats/qt6-imageformats-6.6.0-1-x86_64.pkg.tar.zst 
+_ pacman -U https://archive.archlinux.org/packages/q/qt6-imageformats/qt6-wayland/qt6-wayland-6.6.0-2-x86_64.pkg.tar.zst 
+telegram-desktop
+_ pacman -Syyu
+paru -S qt6gtk2
+rm -rf .cache/paru/clone/*
+rm -rf .cache/paru/clone/*
+paru -S qt6gtk2
+telegram-desktop
+cd .config/i3
+lvim config
+sudo sntp -sS time.google.com
+htop 
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z admin
+clear
+npm run dev
+npm run generate
+npm run dev
+rals c
+rails c
+fg
+rails s
+rails db:migrate
+rails s
+z web
+d
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+lvim /etc/sudoers
+lvim /etc/sudoers
+_ lvim /etc/sudoers
+pwd
+pacman -Qs jack
+pacman -Qs pipewire
+lsa /etc/pacman.d/mirrorlist
+bat /etc/pacman.d/mirrorlist
+cat /etc/pacman.d/mirrorlist
+cat /etc/pacman.d/mirrorlist
+_ lvim /etc/pacman.d/mirrorlist
+reflector --latest 200 --sort rate --save /etc/pacman.d/mirrorlist --country 'Brazil,Canada,United States'
+reflector --latest 50 --sort rate --save /etc/pacman.d/mirrorlist --country 'Brazil,Canada,United States'
+_ reflector --latest 50 --sort rate --save /etc/pacman.d/mirrorlist --country 'Brazil,Canada,United States'
+_ reflector --latest 50 --save /etc/pacman.d/mirrorlist --country 'Brazil,Canada,United States'
+_ pacman -Syy
+reflector --latest 50 --sort rate --save /etc/pacman.d/mirrorlist --country 'Brazil,Canada,United States'
+ip link
+nmcli -v
+systemctl status networkmanager
+systemctl status NetworkManager
+_ systemctl enable NetworkManager
+systemctl status NetworkManager
+ping google.com
+ping 8.8.8.8
+datetimectl 
+timectl
+datectl
+date
+calendar
+cal
+lsa /etc/X11/xorg.conf.
+lsa /etc/X11/xorg.conf
+lsa /etc/X11/xorg.conf.d
+pacman -Qs gpu
+pacman -Qs amd
+pacman -Qs vulkan
+pacman -Qs mesa
+cd Documents
+lsa
+cd elixir_sqlite
+clear
+lsa
+iex -S mix phx.server
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z adm
+clear
+npm run dev
+npm run typecheck
+npm run generate
+npm run typecheck
+npm run generate
+rails db:migrate
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+git pull origin develop
+npm run generate
+npm run generate
+git pull origin develop
+git pull origin develop
+npm run generate
+npm run dev
+z web
+docker compose up
+_ pacman -S discord
+_ pacman -Syy discord
+xset r rate 300 80 &\
+
+setxkbmap -layout br -variant abnt2
+z elix
+clear
+iex -S mix phx.server
+sudo sntp -sS time.google.com
+rails c
+rails s
+git pull origin develop
+rails s
+rails db:migrate
+rails s
+rails db:migrate
+rails s
+git pull origin develop
+rails db:migrate
+rails s
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+startx
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z admin
+clear
+npm run dev
+pavucontrol
+pipewire -k
+ systemctl --user restart pipewire.service 
+rails s
+rails c
+z web
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+systemctl status pipewire.service
+systemctl --user status pipewire.service
+cd .config/i3
+lsa
+cd
+cd _my-scripts
+lsa
+./polybarstart-i3
+killall polybar
+./polybarstart-i3
+killall polybar
+lvim polybarstart-i3
+./polybarstart-i3
+lvim polybarstart-i3
+polybar -r --config="/home/fparad0x/.config/polybar/config-i3" &
+fg
+polybar -r --config="/home/fparad0x/.config/polybar/config-i3"
+htop
+pkill --user $(whoami)
+pkill -U $(whoami)
+dmesg
+_ dmesg
+lsusb
+startx
+exit
+lsusb
+exit
+pavucontrol
+_ dmesg
+exit
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+clear
+z admin
+npm run dev
+npm run generate
+npm run dev
+rails s
+git pull origin develop
+git pull origin eng-1084-calendar-views-api-side
+git pull origin calendar-views
+rails db:migrate
+rails s
+rails c
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+sudo sntp -sS time.google.com
+lvim /home/fparad0x/.rbenv/versions/3.1.4/lib/ruby/gems/3.1.0/gems/activesupport-7.0.7.2/lib/active_support/core_ext/time/zones.rb
+lvim /home/fparad0x/.rbenv/versions/3.1.4/lib/ruby/gems/3.1.0/gems/activesupport-7.0.7.2/lib/active_support/values/time_zone.rb
+z web
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+cd Documents
+lsa
+npm create vite@latest
+cd gaia-front
+npm install
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+_ systemctl restart pipewire
+systemctl --hep
+systemctl --help
+systemctl list-unit-files
+systemctl list-unit-files | grep -i pipew
+systemctl list-unit-files | grep -i pulse
+systemctl status pipewire
+lvim .zshrc
+zplug install
+zplug 
+zplug --help
+zplug status
+zplug update
+_ dmesg
+pavucontrol
+exit
+systemctl --user restart pipewire.service\
+\
+
+systemctl --user status pipewire.service
+systemctl --user status pipewire-pulse.service
+systemctl --user restart pipewire-pulse.service
+_ systemctl --user restart pipewire-pulse.service
+systemctl --user restart pipewire-pulse.service
+pacman -S pipewire-docs wireplumber lib32-pipewire
+_ pacman -S pipewire-docs wireplumber lib32-pipewire
+pacman -Qs pipewire
+_ pacman -S qpwgraph
+bat /usr/share/pipewire
+bat /usr/share/pipewire/pipewire.conf
+lsa /etc/pipewire
+pactl info
+_ systemctl --user start pipewire-pulse.service
+systemctl --user start pipewire-pulse.service
+systemctl --user enable pipewire-pulse.service
+systemctl --user start pipewire-pulse.socket
+systemctl --user enable pipewire-pulse.socket
+pactl info
+_ dmesg
+lsusb
+lsusb -v 
+lsusb -v -d 0x3142:0x0688
+journalctl 
+journalctl 
+journalctl 
+pkill -U $(whoami)
+pkill -U $(whoami)
+startx
+startx
+startx
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+_ dmesg
+ip r
+pavucontrol
+insomnia
+insomnia
+pacman -Qs insomnia
+pacman -Ss insomnia
+paru -S insomnia-bin
+cd Documents/gaia-front
+lsa
+npm run dev
+npm install axios
+npm run dev
+npm run dev
+npm run dev
+git init .
+git init 
+git config --global init.defaultBranch main
+git branch -m main
+git remote add origin git@github.com:ecesar88/gaia-front.git
+git push origin main
+git add .
+git commit -m "Initial commit"
+git push origin main
+npm run dev
+npm run dev
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+uname -r
+fnm use 20
+npm run dev
+npm run dev
+telegram-desktop
+cd Desktop
+cd
+cd Documents
+lsa
+git clone https://github.com/bradtraversy/qr-code-generator
+cd qr-code-generator
+lsa
+pwd
+cd ..
+lsa
+zip -r qr-code-generator qr-code-generator
+lsa
+caja
+pacman -Qs archive
+file-roller
+cd Documents/gaia-front
+git pull
+npm i
+npm run dev
+npm run dev
+npm i @chakra-ui/icons
+npm run dev
+npm run dev
+ssh solr@15.235.110.107
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+ssh solr@15.235.110.107
+ssh solr@15.235.110.107
+ssh solr@15.235.110.107
+exit
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z adm
+claer
+npm run dev
+git pull
+git pull origin develop
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+git pull
+npm run generate
+npm run dev
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+npm run dev
+npm run generate
+rm -rf node_modules
+lsa
+npm i
+npm run generate
+git pull
+npm run generate
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+z admin
+cd- 
+cd -
+rails s
+git checkout develop
+git pull
+rails db:migrate
+rails s
+git checkout calendar-views
+git checkout --force calendar-views
+rails db:migrate
+rails s
+rails db:migrate
+git pull
+rails db:migrate
+rails s
+git pull
+rails s
+rails db:migrate
+rails s
+rails db:migrate
+rails s
+z web
+docker compose up
+sudo sntp -sS time.google.com
+z web
+ssh solr@15.235.110.107
+cd
+ssh solr@15.235.110.107
+ssh solr@15.235.110.107
+rails c
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+htop
+neofetch 
+exit
+exit
+exit
+exit
+exit
+startx
+sudo sntp -sS time.google.com
+calq
+qalc
+cd Documents/elixir_sqlite
+mix phx.gen.schema User users name:string email:string \\
+bio:string number_of_pets:integer
+mix ecto.migrate
+git init
+git remote add origin git@github.com:ecesar88/elixir-sqlite3.git
+pacman -Qs nvidia
+pacman -Ss nvidia
+discord --disable-gpu
+pacman -Qs discord
+pacman -Ss discord
+pacman -Ss i3-config
+echo $TERMINAL
+pacman -Qs i3-
+lsa
+cd Documents
+lsa
+cd ..
+lsa Downloads
+paru -Ss spotify
+paru -S spotify
+pacman -Qs gnome
+pacman -Qqe gnome
+pacman -Qqe
+pacman -Qqe | grep meta
+sudo pacman -Rns gnome gnome-extra
+pacman -R -h
+setxkbmap -layout br -variant abnt2
+lvim .config/i3/config
+rails c
+rails s
+z web
+z adm
+clear
+npm run dev
+npm run generate
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+lvim .xinitrc
+pwd
+vim .xinitrc
+pacman -Qs xorg
+pacman -Qs xorg
+xset r rate 300 80 &\
+
+setxkbmap -layout br -variant abnt2
+ls ~/.config/i3
+lvim /etc/i3/config
+vim /etc/i3/config
+vim /etc/i3/config
+lvim ~/.config/i3/config
+lvim ~/.config/i3/config
+lsa
+xrandr -q | grep " connected" | cut -d ' ' -f1
+arandr
+xrandr -q 
+man bspwm
+uname -r
+cd .config/i3
+lsa
+lvim i3-startup-always.sh
+cd
+cd _my-scripts
+lvim polybarstart-i3
+lsa
+lsa
+lsa 
+clear
+z web
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+rails c
+clear
+z adm
+npm run dev
+ z web
+clear
+docker compose up
+rails s
+rails c
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app,
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app,
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+sudo sntp -sS time.google.com
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z adm
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z gaia
+npm run dev
+npm run dev
+rails s
+sudo sntp -sS time.google.com
+z web
+docker compose up
+rails c
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+_ pacman -Syy discord
+cd Documents/elixir_sqlite
+iex -S mix phx.server
+iex -S mix 
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+elixir -v
+iex playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+Enum.__info__(:functions)
+cd Documents/elixir_sqlite
+iex -S mix 
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+rails s
+rails db:migrate
+rails db:migrate
+rails s
+rails s
+rails c
+z ad
+npm run dev
+z ad
+z admin
+npm run dev
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm run typecheck
+npm run dev
+npm run generate
+npm run dev
+ngr
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z admin
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+sudo sntp -sS time.google.com
+_ dmesg
+z web
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+cd Documents/elixir_sqlite
+iex -S mix 
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z adm
+clear
+npm run dev
+npm run typecheck
+git pull origin develop
+rails c
+sudo sntp -sS time.google.com
+rails s
+rails s
+rails s
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z web
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+cler
+clear
+z admin
+clear
+npm run typecheck
+npm run dev
+npm run typecheck
+npm run typecheck
+npm run dev
+git checkout develop
+git pull origin develop
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+z admin
+npm run typecheck
+z wen
+z web
+docker compose up
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails c
+git checkout develop
+git pull origin develop
+rails c
+git pull origin develop
+npm run dev
+sudo sntp -sS time.google.com
+rails s
+rails db:migrate
+rails s
+rails db:migrate
+rails s
+clear
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+cd Documents/elixir_sqlite
+clear
+iex -S mix 
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+clear
+elixir playground.ex
+elixir playground.ex
+clear
+elixir playground.ex
+clear
+elixir playground.ex
+mix archive.install hex credo
+mix archive.install hex bunt
+mix archive.install hex jason
+mix credo gen.config
+mix credo gen.config
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z admin
+clear
+npm run dev
+cd ..
+git clone https://github.com/camp-stores/customer
+lsa
+cd customer
+git pull origin develop
+cp .env.example .env
+npm run start
+npm run dev
+npm run generate
+npm run dev
+npm run build-storybook
+npm run generate:ci
+npm run dev
+npm i
+npm run dev
+npm run build
+npm run dev
+npm run start
+npm run dev
+npm run generate
+npm run dev
+cd ..
+rm -rf customer
+git clone https://github.com/camp-stores/customer
+git clone git@github.com:camp-stores/customer.git
+cd customer
+npm 
+npm i
+npm run generate
+cp .env.example .env
+npm install
+npm run generate
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+ngrok http 8789 --domain=comic-squid-super.ngrok-free.app
+rails c
+z we
+docker compose up
+rails s
+sudo sntp -sS time.google.com
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+clear
+z admin
+npm run dev
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+z web
+docker compose up
+ngrok http 8789 --domain=comic-squid-super.ngrok-free.app
+ngrok http 8789 --domain=comic-squid-super.ngrok-free.app
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails s
+sudo sntp -sS time.google.com
+ps aux | grep -i rgb
+killall -9 openrgb
+z cust
+clear
+npm run dev
+npm run dev
+rails c
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+cd Documents/elixir_sqlite
+clear
+iex -S mix 
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+elixir playground.ex
+defmodule Example.User do
+defmodule Example.User do
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+elixir playground.ex
+gnome-system-monitor
+cd .local
+lsa
+lsa bin
+lsa share
+cd
+cd /
+find . -iname openrgb
+lvim .zshrc
+reset
+lsa
+z
+clear
+z eli
+cd
+cd Desktop
+lsa
+cd 
+cd .config/i3
+lsa
+lvim config
+iex -S mix phx.server
+mix phx.gen.html Catalog Product products title:string description:string price:decimal views:integer
+mix ecto.migrate
+mix help ecto.gen.migration
+mix ecto.gen.migration modify_product_table
+mix ecto.gen.migration modify_product_table
+mix ecto.migrate
+mix ecto.migrate
+mix ecto.migrate
+mix ecto.migrate
+mix help ecto.migrate
+mix ecto.create
+mix ecto.create
+mix ecto.migrate
+mix phx.server
+cd 
+cd .config/ope
+cd .config/Open
+cd .config/OpenRGB
+lsa
+cd plugins
+lsa
+openrgb
+rm -rf OpenRGBEffectsPlugin_0.9_Buster_64_f1411e1.so
+openrgb
+killall -9 openrgb
+paru -Ss openrgb
+ps aux | grep -i disc
+ps aux | grep -i Disc
+netstat -an | grep -c EST
+netstat -an 
+netstat -an | grep -i EST
+netstat -an | head -n 10
+netstat -an | head -n 100
+cd Documents/elixir_sqlite
+iex -S mix 
+iex -S mix 
+iex -h
+iex --help
+man iex
+iex -S mix 
+mix phx.migrate
+mix ecto.migrate
+mix ecto.generate
+iex -S mix
+iex -S mix
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+htop
+ xprop | grep "WM\_CLASS(STRING)" 
+exit
+exit
+vim
+lvim
+exit
+startx
+cd .config/i3
+lvim config
+lsa
+lvim i3-startup-always.sh
+iex -S mix phx.server
+mix phx.gen.context Catalog Category categories \\
+title:string:unique
+mix ecto.gen.migration create_product_categories
+mix ecto.migrate
+mix run priv/repo/seeds.exs
+mix deps.get
+mix compile
+iex -S mix phx.server
+mix phx.gen.context ShoppingCart Cart carts user_uuid:uuid:unique
+mix phx.gen.context ShoppingCart CartItem cart_items \\
+cart_id:references:carts product_id:references:products \\
+price_when_carted:decimal quantity:integer
+mix ecto.migrate
+mix phx.server
+mix phx.server
+z eli
+iex -S mix
+feh --bg-fill "/home/fparad0x/Pictures/faroe-islands-credit-ufelizuko-wallpaper.jpg" &
+feh --bg-fill "/home/fparad0x/Desktop/lotr-saurons-eye-barad-ur1229385.png" &\
+
+feh --bg-fill "/home/fparad0x/Desktop/igor-melo.jpg"
+e
+feh --bg-fill "/home/fparad0x/Desktop/1 mL6-YwTZjy1GTOUMuSm18A.png"
+feh --bg-fill "/home/fparad0x/Desktop/johny-goerend-1UDAmyRrgn0-unsplash.jpg"
+feh --bg-fill "/home/fparad0x/Downloads/johny-goerend-1UDAmyRrgn0-unsplash.jpg"
+cd .config/i3
+lvim config
+cd ..
+lsa
+cd picom
+lvim compton.conf.example
+lsa
+lvim picom.conf
+lvim picom.conf
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z custo
+clear
+npm run dev
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails s
+rails c
+z admin
+clear
+npm run generate
+npm run dev
+xprop WM_CLASS
+cd .config/i3
+cd ..
+cd picom
+lvim picom.conf
+cd ..
+cd i3
+lvim config
+cd .config/i3
+lvim i3-startup-always.sh
+cd Documents/gaia-front
+lsa
+npm run dev
+htop
+feh --bg-fill "/home/fparad0x/Desktop/2048x1365-px-airplane-airshows-colored-smoke-glider-photography-1280815-wallhere.com"
+feh --bg-fill "/home/fparad0x/Desktop/2048x1365-px-airplane-airshows-colored-smoke-glider-photography-1280815-wallhere.com.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/afc7759ea8c806673c7b0b7adb0f2d2d.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/wallpapersden_com_balrog_vs_gandalf_lord_of_the_rings_2311x1300.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/868394_sukhoi-su-30mk-grey-white_1280x913_h.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/1572611.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/a9d904bac525a3a5f97d1a635e9995a9.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/612362.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/191865.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/232139.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/930469.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/131623ptiic3yihvhcvvpy.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/zn0oF.jpeg"
+feh --bg-fill "/home/fparad0x/Desktop/131653gnb87c3e07c84n8h.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/1427208.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/1479035.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/1443010.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/1020565.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/22100_1564478141.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/4481543.jpg@
+feh --bg-fill "/home/fparad0x/Desktop/4481543.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/beech-c-17b-staggerwing-biplan-de-havilland-dh89-dragon-pole.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/1556963.jpg"
+feh --bg-fill "/home/fparad0x/Desktop/beech-c-17b-staggerwing-biplan-de-havilland-dh89-dragon-pole.jpg"
+"erick cesar" | wc 
+echo "erick cesar" | wc 
+wc --help
+cd Documents/elixir_sqlite
+mix phx.server
+cd des
+cd Desktop
+wget https://t4.bcbits.com/stream/1487d861a0497bbbb9a7c6c5019036d1/mp3-128/3727621740?p=0&ts=1703009617&t=b0c51554c3658e3f18fec50d20e352def1cac717&token=1703009617_7055f9849aee5c923971bddc93ef8fb57040ba05
+wget "https://t4.bcbits.com/stream/1487d861a0497bbbb9a7c6c5019036d1/mp3-128/3727621740?p=0&ts=1703009617&t=b0c51554c3658e3f18fec50d20e352def1cac717&token=1703009617_7055f9849aee5c923971bddc93ef8fb57040ba05"
+mv 3727621740\?p=0\&ts=1703009617\&t=b0c51554c3658e3f18fec50d20e352def1cac717\&token=1703009617_7055f9849aee5c923971bddc93ef8fb57040ba05 vfd.mp3
+sudo sntp -sS time.google.com
+z web
+git pull origin develop
+git pull origin develop
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z admi
+clear
+npm run dev
+npm run dev
+cd Documents/gaia-front
+npm run dev
+npm run dev
+rails fc
+rails c
+z web
+di
+docker compose up
+rals s
+rails s
+clear
+rails s
+journalctl 
+journalctl 
+journalctl 
+sudo sntp -sS time.google.com
+ssh solr@15.235.110.107
+_ pacman -S discord
+_ pacman -Syy discord
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z ad
+npm run dev
+npm run dev
+z admin
+npm run dev
+rails s
+git merge --abord
+git merge --abort
+git pull origin develop
+sudo sntp -sS time.google.com
+rails c
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z we
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+ssh solr@15.235.110.107
+irb
+iex
+iex
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+exit
+ps aux
+lsa /etc/X11/xorg.conf.d
+xrandr -q
+pacman -Ss bat
+pacman -S bat
+_ pacman -S bat
+lsa /var/log/Xorg.0.log
+lsa /var/log
+sudo -s
+sudo dmesg -s
+sudo --help
+bat /etc/vconsole.conf
+_ lvim /etc/vconsole.conf
+bat /etc/vconsole.conf
+lsa ~/.local/share/xorg/
+lsmod
+pacman -Ss mknitcpio-firmware
+paru -S mkinitcpio-firmware
+pacman -Ss linux
+pacman -Ss linux--headers
+pacman -Ss linux-headers
+pacman -Qs pavuco
+rofi
+rofi
+rofi -show drun
+lvim .config/i3/config
+z elixi
+cd ..
+lsa
+cd gaia-front
+cd ..
+cd CKL/web
+fzf
+feh --bg-fill "/home/fparad0x/Downloads/johny-goerend-1UDAmyRrgn0-unsplash.jpg"
+bat .config/mimeapps.list
+bat .config/mimeapps.list
+clear
+cd Documents/CKL/web
+cd
+z we
+z
+cd
+cd _my-scripts
+lsa
+clear
+cd
+cd .config/i3
+lvim config
+pacman -Ss starship
+sudo pacman -S starship
+cd
+lvim .zshrc
+cd .config/alacritty
+lvim alacritty.yml
+gtop
+pacman -Qi pip
+pip
+which pip
+pacman -Ss fnm
+paru -Ss fnm
+ls /usr/lib/python3.11
+lsa /usr/lib/python3.11
+lvim .zshrc
+cmatrix
+htop
+exit
+exit
+xset r rate
+xset r rate -help
+exit
+exit
+cd .config
+cd picom
+lvim picom.conf
+exit
+cd .config/alacritty
+lvim alacritty.yml
+cd ../i3
+lvim config
+cd ../polybar
+lsa
+lsa /etc/polybar
+lvim /etc/polybar/config.ini
+cd ../i3
+lvim i3-startup-always.sh
+lvim i3-startup-once.sh
+lvim i3-startup-always.sh
+cd
+cd _my-scripts
+lvim polybarstart-i3
+lvim /etc/polybar/config.ini
+lvim polybarstart-
+lvim polybarstart-i3
+cd 
+cd .config/i3
+cd ../
+cd polybar
+lvim config-i3
+cd ../i3
+lsa
+lvim i3-startup-always.sh
+exit
+lsa
+cd .config
+cd alacritty
+lsa
+which zsh
+cd
+cd _my-scripts
+lvim polybarstart-i3
+cd 
+cd .config/i3
+lvim config
+cd 
+cd .config/polybar
+lvim config
+lvim config-i3
+pacman -Qs feh
+exit
+pacman -Qs xterm
+_ pacman -R xterm
+exit
+cd Documents
+z pro
+git remote add origin git@github.com:ecesar88/ruby-on-rails-tutorial.git
+git add .
+git commit -m "Initial commit"
+git push origin main
+exit
+cd .config/i3
+lvim config
+exit
+exit
+lsa /etc/X11/xorg.conf.d
+exit
+cd .config/alacritty
+lvim alacritty.yml 
+cd
+cd .config/i3
+lvim config
+exit
+cd Desktop
+betterlockscreen -l wallpapersden_com_balrog_vs_gandalf_lord_of_the_rings_2311x1300.jpg
+betterlockscreen -u wallpapersden_com_balrog_vs_gandalf_lord_of_the_rings_2311x1300.jpg
+cd
+cd .config/i3
+lvim i3-startup-always.sh
+exit
+startx
+rails c
+cd .config/picom
+lvim picom.conf
+lsa
+rm compton.conf-*
+lsa
+rm compton.conf.example
+lsa
+cp picom.conf picom.conf-bkp
+lvim picom.conf
+cd
+cd Desktop
+wget https://raw.githubusercontent.com/thalting/dotfiles/main/.config/picom/picom.conf
+lvim picom.conf
+mv picom.conf picom.conf-oliver
+wget https://raw.githubusercontent.com/yshui/picom/next/picom.sample.conf
+lvim picom.sample.conf
+z web
+docker compose up
+lsa
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+pacman -Qs polkit
+cd .config/i3
+lvim i3-startup-once.sh
+xset r rate 300 80 &\
+
+lvim i3-startup-once.sh
+lvim i3-startup-always.sh
+lvim config
+pacman -Qs picom
+pacman -Ss picom
+feh --bg-fill "/home/fparad0x/Downloads/johny-goerend-1UDAmyRrgn0-unsplash.jpg"
+paru -Ss picom-jonaburg
+paru -Ss picom-jonaburg-git
+_ pacman -S picom
+cd
+cd .config/picom
+lsa
+picom --config ./picom.conf
+pacman -Ss chrome
+paru -Ss chrome
+paru -S google-chrome
+paru -S google-chrome
+z cust
+pip install ueberzug
+rm -rf /usr/lib/python3.11/EXTERNALLY-MANAGED
+_ rm -rf /usr/lib/python3.11/EXTERNALLY-MANAGED
+pip install ueberzug
+npm run dev
+git pull origin develop
+npm run dev
+rails s
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+z ad
+npm run generate
+z adm
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+npm run generate
+npm run dev
+rails c
+fg
+rails c
+ip r
+pacman -Ss orca
+_ pacman -S orca
+orca
+orca --help
+orca -s
+killall -9 orca
+htop
+sudo sntp -sS time.google.com
+cd .config/picom
+lvim picom.conf
+qalc
+cargo install loco-cli
+cargo install sea-orm-cli
+cd Documents
+loco new
+cd myapp
+lsa
+cargo loco start
+docker run -d -p 5432:5432 -e POSTGRES_USER=loco -e POSTGRES_DB=loco_app -e POSTGRES_PASSWORD="loco" postgres:15.3-alpine
+cargo loco start
+docker run -d -p 7767:7767 -e POSTGRES_USER=loco -e POSTGRES_DB=loco_app -e POSTGRES_PASSWORD="loco" postgres:15.3-alpine
+cargo loco start
+cd ..
+rm -rf myapp
+loco new
+cd myapp_locors
+cargo loco start
+cargo loco start
+cargo loco start
+cargo loco generate scaffold post title:string content:text
+cargo loco generate scaffold post title:string content:text
+cargo loco start
+z custo
+npm run dev
+killall orca
+htop
+cd /run/user/1000/speech-dispatcher/log
+ls
+bat speech-dispatcher.log
+bat speech-dispatcher.log
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+z ad
+z admi
+ngrok http 8788 --domain=comic-squid-super.ngrok-free.app
+rails s
+lvim picom.conf-bkp
+startx
+docker ls
+docker ps
+docker stop   port: 3000\
+
+docker stop fbacd2be7040
+docker ps
+free -hm
+killall -9 openrgb
+clear
+z web
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+star
+startx
+cd .config/alacritty
+_ pacman -Syyu
+lvim alacritty.yml
+pacman -Ss firefox-tridactyl
+cd
+cd Do
+cd Downloads
+lvim alacritty
+setxkbmap -layout br -variant abnt2
+lvim alacritty.yml
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+exit
+exit
+exit
+exit
+pavucontrol --help
+man pavucontrol
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+i3l spiral
+exit
+i3l spiral
+i3-layouts
+exit
+exit
+exit
+exit
+i3l spiral
+exit
+clear
+exit
+exit
+lvim config
+lvim config
+fg
+lvim i3-startup-always.sh
+lvim config
+lvim i3-startup-always.sh
+exit
+startx
+cd .config
+lsa
+cd i3
+lvim config
+lvim config
+cd .config/polybar
+lvim config-i3
+killall -9 polybar
+cd _my-scripts
+./polybarstart-i3
+pacman -Ss qtile
+_ pacman -S qtile
+_ pacman -R qtile
+xprop WM_CLASS
+xprop WM_CLASS
+cd .config/picom
+lvim picom.conf
+htop
+cd .config/picom
+htop
+picom --config ./picom.conf
+picom --config ./picom.conf
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+exit
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+z cust
+npm run dev
+clear
+npm run dev
+clear
+npm run dev
+clear
+npm run dev
+clear
+npm run dev
+clear
+npm run dev
+clear
+npm run dev
+npm run dev
+npm run dev
+clear
+npm run dev
+cd .config/picom
+lvim picom.conf
+pacman -Ss awesome
+killall -9 openrgb
+xset r rate 300 80 &\
+
+setxkbmap -layout br -variant abnt2
+cd Documents/CKL
+git clone https://github.com/tailwindlabs/tailwindcss
+cd tailwindcss
+code .
+cd ..
+rm -rf tailwindcss
+rai
+rails s
+rails v
+rails c
+cd Desktop
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=EDPzQjmqyKw
+yt-dlp -x --audio-format mp3 "https://www.youtube.com/watch?v=EDPzQjmqyKw"
+cd
+z web
+docker compose up
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+cat /sys/module/zswap/parameters/enabled
+_ echo 0 > /sys/module/zswap/parameters/enabled\
+
+sudo echo 0 > /sys/module/zswap/parameters/enabled\
+
+sudo su
+cat /sys/module/zswap/parameters/enabled
+zgrep CONFIG_ZSWAP_DEFAULT_ON /proc/config.gz
+sudo su
+zgrep CONFIG_ZSWAP_DEFAULT_ON /proc/config.gz
+lsblk
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+cd .config/i3
+lsa
+lvim i3-startup-once.sh
+lvim i3-startup-always.sh
+pacman -Qs greenc
+killall -9 openrgb
+pacman -Qs xdg-desktop
+_ pacman -Rn xdg-desktop-portal-gnome
+bat .ssh/id_rsa.pub
+git config --global user.email=e.cesar88@gmail.com
+cat .ssh/id_rsa.pub
+cat .ssh/id_rsa.pub | xclip -i
+cat .ssh/id_rsa.pub | xclip -i
+cd Documents
+lsa
+cd taskmanager-monorepo
+lsa
+cd backend
+ls
+lsa
+node -v
+lvim ~/.zshrc
+fnm use
+fnm use 
+source ~/.zshrc
+lvim ~/.zshrc
+pnpm run prisma migrate:dev
+pnpm prisma migrate dev
+cd ../frontend
+pnpm install
+lsa
+ls -lah
+file .
+file ..
+code .
+code
+paru -Ss code
+paru -Ss code | grep -i -A2 -B2 microsoft
+paru -Ss vscode
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+lvim .zprofile
+lvim .zshrc
+lvim .ssr
+lvim .xinitrc
+lvim .Xresources
+lvim .config/i3/config
+lvim .config/i3/i3-startup-always.sh
+lvim .config/i3/i3-startup-once.sh
+cd .screenlayout
+lsa
+lsa
+lvim default.sh
+pwd
+lsa
+lvim default.sh
+lvim default.sh
+cd 
+cd .config/i3
+lsa
+lvim i3-startup-once.sh
+cd ../frontend
+pnpm run dev
+z taskm
+cd backend
+pnpm run start:dev
+pnpm add -D class-validator class-transformer
+npm run start:dev
+pnpm remove class-validator class-transformer
+pnpm run dev
+pnpm run start:dev
+pnpm add -D zod-prisma
+pnpm prisma generate
+pnpm prisma generate
+pnpm add -D nestjs-graphql-zod
+pnpm add -D class-validator class-transformer
+pnpm add -D nestjs-graphql-zod
+pnpm prisma generate
+pnpm prisma generate
+pnpm prisma generate
+pnpm prisma generate
+pnpm remove zod-prisma
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+pnpm run start:dev
+cd backend
+pnpm run start:dev
+pnpm install
+pnpm run start:dev
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+paru -Ss brino
+paru -Ss bruno
+paru -S bruno-bin
+clear
+cd Documents
+lsa
+cd taskmanager-monorepo
+cd backend
+pnpm run start:dev
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+startx
+pacman -Ss piper
+pacman -Ss numlockx
+cd .config/i3
+lsa
+lvim i3-startup-once.sh
+lvim i3-startup-always.sh
+pacman -Ss openrazer
+paru -Ss openrazer
+z task
+cd backend
+pnpm run start:dev
+cd
+lsa
+ls
+l
+cd _my-scripts
+lsa
+bat loc
+bat loc
+./loc
+cd 
+cd Downloads
+lsa
+lsa
+ls
+lsa
+lsa
+cd _cloned-repos
+lsa
+cd dotfiles
+ls
+lsa
+lsa
+lsa .config
+lsa
+lsa .config/
+lsa
+lsa one_dark
+lsa one_dark/.config/rofi
+lsa one_dark/.config/rofi/applets
+cp -r one_dark/.config/rofi/applets/* ~/.config/rofi/applets
+lsa
+lsa e
+cp -r rofi-powemenu ~/Desktop
+lsa
+lsa lib
+lsa rofi-powemenu
+lsa rofi-powemenu/rofi
+lsa one_dark/.config/rofi/applet
+lsa rofi-powemenu
+cd .config
+cd i3
+lsa
+lvim config
+lvim config
+cd 
+cd Desktop
+l
+cd rofi-powemenu
+lk
+l
+cd rofi
+l
+lsa
+lsa
+cd ..
+lsa
+./ volume_key
+./volume.sh
+chmod +x powermenu.sh
+chmod +x volume.sh
+chmod +x nightly.rasi
+chmod +x dark.rasi
+lsa
+./volume.sh
+chmod -x dark.rasi
+chmod -x nightly.rasi
+lsa
+rofi -theme dark.rasi
+rofi -show drun -theme dark.rasi
+rofi -show drun -theme config
+rofi -show drun -theme nightly.rasi
+rofi -show drun -theme nightly
+lvim config.rasi
+cd
+cd .config/rofi
+lsa
+lsa applets
+echo $XDG_CONFIG
+echo $XDG_CONFIG_HOME
+echo $XDG_CONFIG_HOME
+lvim /etc/profile
+lsa
+uptime -p | sed -e 's/up //g'
+rofi -dmenu
+cd
+cd .config/rofi
+lsa
+cd applets
+lsa apps.sh
+lsa
+./powermenu.sh
+lvim powermenu.sh
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+node -e 'require("fs").writeFileSync("/home/fparad0x/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0

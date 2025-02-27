@@ -1,0 +1,2 @@
+abbr "co"="git checkout main"
+abbr "yacsa"="yarn app-config secret agent"

@@ -1,0 +1,122 @@
+#!/usr/bin/zsh
+# loc: mlocate + fzf integration
+#
+# https://gist.github.com/06dc1238b2fcbfb6c10bbad05ad79bc1
+# https://asciinema.org/a/102006
+#
+# ~ trevorj <github@trevor.joynson.io>
+#
+setopt pipe_fail err_return err_exit
+
+autoload -Uz colors; colors
+
+ret=()
+
+empty() {
+	return $#
+}
+
+zslice() {
+	local args=("${(@s.:.)1}"); shift
+	local start=${args[1]:-1} stop=${args[2]:-$#} stride=${args[3]:-1}
+
+	ret=()
+	local i
+	for (( i=$start; i <= $stop; i+=$stride )) ; do
+		ret+=("${argv[$i]}")
+	done
+}
+
+usage() {
+	cat <<EOF
+${ZSH_ARGZERO:t}: filter through locate results with FZF.
+Use on it's own on the cli, or bind to a key.
+
+ZSH:
+	# ALT-L - Paste the selected entry from loc output into the command line
+	fzf-loc-widget() {
+		local selected
+		if selected=\$(loc "\$LBUFFER"); then
+			LBUFFER=\$selected
+		fi
+		zle redisplay
+	}
+	zle     -N    fzf-loc-widget
+	bindkey '\eL' fzf-loc-widget
+
+CLI:
+	Usage: ${ZSH_ARGZERO:t} [-p PATH] [QUERY...]
+EOF
+}
+
+main() {
+	local o_path=() o_height=() o_help=()
+	zparseopts -D -K -E p:=o_path H:=o_height h=o_help -help=o_help
+
+	if [[ $# -eq 0 ]] || ! empty $o_help; then
+		usage >&2
+		return 1
+	fi
+
+	if ! empty $o_path; then
+		# Notice we start at `1` here.
+		zslice '2::2' "${(@)o_path}"
+		argv+=('\'${(@)^ret:a}\*)
+	fi
+
+	local cmd=(
+		locate
+		-A	# AND
+		-0	# null-char delim
+		"$@"
+	)
+
+	local fzf=(
+		fzf
+		--header="$cmd"
+		--inline-info
+		--tabstop=4
+		--read0  # null-char delim
+
+		--ansi
+
+		--preview
+			'
+			autoload -Uz colors; colors
+			text() { pygmentize -O style=monokai -f console256 -g "$1" || cat "$1"; };
+			bin() { hexdump -C "$1"; }
+			f() { if file -bi "$1" | grep "charset=binary" >/dev/null; then bin "$1"; else text "$1"; fi; }
+			d() { ls -ldI "$1" ; tree -C "$1"; };
+			p() {
+				echo "${fg_bold[blue]}base:${reset_color} ${1##*/}";
+				echo "${fg_bold[blue]}path${reset_color} ${1%/*}";
+				echo -n "${fg_bold[blue]}type${reset_color} "; file -b "$1";
+				echo "---";
+				if [[ -d "$1" ]]; then
+					d "$1";
+				else
+					f "$1";
+				fi;
+			};
+			p {} | head -n 100
+			'
+
+		--bind 'ctrl-x:execute:$EDITOR {}'
+		--bind 'ctrl-p:execute:$PAGER {}'
+		--bind 'ctrl-h:execute:hexdump -C {}; read'
+		--bind 'ctrl-b:execute:binwalk {}; read'
+		--bind 'ctrl-u:execute:du -hsc {}; read'
+		--bind 'ctrl-t:execute:sha1sum {}; read'
+		--bind 'ctrl-g:execute:md5sum {}; read'
+	)
+
+	empty $o_height || fzf+=(--height ${o_height[-1]})
+
+	if tty -s && test -t 0 && test -t 1; then
+		$cmd | $fzf
+	else
+		$cmd
+	fi
+}
+
+main "$@"

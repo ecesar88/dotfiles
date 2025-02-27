@@ -1,0 +1,173 @@
+
+[options]
+allow_bold = true
+audible_bell = false
+clickable_url = true
+dynamic_title = true
+font = Hack Nerd Font 9
+#fullscreen = true
+#geometry = 640x480
+icon_name = termite
+mouse_autohide = true
+#scroll_on_output = false
+#scroll_on_keystroke = true
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
+scrollback_lines = 5000 #search_wrap = true
+#urgent_on_bell = true
+hyperlinks = true
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+browser = firefox
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+# "off", "left" or "right"
+scrollbar = off
+
+## My colors
+#[colors]
+
+# special
+#foreground      = #dcdccc
+#foreground_bold = #ffffff
+#cursor          = #d90d7b
+#background      = rgba(0,0,0, 1.0)
+
+# black
+#color0  = #36363f
+#color8  = #525a8f
+
+# red
+#color1  = #bd0d0d
+#color9  = #fd6767
+
+# green
+#color2  = #ffd700
+#color10 = #e7ff00
+
+# yellow
+#color3  = #d6c815
+#color11 = #ffd200
+
+# blue
+#color4  = #285378
+#color12 = #3d9ef2
+
+# magenta
+#color5  = #6b327e
+#color13 = #aa69bd
+
+# cyan
+#color6  = #69c0b5
+#color14 = #8abeb7
+
+# white
+#color7  = #748698
+#color15 = #98a0bd
+
+
+## New colors
+
+#[colors]
+#foreground = #339AF0
+#background = rgba(0, 0, 34, 0.90)
+
+#foreground_bold = #339AF0
+#cursor = #FA4664
+#cursor_foreground = #339AF0
+#highlight = #339AF0
+
+#color0 = #6272a4
+#color1 = #ff5555
+#color2 = #50fa7b
+#color3 = #f1fa8c
+#color4 = #bd93f9
+#color5 = #ff79c6
+#color6 = #8be9fd
+#color7 = #bfbfbf
+#color8 = #4d4d4d
+#color9 = #ff6e67
+#color10 = #5af78e
+#color11 = #f4f99d
+#color12 = #caa9fa
+#color13 = #ff92d0
+#color14 = #9aedfe
+#color15 = #e6e6e6
+
+# Palenight termite
+[colors]
+
+# special
+foreground      = #bfc7d5
+foreground_bold = #bfc7d5
+cursor          = #FA4664
+background      = rgba(41,45,62, 0.90)
+
+# black
+color0  = #171819
+color8  = #5f6670
+
+# red
+color1  = #a0363f
+color9  = #cc6666
+
+# green
+color2  = #b2de67
+color10 = #b5bd68
+
+# yellow
+color3  = #fdc467
+color11 = #e8664a
+
+# blue
+color4  = #62add5
+color12 = #5ea7f4
+
+# magenta
+color5  = #8388ea
+color13 = #b294bb
+
+# cyan
+color6  = #5e8d87
+color14 = #8abeb7
+
+# white
+color7  = #697098
+color15 = #9ba5de
+
+
+
+
+[hints]
+font = Hack Nerd Font 9
+#foreground = #dcdccc
+#background = #808080
+background = #000000
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s
+
+
+# Export $TERM as xterm-256color
+# export TERM=xterm-256color
+
+

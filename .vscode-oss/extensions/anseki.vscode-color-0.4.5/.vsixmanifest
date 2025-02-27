@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="vscode-color" Version="0.4.5" Publisher="anseki"/>
+    <DisplayName>Color Picker</DisplayName>
+    <Description xml:space="preserve">Helper with GUI to generate color codes such as CSS color notations.</Description>
+    <Tags>color,picker,convert,palette,dialog,keybindings,css</Tags>
+    <Categories>Other</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges><Badge Link="https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color" ImgUri="https://vsmarketplacebadge.apphb.com/version-short/anseki.vscode-color.svg" Description="VS Marketplace" /><Badge Link="https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color" ImgUri="https://vsmarketplacebadge.apphb.com/installs-short/anseki.vscode-color.svg" Description="installs" /><Badge Link="https://github.com/anseki/vscode-color/issues" ImgUri="https://img.shields.io/github/issues/anseki/vscode-color.svg" Description="GitHub issues" /><Badge Link="package.json" ImgUri="https://img.shields.io/david/anseki/vscode-color.svg" Description="David" /><Badge Link="LICENSE-MIT" ImgUri="https://img.shields.io/badge/license-MIT-blue.svg" Description="license" /></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^0.10.1" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/anseki/vscode-color.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/anseki/vscode-color.git" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/anseki/vscode-color.git" />
+        
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/anseki/vscode-color/issues" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/anseki/vscode-color" />
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      
+      <Property Id="Microsoft.VisualStudio.Services.CustomerQnALink" Value="https://github.com/anseki/vscode-color/issues" />
+    </Properties>
+    
+    <Icon>extension/icon.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/icon.png" Addressable="true" />
+  </Assets>
+</PackageManifest>
